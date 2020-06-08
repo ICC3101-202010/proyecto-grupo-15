@@ -1,0 +1,94 @@
+C:\Users\felij\Desktop\Proyectog15WF\Proyectog15WF\bin\Debug\Proyectog15WF.exe.config
+C:\Users\felij\Desktop\Proyectog15WF\Proyectog15WF\bin\Debug\Proyectog15WF.exe
+C:\Users\felij\Desktop\Proyectog15WF\Proyectog15WF\bin\Debug\Proyectog15WF.pdb
+C:\Users\felij\Desktop\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.csprojAssemblyReference.cache
+C:\Users\felij\Desktop\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.AppForm.resources
+C:\Users\felij\Desktop\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.Properties.Resources.resources
+C:\Users\felij\Desktop\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.csproj.GenerateResource.cache
+C:\Users\felij\Desktop\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.csproj.CoreCompileInputs.cache
+C:\Users\felij\Desktop\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.exe
+C:\Users\felij\Desktop\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.pdb
+C:\Users\Medicos\Desktop\Trabajo 3\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\Proyectog15WF.exe.config
+C:\Users\Medicos\Desktop\Trabajo 3\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\Proyectog15WF.exe
+C:\Users\Medicos\Desktop\Trabajo 3\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\Proyectog15WF.pdb
+C:\Users\Medicos\Desktop\Trabajo 3\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.csprojAssemblyReference.cache
+C:\Users\Medicos\Desktop\Trabajo 3\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.AppForm.resources
+C:\Users\Medicos\Desktop\Trabajo 3\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.Properties.Resources.resources
+C:\Users\Medicos\Desktop\Trabajo 3\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.csproj.GenerateResource.cache
+C:\Users\Medicos\Desktop\Trabajo 3\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.csproj.CoreCompileInputs.cache
+C:\Users\Medicos\Desktop\Trabajo 3\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.exe
+C:\Users\Medicos\Desktop\Trabajo 3\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.pdb
+C:\Users\Medicos\Desktop\Trabajo 3\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\CustomEventArgs.dll
+C:\Users\Medicos\Desktop\Trabajo 3\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\Model.dll
+C:\Users\Medicos\Desktop\Trabajo 3\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\CustomEventArgs.pdb
+C:\Users\Medicos\Desktop\Trabajo 3\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\Model.pdb
+C:\Users\Medicos\Desktop\Trabajo 3\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.csproj.CopyComplete
+C:\Users\felij\Desktop\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\Proyectog15WF.exe.config
+C:\Users\felij\Desktop\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\Proyectog15WF.exe
+C:\Users\felij\Desktop\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\Proyectog15WF.pdb
+C:\Users\felij\Desktop\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\CustomEventArgs.dll
+C:\Users\felij\Desktop\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\Model.dll
+C:\Users\felij\Desktop\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\CustomEventArgs.pdb
+C:\Users\felij\Desktop\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\Model.pdb
+C:\Users\felij\Desktop\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.csprojAssemblyReference.cache
+C:\Users\felij\Desktop\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.AppForm.resources
+C:\Users\felij\Desktop\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.Properties.Resources.resources
+C:\Users\felij\Desktop\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.csproj.GenerateResource.cache
+C:\Users\felij\Desktop\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.csproj.CoreCompileInputs.cache
+C:\Users\felij\Desktop\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.csproj.CopyComplete
+C:\Users\felij\Desktop\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.exe
+C:\Users\felij\Desktop\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.pdb
+C:\Users\felij\Desktop\Proyectog15WF\Proyectog15WF\Proyectog15WF\bin\Debug\Interop.WMPLib.dll
+C:\Users\felij\Desktop\Proyectog15WF\Proyectog15WF\Proyectog15WF\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\felij\Desktop\Proyectog15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Interop.WMPLib.dll
+C:\Users\felij\Desktop\Proyectog15WF\Proyectog15WF\Proyectog15WF\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\felij\Desktop\Proyectog15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.csproj.ResolveComReference.cache
+C:\Users\felij\Desktop\Proyectog15WF\Proyectog15WF\Proyectog15WF\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Medicos\Desktop\Trabajo 3\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Medicos\Desktop\Trabajo 3\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\Interop.WMPLib.dll
+C:\Users\Medicos\Desktop\Trabajo 3\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Medicos\Desktop\Trabajo 3\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Interop.WMPLib.dll
+C:\Users\Medicos\Desktop\Trabajo 3\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Medicos\Desktop\Trabajo 3\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.csproj.ResolveComReference.cache
+C:\Users\jaime\Desktop\POO\Proyecto\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\Proyectog15WF.exe.config
+C:\Users\jaime\Desktop\POO\Proyecto\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\Proyectog15WF.exe
+C:\Users\jaime\Desktop\POO\Proyecto\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\Proyectog15WF.pdb
+C:\Users\jaime\Desktop\POO\Proyecto\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\CustomEventArgs.dll
+C:\Users\jaime\Desktop\POO\Proyecto\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\jaime\Desktop\POO\Proyecto\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\Model.dll
+C:\Users\jaime\Desktop\POO\Proyecto\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\CustomEventArgs.pdb
+C:\Users\jaime\Desktop\POO\Proyecto\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\Model.pdb
+C:\Users\jaime\Desktop\POO\Proyecto\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\Interop.WMPLib.dll
+C:\Users\jaime\Desktop\POO\Proyecto\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\jaime\Desktop\POO\Proyecto\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.csprojAssemblyReference.cache
+C:\Users\jaime\Desktop\POO\Proyecto\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Interop.WMPLib.dll
+C:\Users\jaime\Desktop\POO\Proyecto\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\jaime\Desktop\POO\Proyecto\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.csproj.ResolveComReference.cache
+C:\Users\jaime\Desktop\POO\Proyecto\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.AppForm.resources
+C:\Users\jaime\Desktop\POO\Proyecto\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.Properties.Resources.resources
+C:\Users\jaime\Desktop\POO\Proyecto\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.csproj.GenerateResource.cache
+C:\Users\jaime\Desktop\POO\Proyecto\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.csproj.CoreCompileInputs.cache
+C:\Users\jaime\Desktop\POO\Proyecto\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.csproj.CopyComplete
+C:\Users\jaime\Desktop\POO\Proyecto\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.exe
+C:\Users\jaime\Desktop\POO\Proyecto\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.pdb
+C:\Users\felij\Desktop\wf15\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\Proyectog15WF.exe.config
+C:\Users\felij\Desktop\wf15\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\Proyectog15WF.exe
+C:\Users\felij\Desktop\wf15\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\Proyectog15WF.pdb
+C:\Users\felij\Desktop\wf15\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\CustomEventArgs.dll
+C:\Users\felij\Desktop\wf15\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\felij\Desktop\wf15\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\Model.dll
+C:\Users\felij\Desktop\wf15\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\CustomEventArgs.pdb
+C:\Users\felij\Desktop\wf15\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\Model.pdb
+C:\Users\felij\Desktop\wf15\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\Interop.WMPLib.dll
+C:\Users\felij\Desktop\wf15\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\felij\Desktop\wf15\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.csprojAssemblyReference.cache
+C:\Users\felij\Desktop\wf15\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Interop.WMPLib.dll
+C:\Users\felij\Desktop\wf15\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\felij\Desktop\wf15\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.csproj.ResolveComReference.cache
+C:\Users\felij\Desktop\wf15\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.AppForm.resources
+C:\Users\felij\Desktop\wf15\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.Properties.Resources.resources
+C:\Users\felij\Desktop\wf15\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.csproj.GenerateResource.cache
+C:\Users\felij\Desktop\wf15\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.csproj.CoreCompileInputs.cache
+C:\Users\felij\Desktop\wf15\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.csproj.CopyComplete
+C:\Users\felij\Desktop\wf15\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.exe
+C:\Users\felij\Desktop\wf15\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.pdb
