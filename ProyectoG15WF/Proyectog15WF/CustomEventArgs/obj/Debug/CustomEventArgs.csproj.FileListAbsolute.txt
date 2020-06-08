@@ -22,3 +22,9 @@ C:\Users\felij\Desktop\wf15\ProyectoG15WF\Proyectog15WF\CustomEventArgs\obj\Debu
 C:\Users\felij\Desktop\wf15\ProyectoG15WF\Proyectog15WF\CustomEventArgs\obj\Debug\CustomEventArgs.csproj.CoreCompileInputs.cache
 C:\Users\felij\Desktop\wf15\ProyectoG15WF\Proyectog15WF\CustomEventArgs\obj\Debug\CustomEventArgs.dll
 C:\Users\felij\Desktop\wf15\ProyectoG15WF\Proyectog15WF\CustomEventArgs\obj\Debug\CustomEventArgs.pdb
+C:\Users\felij\Desktop\proyecto-grupo-15\ProyectoG15WF\Proyectog15WF\CustomEventArgs\bin\Debug\CustomEventArgs.dll
+C:\Users\felij\Desktop\proyecto-grupo-15\ProyectoG15WF\Proyectog15WF\CustomEventArgs\bin\Debug\CustomEventArgs.pdb
+C:\Users\felij\Desktop\proyecto-grupo-15\ProyectoG15WF\Proyectog15WF\CustomEventArgs\obj\Debug\CustomEventArgs.csprojAssemblyReference.cache
+C:\Users\felij\Desktop\proyecto-grupo-15\ProyectoG15WF\Proyectog15WF\CustomEventArgs\obj\Debug\CustomEventArgs.csproj.CoreCompileInputs.cache
+C:\Users\felij\Desktop\proyecto-grupo-15\ProyectoG15WF\Proyectog15WF\CustomEventArgs\obj\Debug\CustomEventArgs.dll
+C:\Users\felij\Desktop\proyecto-grupo-15\ProyectoG15WF\Proyectog15WF\CustomEventArgs\obj\Debug\CustomEventArgs.pdb

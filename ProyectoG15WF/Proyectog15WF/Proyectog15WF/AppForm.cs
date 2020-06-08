@@ -1427,19 +1427,28 @@ namespace Proyectog15WF
             SerializeData();
             string pass = ContraseñaActualInput.Text;
             string newpass = NuevaContraseñainput.Text;
-            if (Changingpassword != null)
+            if (pass == null || pass == "" || newpass == null || newpass == "")
             {
-                bool result = Changingpassword(this, new ChangePasswordEventArgs() { Usertext = nameuser, Passwordtext = pass, NewPasswordtext = newpass });
-                if (result)
+                MessageBox.Show("Debes rellenar todos los cambos");
+            }
+            else
+            {
+                if (Changingpassword != null)
                 {
-                    MessageBox.Show("Contraseña cambiada");
-                }
-                else
-                {
-                    MessageBox.Show("Error al escribir la contraseña");
+                    bool result = Changingpassword(this, new ChangePasswordEventArgs() { Usertext = nameuser, Passwordtext = pass, NewPasswordtext = newpass });
+                    if (result)
+                    {
+                        MessageBox.Show("Contraseña cambiada");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error al escribir la contraseña");
+                    }
                 }
             }
 
+            ContraseñaActualInput.ResetText();
+            NuevaContraseñainput.ResetText();
         }
 
         //Mi Informacion
@@ -2211,19 +2220,18 @@ namespace Proyectog15WF
         {
             string nameplaylist = PlaylistSongNameInput.Text;
             string privacidad = Convert.ToString(NewSongPrivacidadComboBox.SelectedItem);
-            bool UserNotPublic = false;
-            bool NamePlaylistExist = false;
             if (Addplaylist != null)
             {
                 actuallogeduser = Userrequest(this, new LoginEventArgs() { UsernameText = nameuser });
                 if (actuallogeduser.Privacidad == "Privado" && privacidad == "Publica")
                 {
-                    MessageBox.Show("No puede crer listas publicas si el usuario es privado");
+                    MessageBox.Show("No puede crear playlist publica si el usuario es privado");
                 }
                 else
                 {
                     Addplaylist(this, new GetUserPlaylistEventsArgs() { PlaylistNameText = nameplaylist, ActualLoggedUsername = nameuser }); //le estoy mandado a usercontroller el nombre de la playlist
                     SetPlaylistSongPrivacy(this, new GetUserPlaylistEventsArgs() { ActualPlaylistSelected = nameplaylist, ActualLoggedUsername = nameuser, UserSelectedPrivacy = privacidad });
+                    MessageBox.Show("Playlist Creada Con Exito");
                 }
             }
             NewSongPrivacidadComboBox.SelectedIndex = 1;
@@ -2326,30 +2334,22 @@ namespace Proyectog15WF
 
         private void CrearVideoPlaylist_Click(object sender, EventArgs e)
         {
-
             string nameVideo = NombreVideoPlalistInput.Text;
             string privacidad = Convert.ToString(PrivacidadVideoPlaylist.SelectedItem);
 
-            bool UserNotPublic = false;
-            bool NamePlaylistExist = false;
-
             if (Addvideoplaylist != null)
             {
-                Addvideoplaylist(this, new GetUserPlaylistEventsArgs() { PlaylistNameText = nameVideo, ActualLoggedUsername = nameuser }); //le estoy mandado a usercontroller el nombre de la playlist
-                SetPlaylistVideoPrivacy(this, new GetUserPlaylistEventsArgs() { ActualPlaylistSelected = nameVideo, ActualLoggedUsername = nameuser, UserSelectedPrivacy = privacidad });
-            }
-
-            if (UserNotPublic)
-            {
-                Errorplaylistvideo.Visible = true;
-            }
-            if (NamePlaylistExist)
-            {
-                NombrePlaylistExiste.Visible = true;
-            }
-            else
-            {
-                VideoPlaylistCreadaConExitoLabel.Visible = true;
+                actuallogeduser = Userrequest(this, new LoginEventArgs() { UsernameText = nameuser });
+                if (actuallogeduser.Privacidad == "Privado" && privacidad == "Publico")
+                {
+                    MessageBox.Show("No puede crear playlist publica si el usuario es privado");
+                }
+                else
+                {
+                    Addvideoplaylist(this, new GetUserPlaylistEventsArgs() { PlaylistNameText = nameVideo, ActualLoggedUsername = nameuser }); //le estoy mandado a usercontroller el nombre de la playlist
+                    SetPlaylistVideoPrivacy(this, new GetUserPlaylistEventsArgs() { ActualPlaylistSelected = nameVideo, ActualLoggedUsername = nameuser, UserSelectedPrivacy = privacidad });
+                    MessageBox.Show("Playlist Crada Con Exito");
+                }
             }
             SerializeData();
             PrivacidadVideoPlaylist.SelectedIndex = 1;
@@ -3043,27 +3043,29 @@ namespace Proyectog15WF
 
         private void ArtistInfoButton_Click(object sender, EventArgs e)
         {
-
-            string artistname = AdminSearchAristlistBox1.SelectedItem.ToString();
-            InfoAristisListbox.Visible = true;
-            if (artistname == "-----Artistas encontrados-----" || artistname == "No results for search criteria")
+            if (AdminSearchAristlistBox1.SelectedItem != null)
             {
-
-            }
-            else
-            {
-                InfoAristisListbox.Items.Clear();
+                string artistname = AdminSearchAristlistBox1.SelectedItem.ToString();
                 InfoAristisListbox.Visible = true;
-                if (Userrequest != null)
+                if (artistname == "-----Artistas encontrados-----" || artistname == "No results for search criteria")
                 {
-                    Artist artis = getArtist(this, new GetArtistEventArgs() { ArtistName = artistname });
-                    InfoAristisListbox.Items.Add("Infomracion Artista");
-                    InfoAristisListbox.Items.Add("");
-                    InfoAristisListbox.Items.Add("Nombre: " + artis.Name);
-                    InfoAristisListbox.Items.Add("Artista: " + artis.Artisttype);
-                    InfoAristisListbox.Items.Add("Edad: " + artis.Age);
-                    InfoAristisListbox.Items.Add("Genero: " + artis.Gender);
 
+                }
+                else
+                {
+                    InfoAristisListbox.Items.Clear();
+                    InfoAristisListbox.Visible = true;
+                    if (Userrequest != null)
+                    {
+                        Artist artis = getArtist(this, new GetArtistEventArgs() { ArtistName = artistname });
+                        InfoAristisListbox.Items.Add("Infomracion Artista");
+                        InfoAristisListbox.Items.Add("");
+                        InfoAristisListbox.Items.Add("Nombre: " + artis.Name);
+                        InfoAristisListbox.Items.Add("Artista: " + artis.Artisttype);
+                        InfoAristisListbox.Items.Add("Edad: " + artis.Age);
+                        InfoAristisListbox.Items.Add("Genero: " + artis.Gender);
+
+                    }
                 }
             }
 
@@ -3126,32 +3128,34 @@ namespace Proyectog15WF
         private void InfoUserButton_Click(object sender, EventArgs e)
         {
             string usr;
-            AdminUserInfoListBox.Items.Clear();
-            usr = AdminSearchUserlistBox.SelectedItem.ToString();
-            if (usr == "-----Usuarios encontrados-----" || usr == "No results for search criteria")
+            if (AdminSearchUserlistBox.SelectedItem != null)
             {
-
-            }
-            else
-            {
-                AdminUserInfoListBox.Visible = true;
-                if (Userrequest != null)
+                AdminUserInfoListBox.Items.Clear();
+                usr = AdminSearchUserlistBox.SelectedItem.ToString();
+                if (usr == "-----Usuarios encontrados-----" || usr == "No results for search criteria")
                 {
-                    User user = Userrequest(this, new LoginEventArgs() { UsernameText = usr });
-                    AdminUserInfoListBox.Items.Add("Infomracion usuario");
-                    AdminUserInfoListBox.Items.Add("");
-                    AdminUserInfoListBox.Items.Add("Nombre: " + user.Name + "" + user.Lastname);
-                    AdminUserInfoListBox.Items.Add("Usuario: " + user.Username);
-                    AdminUserInfoListBox.Items.Add("Mail: " + user.Mail);
-                    AdminUserInfoListBox.Items.Add("Edad: " + user.Edad);
-                    AdminUserInfoListBox.Items.Add("Genero: " + user.Genero);
-                    AdminUserInfoListBox.Items.Add("Privacidad: " + (user.Privacidad));
-                    AdminUserInfoListBox.Items.Add("Tipo de cuenta: " + user.Tipodeusuario);
-                    AdminUserInfoListBox.Items.Add("Artista: " + user.Artist);
 
                 }
-            }
+                else
+                {
+                    AdminUserInfoListBox.Visible = true;
+                    if (Userrequest != null)
+                    {
+                        User user = Userrequest(this, new LoginEventArgs() { UsernameText = usr });
+                        AdminUserInfoListBox.Items.Add("Infomracion usuario");
+                        AdminUserInfoListBox.Items.Add("");
+                        AdminUserInfoListBox.Items.Add("Nombre: " + user.Name + "" + user.Lastname);
+                        AdminUserInfoListBox.Items.Add("Usuario: " + user.Username);
+                        AdminUserInfoListBox.Items.Add("Mail: " + user.Mail);
+                        AdminUserInfoListBox.Items.Add("Edad: " + user.Edad);
+                        AdminUserInfoListBox.Items.Add("Genero: " + user.Genero);
+                        AdminUserInfoListBox.Items.Add("Privacidad: " + (user.Privacidad));
+                        AdminUserInfoListBox.Items.Add("Tipo de cuenta: " + user.Tipodeusuario);
+                        AdminUserInfoListBox.Items.Add("Artista: " + user.Artist);
 
+                    }
+                }
+            }
         }
 
         private void SearchAdminUserbutton_Click(object sender, EventArgs e)
@@ -3323,10 +3327,22 @@ namespace Proyectog15WF
                             {
                                 Songcaracteristics(this, new SendingsongcaracteristicsEventArgs() { Nombrecancion = songName, Genero = songGender, Compositor = songCompositor, Discografia = songDiscorafia, Estudio = songEtudio, Letra = songLetra, Sexo = sexo, Edad = age, Categoria = songCategoria, path = path, byts = songBytes, duracion = songDuracion });
                                 MessageBox.Show("Cancion subida con exito");
-                                if (Artistifosend != null)
+                                if (getArtist != null)
                                 {
-                                    Artistifosend(this, new SendingArtistInfo() { Usernametext = songCompositor, ArtistText = "Cantante", AgeArtist = age, GenderArtist = sexo });
+                                   Artist artist = getArtist(this, new GetArtistEventArgs() {ArtistName = songCompositor });
+                                    if (artist!=null)
+                                    {
+                                       
+                                    }
+                                    else
+                                    {
+                                        if (Artistifosend != null)
+                                        {
+                                            Artistifosend(this, new SendingArtistInfo() { Usernametext = songCompositor, ArtistText = "Cantante", AgeArtist = age, GenderArtist = sexo });
+                                        }
+                                    }
                                 }
+                               
                                 AdminSongCategoriaTextBox.ResetText();
                                 AdminSongCompositorTextBox.ResetText();
                                 AdminSongDiscografiaTextBox.ResetText();
@@ -3415,10 +3431,34 @@ namespace Proyectog15WF
                         {
                             Videocaracteristics(this, new SendingvideocaracteristicsEventArgs() { Videoname = videoName, Genero = videoGender, Categoria = videoCategoria, Actor = actor, Director = director, Estudio = videoEtudio, Descripcion = videoDescripcion, Sexo = sexo, Edad = age, Resolution = videoResolucion, path = path, byts = videoBytes, duracion = videoDuracion });
                             MessageBox.Show("Video subido con exito");
-                            if (Artistifosend != null)
+                            if (getArtist != null)
                             {
-                                Artistifosend(this, new SendingArtistInfo() { Usernametext = actor, ArtistText = "Actor", AgeArtist = age, GenderArtist = sexo });
-                                Artistifosend(this, new SendingArtistInfo() { Usernametext = director, ArtistText = "Director", AgeArtist = age, GenderArtist = sexo });
+                                Artist artist = getArtist(this, new GetArtistEventArgs() { ArtistName =actor });
+                                if (artist != null)
+                                {
+
+                                }
+                                else
+                                {
+                                    if (Artistifosend != null)
+                                    {
+
+                                        Artistifosend(this, new SendingArtistInfo() { Usernametext = actor, ArtistText = "Actor", AgeArtist = age, GenderArtist = sexo });
+                                       
+                                    }
+                                }
+                                Artist artist2 = getArtist(this, new GetArtistEventArgs() { ArtistName = director });
+                                if (artist2 != null)
+                                {
+
+                                }
+                                else
+                                {
+                                    if (Artistifosend != null)
+                                    {
+                                        Artistifosend(this, new SendingArtistInfo() { Usernametext = director, ArtistText = "Director", AgeArtist = age, GenderArtist = sexo });
+                                    }
+                                }
                             }
                             AdminVideoActorTextbox.ResetText();
                             AdminVideoCategoriaTextbox.ResetText();
