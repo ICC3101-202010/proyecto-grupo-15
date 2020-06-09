@@ -43,11 +43,11 @@ namespace Model
 
         public void SetPrivacy(string privacyoption)
         {
-            if (privacyoption == "Privada" && name != "Musica Favorita") // false es privado
+            if (privacyoption == "Privada" && name != "Videos Favoritos") // false es privado
             {
                 preferences[1] = false;
             }
-            else if (privacyoption == "Publica" && name != "Musica Favorita") // false es privado
+            else if (privacyoption == "Publico" && name != "Videos Favoritos") // false es privado
             {
                 preferences[1] = true;
             }

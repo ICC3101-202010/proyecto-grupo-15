@@ -2648,7 +2648,7 @@ namespace Proyectog15WF
 
         private void PlaylistsUserSearchButton_Click(object sender, EventArgs e)
         {
-
+            SearchUserPlaylistListbox.Items.Clear();
             string selecteduser = Convert.ToString(SearchUserPanelResultlistusers.SelectedItem);
 
             foreach (PlaylistSong playlist in OnReciveUsernamePlaylist(selecteduser))

@@ -28,3 +28,9 @@ C:\Users\felij\Desktop\proyecto-grupo-15\ProyectoG15WF\Proyectog15WF\Model\obj\D
 C:\Users\felij\Desktop\proyecto-grupo-15\ProyectoG15WF\Proyectog15WF\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
 C:\Users\felij\Desktop\proyecto-grupo-15\ProyectoG15WF\Proyectog15WF\Model\obj\Debug\Model.dll
 C:\Users\felij\Desktop\proyecto-grupo-15\ProyectoG15WF\Proyectog15WF\Model\obj\Debug\Model.pdb
+C:\Users\jaime\Desktop\POO\Proyecto Debug\ProyectoG15WF\Proyectog15WF\Model\bin\Debug\Model.dll
+C:\Users\jaime\Desktop\POO\Proyecto Debug\ProyectoG15WF\Proyectog15WF\Model\bin\Debug\Model.pdb
+C:\Users\jaime\Desktop\POO\Proyecto Debug\ProyectoG15WF\Proyectog15WF\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\jaime\Desktop\POO\Proyecto Debug\ProyectoG15WF\Proyectog15WF\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\jaime\Desktop\POO\Proyecto Debug\ProyectoG15WF\Proyectog15WF\Model\obj\Debug\Model.dll
+C:\Users\jaime\Desktop\POO\Proyecto Debug\ProyectoG15WF\Proyectog15WF\Model\obj\Debug\Model.pdb
