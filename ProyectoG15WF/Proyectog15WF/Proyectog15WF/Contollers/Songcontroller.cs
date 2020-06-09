@@ -33,6 +33,7 @@ namespace Proyectog15WF.Contollers
             this.view.Recivesongmultiplecriteria += OnBuscar;
             this.view.Reproduccionesname += Onsongreproduction;
             this.view.Calificaciondelusuario += Onqualificationchanged;
+            this.view.GetAllSongs += OnGetAllSongs;
             DeserializeData();
 
         }
@@ -386,6 +387,15 @@ namespace Proyectog15WF.Contollers
             }
             SerializeData();
 
+        }
+
+        public List<Song> OnGetAllSongs(object sender, SendingtextMultipleFiltersEventArgs e)
+        {
+            if (songs != null)
+            {
+                return songs;
+            }
+            return null;
         }
 
 

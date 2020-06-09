@@ -32,6 +32,7 @@ namespace Proyectog15WF.Contollers
             this.view.Reproduccionesname += Onvideoreproduction;
             this.view.Calificaciondelusuario += Onqualificationchanged;
             this.view.Recivingvideomultiplecriteria += OnBuscarvideo;
+            this.view.GetAllVideos += OnGetAllVideos;
             DeserializeData();
         }
 
@@ -383,6 +384,15 @@ namespace Proyectog15WF.Contollers
                 }
             }
             return Definitivo;
+        }
+
+        public List<Video> OnGetAllVideos(object sender, SendingtextMultipleFiltersEventArgs e)
+        {
+            if (videos != null)
+            {
+                return videos;
+            }
+            return null;
         }
     }
 }
