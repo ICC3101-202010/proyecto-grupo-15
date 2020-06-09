@@ -65,10 +65,13 @@ namespace Proyectog15WF.Contollers
             {
                 if (artist.Name.ToUpper() == e.ArtistName.ToUpper())
                 {
+                    SerializeData();
                     return artist;
                 }
             }
+            SerializeData();
             return null;
+
         }
         public void OnArtistinfo(object sender,ArtistInfoEventArgs e)
         {

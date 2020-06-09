@@ -218,9 +218,10 @@ namespace Proyectog15WF.Contollers
                     }
                     Agregar.Add(otro);
                 }
-
+                SerializeData();
                 return Agregar;
             }
+            SerializeData();
             return null;
         }
 
@@ -336,7 +337,7 @@ namespace Proyectog15WF.Contollers
                         }
                         optativo.Add(cancionesseleccionadas);
 
-
+                        SerializeData();
                     }
 
 
@@ -393,8 +394,10 @@ namespace Proyectog15WF.Contollers
         {
             if (songs != null)
             {
+                SerializeData();
                 return songs;
             }
+            SerializeData();
             return null;
         }
 

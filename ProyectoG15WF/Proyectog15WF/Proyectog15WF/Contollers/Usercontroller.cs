@@ -105,10 +105,12 @@ namespace Controllers
                t.Username.ToUpper().Contains(e.UsernameText.ToUpper()) && (t.Password.ToUpper().Contains(e.PasswordText.ToUpper()))).FirstOrDefault();
             if (result is null)
             {
+                SerializeData();
                 return false;
             }
             else
             {
+                SerializeData();
                 return result.CheckCredentials(e.UsernameText, e.PasswordText);
             }
 
@@ -119,7 +121,7 @@ namespace Controllers
             User user = null;
             user = users.Where(t =>
                t.Username.ToUpper().Contains(e.UsernameText.ToUpper()) && (t.Password.ToUpper().Contains(e.PasswordText.ToUpper()))).FirstOrDefault();
-
+            SerializeData();
 
         }
         public bool OnRegisterButtonClicked(object sender, RegisterEventArgs e)
@@ -135,10 +137,12 @@ namespace Controllers
             {
                 if (user.Username == e.Usernametext)
                 {
+                    SerializeData();
                     result = user.Username;
                 }
 
             }
+            SerializeData();
             return result;
 
         }
@@ -150,11 +154,13 @@ namespace Controllers
             {
                 if (user.Mail == e.Emailtext)
                 {
+                    SerializeData();
                     result = user.Mail;
                 }
 
 
             }
+            SerializeData();
             return result;
 
 
@@ -176,7 +182,8 @@ namespace Controllers
                     resultString.Add(s.ToString());
             }
             view.UpdateResults(resultString);
-            
+            SerializeData();
+
         }
         public void OnsereachtextAdmin(object sender ,SearchUserEventArgs e)
         {
@@ -192,6 +199,7 @@ namespace Controllers
                     resultString.Add(s.ToString());
             }
             view.UpdateResultsAdmin(resultString);
+            SerializeData();
         }
 
 
@@ -202,9 +210,11 @@ namespace Controllers
             {
                 if (usuario.Username.ToUpper() == e.ActualLoggedUsername.ToUpper())
                 {
+                    SerializeData();
                     return usuario.GetPlaylistSongs();
                 }
             }
+            SerializeData();
             return new List<PlaylistSong>() { new PlaylistSong("Sin Playlist") };
         }
 
@@ -214,9 +224,11 @@ namespace Controllers
             {
                 if (usuario.Username.ToUpper() == e.ActualLoggedUsername.ToUpper())
                 {
+                    SerializeData();
                     return usuario.GetPlaylistVideo();
                 }
             }
+            SerializeData();
             return new List<PlaylistVideo>() { new PlaylistVideo("Sin Playlist") };
         }
 
@@ -226,9 +238,11 @@ namespace Controllers
             {
                 if (usuario.Username.ToUpper() == e.ActualLoggedUsername.ToUpper())
                 {
+                    SerializeData();
                     return usuario.GetFollowedPlaylistSongs();
                 }
             }
+            SerializeData();
             return new List<PlaylistSong>() { new PlaylistSong("Sin Playlist") };
         }
 
@@ -238,9 +252,11 @@ namespace Controllers
             {
                 if (usuario.Username.ToUpper() == e.ActualLoggedUsername.ToUpper())
                 {
+                    SerializeData();
                     return usuario.GetFollowedPlaylistVideo();
                 }
             }
+            SerializeData();
             return new List<PlaylistVideo>() { new PlaylistVideo("Sin Playlist") };
         }
 
@@ -250,9 +266,11 @@ namespace Controllers
             {
                 if (usuario.Username.ToUpper() == e.UsernameText.ToUpper())
                 {
+                    SerializeData();
                     return usuario;
                 }
             }
+            SerializeData();
             return null;
         }
 
@@ -262,6 +280,7 @@ namespace Controllers
             {
                 if (usuario.Username.ToUpper() == e.ActualLoggedUsername.ToUpper())
                 {
+                    
                     usuario.AddMusicPlaylist(e.PlaylistNameText);
                 }
             }
@@ -326,7 +345,6 @@ namespace Controllers
                     }
                 }
             }
-            SerializeData();
             SerializeData();
         }
 
@@ -436,9 +454,11 @@ namespace Controllers
             {
                 if (user.Username == e.UsernameText)
                 {
+                    SerializeData();
                     return user.Username + " " + user.Artist+ " " +user.Genero+ " " +user.Edad;
                 }
             }
+            SerializeData();
             return null;
         }
 
@@ -452,6 +472,7 @@ namespace Controllers
                     {
                         if (selecteduser.Username.ToUpper() == e.ActualLoggedUsername.ToUpper())
                         {
+                            SerializeData();
                             user.AddFollowed(selecteduser);
                         }
                     }
@@ -471,6 +492,7 @@ namespace Controllers
                         {
                             if (user.AddFollowing(selecteduser) == true)
                             {
+                                SerializeData();
                                 MessageBox.Show("Siguiendo usuario");
                             }
                         }
@@ -489,6 +511,7 @@ namespace Controllers
                     {
                         if (selecteduser.Username.ToUpper() == e.ActualUsernameSelected.ToUpper())
                         {
+                            SerializeData();
                             user.RemoveFollowed(selecteduser.Username);
                         }
                     }
@@ -506,6 +529,7 @@ namespace Controllers
                     {
                         if (selecteduser.Username.ToUpper() == e.ActualUsernameSelected.ToUpper())
                         {
+                            SerializeData();
                             user.RemoveFollowing(selecteduser.Username);
                         }
                     }
@@ -519,6 +543,7 @@ namespace Controllers
             {
                 if (e.ActualLoggedUsername.ToUpper() == user.Username.ToUpper())
                 {
+                    SerializeData();
                     return user.GetFollowedUsers();
                 }
             }
@@ -531,6 +556,7 @@ namespace Controllers
             {
                 if (e.ActualLoggedUsername.ToUpper() == user.Username.ToUpper())
                 {
+                    SerializeData();
                     return user.GetFollowingUsers();
                 }
             }
@@ -557,6 +583,7 @@ namespace Controllers
                 if (e.ActualLoggedUsername.ToUpper() == user.Username.ToUpper())
                 {
                     user.SetPlaylistSongPrivacy(e.ActualPlaylistSelected, e.UserSelectedPrivacy);
+                    SerializeData();
                 }
             }
         }
@@ -570,6 +597,7 @@ namespace Controllers
                     user.SetPlaylistVideoPrivacy(e.ActualPlaylistSelected, e.UserSelectedPrivacy);
                 }
             }
+            SerializeData();
         }
 
         public List<Song> OnCreateSongQueue(object source, GetUserPlaylistEventsArgs e)
@@ -578,10 +606,12 @@ namespace Controllers
             {
                 if (e.ActualLoggedUsername.ToUpper() == user.Username.ToUpper())
                 {
+                    SerializeData();
                     return user.CreateSongQueue(e.ActualPlaylistSelected, e.ActualLoggedUsername, e.SelectedSong);
 
                 }
             }
+            SerializeData();
             return null;
         }
 
@@ -591,9 +621,11 @@ namespace Controllers
             {
                 if (e.ActualLoggedUsername.ToUpper() == user.Username.ToUpper())
                 {
+                    SerializeData();
                     return user.CreateVideoQueue(e.ActualPlaylistSelected, e.ActualLoggedUsername, e.SelectedSong);
                 }
             }
+            SerializeData();
             return null;
         }
     }

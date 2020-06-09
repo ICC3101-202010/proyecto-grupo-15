@@ -165,6 +165,7 @@ namespace Proyectog15WF
             panels.Add("Registerpanel", RegisterPanel);
             panels.Add("LoginPanel", LoginPanel);
             panels.Add("Mainpanel", MainPanel);
+            VolumenTrackBar1.Value = 50;
         }
 
         public void SerializeData()
@@ -248,6 +249,8 @@ namespace Proyectog15WF
             loginViewInvalidCredentialsAlert.Visible = false;
             //SaveLogin.ResumeLayout();
             LoginPanel.Visible = true;
+            UsernameInPutLogin.ResetText();
+            PasswordInPutLogin.ResetText();
 
         }
 
@@ -257,6 +260,11 @@ namespace Proyectog15WF
             RegisterPanel.SendToBack();
             StartPanel.BringToFront();
             RegisterPanel.Visible = false;
+            nameInputRegister.ResetText();
+            LastNameInputRegister.ResetText();
+            UsernameInputRegister.ResetText();
+            MailInputRegister.ResetText();
+            PasswordInputRegister.ResetText();
 
         }
 
@@ -3268,6 +3276,7 @@ namespace Proyectog15WF
             AdminMainPanel.Visible = false;
             UsernameInPutLogin.ResetText();
             PasswordInPutLogin.ResetText();
+            loginViewInvalidCredentialsAlert.Visible = false;
 
         }
 
@@ -3757,65 +3766,70 @@ namespace Proyectog15WF
 
         private void EliminarMediaQueueButton_Click(object sender, EventArgs e)
         {
-            if (songqueuelist != null)
+            if (QueueListBox.SelectedItem!=null)
             {
-                string selectedsong = QueueListBox.SelectedItem.ToString();
-                foreach (Song song in songqueuelist)
+                if (songqueuelist != null)
                 {
-                    if (song != null)
-                    {
-                        if (song.Namesong == selectedsong)
-                        {
-                            songqueuelist.Remove(song);
-                            break;
-                        }
-                    }
-                }
-            }
 
-            if (videoqueuelist != null)
-            {
-                string selectedsong = QueueListBox.SelectedItem.ToString();
-                foreach (Video video in videoqueuelist)
-                {
-                    if (video != null)
-                    {
-                        if (video.VideoName == selectedsong)
-                        {
-                            videoqueuelist.Remove(video);
-                            break;
-                        }
-                    }
-                }
-            }
-
-            QueueListBox.Items.Clear();
-
-            if (songqueuelist != null)
-            {
-                if (songqueuelist.Count() != 0)
-                {
-                    QueueListBox.Items.Add("---Canciones---");
+                    string selectedsong = QueueListBox.SelectedItem.ToString();
                     foreach (Song song in songqueuelist)
                     {
                         if (song != null)
                         {
-                            QueueListBox.Items.Add(song.Namesong);
+                            if (song.Namesong == selectedsong)
+                            {
+                                songqueuelist.Remove(song);
+                                break;
+                            }
                         }
                     }
                 }
-            }
 
-            if (videoqueuelist != null)
-            {
-                if (videoqueuelist.Count() != 0)
+                if (videoqueuelist != null)
                 {
-                    QueueListBox.Items.Add("---Videos---");
+                    string selectedsong = QueueListBox.SelectedItem.ToString();
                     foreach (Video video in videoqueuelist)
                     {
                         if (video != null)
                         {
-                            QueueListBox.Items.Add(video.VideoName);
+                            if (video.VideoName == selectedsong)
+                            {
+                                videoqueuelist.Remove(video);
+                                break;
+                            }
+                        }
+                    }
+                }
+
+
+                QueueListBox.Items.Clear();
+
+                if (songqueuelist != null)
+                {
+                    if (songqueuelist.Count() != 0)
+                    {
+                        QueueListBox.Items.Add("---Canciones---");
+                        foreach (Song song in songqueuelist)
+                        {
+                            if (song != null)
+                            {
+                                QueueListBox.Items.Add(song.Namesong);
+                            }
+                        }
+                    }
+                }
+
+                if (videoqueuelist != null)
+                {
+                    if (videoqueuelist.Count() != 0)
+                    {
+                        QueueListBox.Items.Add("---Videos---");
+                        foreach (Video video in videoqueuelist)
+                        {
+                            if (video != null)
+                            {
+                                QueueListBox.Items.Add(video.VideoName);
+                            }
                         }
                     }
                 }

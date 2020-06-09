@@ -245,8 +245,10 @@ namespace Proyectog15WF.Contollers
                     }
                     Agregar.Add(otro);
                 }
+                SerializeData();
                 return Agregar;
             }
+            SerializeData();
             return null;
         }
         public List<Video> OnBuscarvideo(object sender, SendingtextMultipleFiltersEventArgs e) //deberia retornar una lista de canciones
@@ -359,7 +361,7 @@ namespace Proyectog15WF.Contollers
                             }
 
                         }
-
+                        SerializeData();
                         if (count == words.Count)
                         {
                             cancionesseleccionadas.Add(video);
@@ -383,6 +385,7 @@ namespace Proyectog15WF.Contollers
                     }
                 }
             }
+            SerializeData();
             return Definitivo;
         }
 
@@ -390,8 +393,10 @@ namespace Proyectog15WF.Contollers
         {
             if (videos != null)
             {
+                SerializeData();
                 return videos;
             }
+            SerializeData();
             return null;
         }
     }
