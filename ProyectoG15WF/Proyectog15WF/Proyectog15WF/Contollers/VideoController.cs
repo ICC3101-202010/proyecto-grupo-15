@@ -207,8 +207,17 @@ namespace Proyectog15WF.Contollers
                         {
                             foreach (string inside in Contenido00.Split(new string[] { "and" }, StringSplitOptions.None))
                             {
-                                string[] separacion = inside.Split(new string[] { ":" }, StringSplitOptions.None);
-                                another.Add(new List<string> { separacion[0], separacion[1] });
+                                string[] separacion = inside.Split(new string[] { "=" }, StringSplitOptions.None);
+                                try
+                                {
+                                    another.Add(new List<string> { separacion[0], separacion[1] });
+                                }
+                                catch (IndexOutOfRangeException e)
+                                {
+                                    return null;
+                                }
+
+
                             }
 
                         }
@@ -216,7 +225,15 @@ namespace Proyectog15WF.Contollers
                         {
 
                             string[] champion = Contenido00.Split(new string[] { "=" }, StringSplitOptions.None);
-                            another.Add(new List<string> { champion[0], champion[1] });
+                            try
+                            {
+                                another.Add(new List<string> { champion[0], champion[1] });
+                            }
+                            catch (IndexOutOfRangeException e)
+                            {
+                                return null;
+                            }
+
 
                         }
 
@@ -234,14 +251,33 @@ namespace Proyectog15WF.Contollers
                             string caract00 = caract.Replace(" ", "");
 
                             string[] caract000 = caract00.Split(new string[] { "=" }, StringSplitOptions.None);
-                            otro.Add(new List<string> { caract000[0], caract000[1] });
+                            try
+                            {
+                                otro.Add(new List<string> { caract000[0], caract000[1] });
+                            }
+                            catch (IndexOutOfRangeException e)
+                            {
+                                return null;
+                            }
+
 
                         }
                     }
                     else
                     {
                         string[] champion = Contenido.Split(new string[] { "=" }, StringSplitOptions.None);
-                        otro.Add(new List<string> { champion[0], champion[1] });
+                        if (champion != null)
+                        {
+                            try
+                            {
+                                otro.Add(new List<string> { champion[0], champion[1] });
+                            }
+                            catch (IndexOutOfRangeException e)
+                            {
+                                return null;
+                            }
+
+                        }
                     }
                     Agregar.Add(otro);
                 }
@@ -251,6 +287,8 @@ namespace Proyectog15WF.Contollers
             SerializeData();
             return null;
         }
+
+
         public List<Video> OnBuscarvideo(object sender, SendingtextMultipleFiltersEventArgs e) //deberia retornar una lista de canciones
         {
 
