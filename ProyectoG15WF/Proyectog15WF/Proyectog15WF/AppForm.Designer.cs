@@ -436,6 +436,9 @@
             this.SOPTLOGO = new System.Windows.Forms.Label();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.DownloadMyPlaylistSong = new FontAwesome.Sharp.IconButton();
+            this.DowloadFowlowingPlaylistSong = new FontAwesome.Sharp.IconButton();
+            this.DownLoadMasEscuachadosongs = new FontAwesome.Sharp.IconButton();
             this.StartPanel.SuspendLayout();
             this.LoginPanel.SuspendLayout();
             this.AdminMainPanel.SuspendLayout();
@@ -3556,6 +3559,7 @@
             // 
             // MasEsuchadaPanel
             // 
+            this.MasEsuchadaPanel.Controls.Add(this.DownLoadMasEscuachadosongs);
             this.MasEsuchadaPanel.Controls.Add(this.MasEscuchadaLabel);
             this.MasEsuchadaPanel.Controls.Add(this.MasEsuchadaListBox);
             this.MasEsuchadaPanel.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -3592,6 +3596,7 @@
             // 
             // FollowPlaylistSongPanel
             // 
+            this.FollowPlaylistSongPanel.Controls.Add(this.DowloadFowlowingPlaylistSong);
             this.FollowPlaylistSongPanel.Controls.Add(this.DejarSeguirCancionbutton);
             this.FollowPlaylistSongPanel.Controls.Add(this.SongSeguidasPlaylistPanel);
             this.FollowPlaylistSongPanel.Controls.Add(this.FollowSongLabel);
@@ -3612,10 +3617,10 @@
             this.DejarSeguirCancionbutton.IconChar = FontAwesome.Sharp.IconChar.Minus;
             this.DejarSeguirCancionbutton.IconColor = System.Drawing.Color.Black;
             this.DejarSeguirCancionbutton.IconSize = 16;
-            this.DejarSeguirCancionbutton.Location = new System.Drawing.Point(432, 172);
+            this.DejarSeguirCancionbutton.Location = new System.Drawing.Point(428, 172);
             this.DejarSeguirCancionbutton.Name = "DejarSeguirCancionbutton";
             this.DejarSeguirCancionbutton.Rotation = 0D;
-            this.DejarSeguirCancionbutton.Size = new System.Drawing.Size(54, 55);
+            this.DejarSeguirCancionbutton.Size = new System.Drawing.Size(55, 57);
             this.DejarSeguirCancionbutton.TabIndex = 5;
             this.DejarSeguirCancionbutton.UseVisualStyleBackColor = false;
             this.DejarSeguirCancionbutton.Click += new System.EventHandler(this.DejarSeguirCancionbutton_Click);
@@ -3714,6 +3719,7 @@
             this.PlaylistMySongPanel.Controls.Add(this.VerCancionesEnMisPlaylistButton);
             this.PlaylistMySongPanel.Controls.Add(this.MyListLabel);
             this.PlaylistMySongPanel.Controls.Add(this.MySongsListBox);
+            this.PlaylistMySongPanel.Controls.Add(this.DownloadMyPlaylistSong);
             this.PlaylistMySongPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PlaylistMySongPanel.Location = new System.Drawing.Point(232, 0);
             this.PlaylistMySongPanel.Name = "PlaylistMySongPanel";
@@ -3869,7 +3875,7 @@
             this.BorrarCancionMyplaylist.IconChar = FontAwesome.Sharp.IconChar.Minus;
             this.BorrarCancionMyplaylist.IconColor = System.Drawing.Color.Black;
             this.BorrarCancionMyplaylist.IconSize = 36;
-            this.BorrarCancionMyplaylist.Location = new System.Drawing.Point(428, 175);
+            this.BorrarCancionMyplaylist.Location = new System.Drawing.Point(428, 166);
             this.BorrarCancionMyplaylist.Name = "BorrarCancionMyplaylist";
             this.BorrarCancionMyplaylist.Rotation = 0D;
             this.BorrarCancionMyplaylist.Size = new System.Drawing.Size(56, 57);
@@ -3924,7 +3930,7 @@
             this.VerCancionesEnMisPlaylistButton.Location = new System.Drawing.Point(428, 108);
             this.VerCancionesEnMisPlaylistButton.Name = "VerCancionesEnMisPlaylistButton";
             this.VerCancionesEnMisPlaylistButton.Rotation = 0D;
-            this.VerCancionesEnMisPlaylistButton.Size = new System.Drawing.Size(62, 51);
+            this.VerCancionesEnMisPlaylistButton.Size = new System.Drawing.Size(56, 51);
             this.VerCancionesEnMisPlaylistButton.TabIndex = 2;
             this.VerCancionesEnMisPlaylistButton.UseVisualStyleBackColor = true;
             this.VerCancionesEnMisPlaylistButton.Click += new System.EventHandler(this.VerCancionesEnMisPlaylistButton_Click);
@@ -5844,6 +5850,51 @@
             this.timer1.Interval = 1;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // DownloadMyPlaylistSong
+            // 
+            this.DownloadMyPlaylistSong.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.DownloadMyPlaylistSong.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.DownloadMyPlaylistSong.IconChar = FontAwesome.Sharp.IconChar.Download;
+            this.DownloadMyPlaylistSong.IconColor = System.Drawing.Color.Black;
+            this.DownloadMyPlaylistSong.IconSize = 36;
+            this.DownloadMyPlaylistSong.Location = new System.Drawing.Point(428, 166);
+            this.DownloadMyPlaylistSong.Name = "DownloadMyPlaylistSong";
+            this.DownloadMyPlaylistSong.Rotation = 0D;
+            this.DownloadMyPlaylistSong.Size = new System.Drawing.Size(56, 54);
+            this.DownloadMyPlaylistSong.TabIndex = 5;
+            this.DownloadMyPlaylistSong.UseVisualStyleBackColor = true;
+            this.DownloadMyPlaylistSong.Click += new System.EventHandler(this.iconButton2_Click);
+            // 
+            // DowloadFowlowingPlaylistSong
+            // 
+            this.DowloadFowlowingPlaylistSong.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.DowloadFowlowingPlaylistSong.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.DowloadFowlowingPlaylistSong.IconChar = FontAwesome.Sharp.IconChar.Download;
+            this.DowloadFowlowingPlaylistSong.IconColor = System.Drawing.Color.Black;
+            this.DowloadFowlowingPlaylistSong.IconSize = 36;
+            this.DowloadFowlowingPlaylistSong.Location = new System.Drawing.Point(428, 236);
+            this.DowloadFowlowingPlaylistSong.Name = "DowloadFowlowingPlaylistSong";
+            this.DowloadFowlowingPlaylistSong.Rotation = 0D;
+            this.DowloadFowlowingPlaylistSong.Size = new System.Drawing.Size(55, 54);
+            this.DowloadFowlowingPlaylistSong.TabIndex = 6;
+            this.DowloadFowlowingPlaylistSong.UseVisualStyleBackColor = true;
+            this.DowloadFowlowingPlaylistSong.Click += new System.EventHandler(this.DowloadFowlowingPlaylistSong_Click);
+            // 
+            // DownLoadMasEscuachadosongs
+            // 
+            this.DownLoadMasEscuachadosongs.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.DownLoadMasEscuachadosongs.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.DownLoadMasEscuachadosongs.IconChar = FontAwesome.Sharp.IconChar.Download;
+            this.DownLoadMasEscuachadosongs.IconColor = System.Drawing.Color.Black;
+            this.DownLoadMasEscuachadosongs.IconSize = 36;
+            this.DownLoadMasEscuachadosongs.Location = new System.Drawing.Point(431, 109);
+            this.DownLoadMasEscuachadosongs.Name = "DownLoadMasEscuachadosongs";
+            this.DownLoadMasEscuachadosongs.Rotation = 0D;
+            this.DownLoadMasEscuachadosongs.Size = new System.Drawing.Size(50, 50);
+            this.DownLoadMasEscuachadosongs.TabIndex = 2;
+            this.DownLoadMasEscuachadosongs.UseVisualStyleBackColor = true;
+            this.DownLoadMasEscuachadosongs.Click += new System.EventHandler(this.DownLoadMasEscuachadosongs_Click);
+            // 
             // AppForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -6401,6 +6452,9 @@
         private System.Windows.Forms.Timer timer1;
         private XComponent.SliderBar.MACTrackBar macTrackBar2;
         private XComponent.SliderBar.MACTrackBar macTrackBar1;
+        private FontAwesome.Sharp.IconButton DownloadMyPlaylistSong;
+        private FontAwesome.Sharp.IconButton DowloadFowlowingPlaylistSong;
+        private FontAwesome.Sharp.IconButton DownLoadMasEscuachadosongs;
     }
 }
 

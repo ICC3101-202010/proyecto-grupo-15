@@ -1240,7 +1240,7 @@ namespace Proyectog15WF
             {
                 Userifosend(this, new SendingtypeaccountEventArgs() { Usernametext = nameuser, Typeaccount = typeAccounte, Genero = GenderAccounte, Agetext = ageAcctounte, Privacidad = privacidad });
             }
-            InfomacionCuentaCambiadaLabel.Visible = true;
+            //InfomacionCuentaCambiadaLabel.Visible = true;
 
             if (ageAcctounte != "")
             {
@@ -1264,7 +1264,11 @@ namespace Proyectog15WF
                 TipoArtistacomboBox1.Visible = false;
                 TipodeArtistaModeLabel.Visible = false;
                 TipoArtistaButton.Visible = false;
+                prim = false;
+               // pictureBox1.Image= null;
+               // pictureBox2.Image = null;
             }
+            MessageBox.Show("Cuenta Actualizada");
             SerializeData();
 
         }
@@ -2797,20 +2801,27 @@ namespace Proyectog15WF
 
         private void LoadImageButton_Click(object sender, EventArgs e)
         {
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.Title = "Selecione la imagen";
-            openFileDialog.Filter = "Image file (*.jpg; *.jpeg;*.bmp;*.PNG;)|*.jpg; *.jpeg;*.bmp;*.PNG;";
-            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            if (prim)
             {
-                Bitmap image = new Bitmap(openFileDialog.FileName);
-                if (changeImage != null)
+                OpenFileDialog openFileDialog = new OpenFileDialog();
+                openFileDialog.Title = "Selecione la imagen";
+                openFileDialog.Filter = "Image file (*.jpg; *.jpeg;*.bmp;*.PNG;)|*.jpg; *.jpeg;*.bmp;*.PNG;";
+                if (openFileDialog.ShowDialog() == DialogResult.OK)
                 {
-                    changeImage(this, new ChangeImageEventsArgs() { Usernametext = nameuser, Ipath = openFileDialog.FileName });
+                    Bitmap image = new Bitmap(openFileDialog.FileName);
+                    if (changeImage != null)
+                    {
+                        changeImage(this, new ChangeImageEventsArgs() { Usernametext = nameuser, Ipath = openFileDialog.FileName });
+                    }
+                    pictureBox1.BackgroundImage = null;
+                    pictureBox2.BackgroundImage = null;
+                    pictureBox1.Image = image;
+                    pictureBox2.Image = image;
                 }
-                pictureBox1.BackgroundImage = null;
-                pictureBox2.BackgroundImage = null;
-                pictureBox1.Image = image;
-                pictureBox2.Image = image;
+            }
+            else
+            {
+                MessageBox.Show("Debes ser primum para cambiar tu foto");
             }
         }
 
@@ -4001,6 +4012,137 @@ namespace Proyectog15WF
         private void macTrackBar2_ValueChanged(object sender, decimal value)
         {
             axWindowsMediaPlayer1.settings.volume = macTrackBar2.Value;
+        }
+
+        private void iconButton2_Click(object sender, EventArgs e)
+        {
+            if (prim)
+            {
+                if (MySongsListBox.SelectedItem != null)
+                {
+                    string playlistName = MySongsListBox.SelectedItem.ToString();
+
+                    string folderPath;
+                    List<Song> allsongs = GetAllSongs(this, new SendingtextMultipleFiltersEventArgs() { });
+                    FolderBrowserDialog folderBrowserDialog = new FolderBrowserDialog();
+                    if (folderBrowserDialog.ShowDialog() == DialogResult.OK)
+                    {
+                        string songPath;
+                        string songName;
+                        foreach (PlaylistSong playlist in OnReciveUsernamePlaylist())
+                        {
+                            if (playlist.GetPlaylistName() == playlistName)
+                            {
+                                foreach (Song canciones in playlist.GetPlaylistAllSongs())
+                                {
+                                    if (canciones != null)
+                                    {
+                                        songName = canciones.Namesong;
+                                        songPath = canciones.Path;
+                                        folderPath = folderBrowserDialog.SelectedPath;
+                                        System.IO.File.Copy(songPath, System.IO.Path.Combine(folderPath, songName), true);
+                                    }
+                                }
+                            }
+                        }
+                        MessageBox.Show("Playlist decaragda con exito");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Debes selecionar la playlist que quiere descargar");
+                }
+               
+            }
+            else
+            {
+                MessageBox.Show("Debes ser premium para poder descargar canciones");
+            }
+        }
+
+        private void DowloadFowlowingPlaylistSong_Click(object sender, EventArgs e)
+        {
+            if (prim)
+            {
+                if (FollowPlaylistSongListBox.SelectedItem != null)
+                {
+                    string playlistSongs = FollowPlaylistSongListBox.SelectedItem.ToString();
+                    string folderPath;
+                    List<Song> allsongs = GetAllSongs(this, new SendingtextMultipleFiltersEventArgs() { });
+                    FolderBrowserDialog folderBrowserDialog = new FolderBrowserDialog();
+                    if (folderBrowserDialog.ShowDialog() == DialogResult.OK)
+                    {
+                        string songPath;
+                        string songName;
+                        foreach (PlaylistSong playlist in OnReciveUsernameFollowedPlaylist())
+                        {
+                            if (playlist.GetPlaylistName() == playlistSongs)
+                            {
+                                foreach (Song song in playlist.GetPlaylistAllSongs())
+                                {
+                                    if (song != null)
+                                    {
+                                        songName = song.Namesong;
+                                        songPath = song.Path;
+                                        folderPath = folderBrowserDialog.SelectedPath;
+                                        System.IO.File.Copy(songPath, System.IO.Path.Combine(folderPath, songName), true);
+                                    }
+                                }
+                            }
+                        }
+                        MessageBox.Show("Playlist decaragda con exito");
+                    }
+                    
+                }
+                else
+                {
+                    MessageBox.Show("Debes selecionar la playlist que quiere descargar");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Debes se premium para poder descargar canciones");
+            }
+        }
+
+        private void DownLoadMasEscuachadosongs_Click(object sender, EventArgs e)
+        {
+            if (prim)
+            {
+                if (MasEsuchadaListBox.SelectedItem != null)
+                {
+                    string folderPath;
+                    string songName = MasEsuchadaListBox.SelectedItem.ToString();
+                    List<Song> allsongs = GetAllSongs(this, new SendingtextMultipleFiltersEventArgs() { });
+                    FolderBrowserDialog folderBrowserDialog = new FolderBrowserDialog();
+                    if (folderBrowserDialog.ShowDialog() == DialogResult.OK)
+                    {
+                        string songPath;
+                        if (allsongs != null)
+                        {
+                            foreach (Song song in allsongs)
+                            {
+                                if (song.Namesong == songName)
+                                {
+                                    songPath = song.Path;
+                                    folderPath = folderBrowserDialog.SelectedPath;
+                                    System.IO.File.Copy(songPath, System.IO.Path.Combine(folderPath, songName), true);
+                                    MessageBox.Show("Cancion descargada con exito");
+                                }
+                            }
+                        }
+
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Debes selecionar la cancion que quiere descargar");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Debes ser premium para poder descargar canciones");
+            }
         }
     }
 }
