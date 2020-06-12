@@ -19,6 +19,9 @@ namespace Proyectog15WF
 
     public partial class AppForm : Form
     {
+        string songOnClose;
+        string videoOnClose;
+        int mediaOnclose;
         bool pasua = false;
         int resultCounter = 0;
         string namevideo = "";
@@ -65,6 +68,9 @@ namespace Proyectog15WF
         public event SendingActualPlaylistHandler Userselectedvideoplaylist;
         public event SendingActualPlaylistHandler Userselectedfollowedplaylist;
         public event SendingActualPlaylistHandler Userselectedfollowedvideoplaylist;
+
+        public delegate List<string> oncloserepEventHandel(object source, OnCloseRep args);
+        public event oncloserepEventHandel SetClose;
 
         public delegate List<Song> SendingSongQueueHandler(object source, GetUserPlaylistEventsArgs args);
         public event SendingSongQueueHandler CreateSongQueue;
@@ -371,6 +377,28 @@ namespace Proyectog15WF
                         pictureBox2.BackgroundImage = null; 
                         pictureBox1.Image = image;
                         pictureBox2.Image = image;
+                    }
+                    if(actuallogeduser.MediaOnclose != 0)
+                    {
+                        if (actuallogeduser.SongOnclose != "")
+                        {
+                            axWindowsMediaPlayer1.Ctlcontrols.currentPosition = actuallogeduser.MediaOnclose;
+                            namesong = actuallogeduser.SongOnclose;
+                            axWindowsMediaPlayer1.URL = namesong;
+                            macTrackBar1.Value = (int)axWindowsMediaPlayer1.Ctlcontrols.currentPosition;
+                            pasua = true;
+                            axWindowsMediaPlayer1.Ctlcontrols.stop();
+                        }
+                        if (actuallogeduser.VideoOnclose != "")
+                        {
+                            axWindowsMediaPlayer1.Ctlcontrols.currentPosition = actuallogeduser.MediaOnclose;
+                            namevideo = actuallogeduser.VideoOnclose;
+                            axWindowsMediaPlayer1.URL = namevideo;
+                            macTrackBar1.Value = (int)axWindowsMediaPlayer1.Ctlcontrols.currentPosition;
+                            pasua = true;
+                            axWindowsMediaPlayer1.Ctlcontrols.stop();
+                        }
+
                     }
                     
 
@@ -695,11 +723,30 @@ namespace Proyectog15WF
             AlbumCanciones.Items.Clear();
             VideoAlbumListBox.Items.Clear();
             axWindowsMediaPlayer1.Ctlcontrols.stop();
-            namevideo = "";
-            namesong = "";
             pasua = false;
             pictureBox1.Image = null;
             pictureBox2.Image = null;
+            mediaOnclose = macTrackBar1.Value;
+            if (namesong==null)
+            {
+                namesong = "";
+            }
+            if (namevideo == null)
+            {
+                namevideo = "";
+
+            }
+            videoOnClose = namevideo;
+            songOnClose = namesong;
+            MessageBox.Show(Convert.ToString(mediaOnclose));
+
+            SetClose(this, new OnCloseRep() { songName = songOnClose, videoName = videoOnClose, MediaOnClose = mediaOnclose,Username=nameuser });
+   
+            namevideo = "";
+            namesong = "";
+            
+           
+            
 
 
         }

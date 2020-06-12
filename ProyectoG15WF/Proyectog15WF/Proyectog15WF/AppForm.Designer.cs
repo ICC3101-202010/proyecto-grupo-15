@@ -594,9 +594,10 @@
             this.AdminMainPanel.Controls.Add(this.AdminSearchMainPanel);
             this.AdminMainPanel.Controls.Add(this.SubAdminPanel);
             this.AdminMainPanel.Controls.Add(this.ADMINSoptflixlogo);
+            this.AdminMainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AdminMainPanel.Location = new System.Drawing.Point(0, 0);
             this.AdminMainPanel.Name = "AdminMainPanel";
-            this.AdminMainPanel.Size = new System.Drawing.Size(1024, 32);
+            this.AdminMainPanel.Size = new System.Drawing.Size(1024, 768);
             this.AdminMainPanel.TabIndex = 11;
             this.AdminMainPanel.Visible = false;
             // 
@@ -654,7 +655,7 @@
             this.UploadAdminMainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.UploadAdminMainPanel.Location = new System.Drawing.Point(250, 0);
             this.UploadAdminMainPanel.Name = "UploadAdminMainPanel";
-            this.UploadAdminMainPanel.Size = new System.Drawing.Size(774, 32);
+            this.UploadAdminMainPanel.Size = new System.Drawing.Size(774, 768);
             this.UploadAdminMainPanel.TabIndex = 5;
             this.UploadAdminMainPanel.Visible = false;
             // 
@@ -686,7 +687,7 @@
             this.AdminUploadVideoPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AdminUploadVideoPanel.Location = new System.Drawing.Point(0, 0);
             this.AdminUploadVideoPanel.Name = "AdminUploadVideoPanel";
-            this.AdminUploadVideoPanel.Size = new System.Drawing.Size(774, 32);
+            this.AdminUploadVideoPanel.Size = new System.Drawing.Size(774, 768);
             this.AdminUploadVideoPanel.TabIndex = 2;
             this.AdminUploadVideoPanel.Visible = false;
             // 
@@ -941,7 +942,7 @@
             this.AdminUpLoadSongPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AdminUpLoadSongPanel.Location = new System.Drawing.Point(0, 0);
             this.AdminUpLoadSongPanel.Name = "AdminUpLoadSongPanel";
-            this.AdminUpLoadSongPanel.Size = new System.Drawing.Size(774, 32);
+            this.AdminUpLoadSongPanel.Size = new System.Drawing.Size(774, 768);
             this.AdminUpLoadSongPanel.TabIndex = 1;
             this.AdminUpLoadSongPanel.Visible = false;
             // 
@@ -1170,7 +1171,7 @@
             this.AdminSearchMainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AdminSearchMainPanel.Location = new System.Drawing.Point(250, 0);
             this.AdminSearchMainPanel.Name = "AdminSearchMainPanel";
-            this.AdminSearchMainPanel.Size = new System.Drawing.Size(774, 32);
+            this.AdminSearchMainPanel.Size = new System.Drawing.Size(774, 768);
             this.AdminSearchMainPanel.TabIndex = 1;
             this.AdminSearchMainPanel.Visible = false;
             // 
@@ -1186,7 +1187,7 @@
             this.AdminUserMainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AdminUserMainPanel.Location = new System.Drawing.Point(0, 0);
             this.AdminUserMainPanel.Name = "AdminUserMainPanel";
-            this.AdminUserMainPanel.Size = new System.Drawing.Size(774, 32);
+            this.AdminUserMainPanel.Size = new System.Drawing.Size(774, 768);
             this.AdminUserMainPanel.TabIndex = 2;
             this.AdminUserMainPanel.Visible = false;
             // 
@@ -1277,7 +1278,7 @@
             this.AdminArtistSearchPanl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AdminArtistSearchPanl.Location = new System.Drawing.Point(0, 0);
             this.AdminArtistSearchPanl.Name = "AdminArtistSearchPanl";
-            this.AdminArtistSearchPanl.Size = new System.Drawing.Size(774, 32);
+            this.AdminArtistSearchPanl.Size = new System.Drawing.Size(774, 768);
             this.AdminArtistSearchPanl.TabIndex = 0;
             this.AdminArtistSearchPanl.Visible = false;
             this.AdminArtistSearchPanl.Paint += new System.Windows.Forms.PaintEventHandler(this.AdminArtistSearchPanl_Paint);
@@ -1385,7 +1386,7 @@
             this.SubAdminPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.SubAdminPanel.Location = new System.Drawing.Point(0, 0);
             this.SubAdminPanel.Name = "SubAdminPanel";
-            this.SubAdminPanel.Size = new System.Drawing.Size(250, 32);
+            this.SubAdminPanel.Size = new System.Drawing.Size(250, 768);
             this.SubAdminPanel.TabIndex = 6;
             // 
             // ExitAdminButton
@@ -1395,7 +1396,7 @@
             this.ExitAdminButton.IconChar = FontAwesome.Sharp.IconChar.SignOutAlt;
             this.ExitAdminButton.IconColor = System.Drawing.Color.Black;
             this.ExitAdminButton.IconSize = 36;
-            this.ExitAdminButton.Location = new System.Drawing.Point(0, -18);
+            this.ExitAdminButton.Location = new System.Drawing.Point(0, 718);
             this.ExitAdminButton.Name = "ExitAdminButton";
             this.ExitAdminButton.Rotation = 0D;
             this.ExitAdminButton.Size = new System.Drawing.Size(50, 49);

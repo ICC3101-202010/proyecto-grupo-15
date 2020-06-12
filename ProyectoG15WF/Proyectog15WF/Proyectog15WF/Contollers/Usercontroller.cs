@@ -60,6 +60,7 @@ namespace Controllers
 
             this.view.MailVerifyEvent += OncheckMail;
             this.view.changeImage += OnImageChange;
+            this.view.SetClose += OnSetClose;
             DeserializeData();
         }
 
@@ -628,5 +629,21 @@ namespace Controllers
             SerializeData();
             return null;
         }
-    }
+        public List<string> OnSetClose(object source, OnCloseRep e)
+        {
+            foreach (User user in users)
+            {
+                if (e.Username.ToUpper() == user.Username.ToUpper())
+                {
+                    user.VideoOnclose = e.videoName;
+                    user.SongOnclose = e.songName;
+                    user.MediaOnclose = e.MediaOnClose;
+                }
+            }
+            SerializeData();
+            return null;
+
+        }
+        
+     }
 }   

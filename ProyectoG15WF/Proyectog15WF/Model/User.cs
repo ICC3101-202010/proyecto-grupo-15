@@ -30,6 +30,9 @@ namespace Model
         string genero = "None";
         string artist = "";
         string imagePast = "";
+        string songOnclose = "";
+        string videoOnclose = "";
+        int mediaOnclose = 0;
 
         public User()
         {
@@ -70,6 +73,9 @@ namespace Model
         public List<PlaylistSong> Playlistsong { get => musicplaylist; set => musicplaylist = value; }
         public List<PlaylistVideo> Playlistvideo { get => videoplaylist; set => videoplaylist = value; }
         public string ImagePast { get => imagePast; set => imagePast = value; }
+        public string SongOnclose { get => songOnclose; set => songOnclose = value; }
+        public string VideoOnclose { get => videoOnclose; set => videoOnclose = value; }
+        public int MediaOnclose { get => mediaOnclose; set => mediaOnclose = value; }
 
         public bool CheckCredentials(string username, string pass)
         {
