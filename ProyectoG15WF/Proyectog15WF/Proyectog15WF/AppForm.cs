@@ -165,7 +165,9 @@ namespace Proyectog15WF
             panels.Add("Registerpanel", RegisterPanel);
             panels.Add("LoginPanel", LoginPanel);
             panels.Add("Mainpanel", MainPanel);
-            VolumenTrackBar1.Value = 50;
+            macTrackBar2.Value = 50;
+
+
         }
 
         public void SerializeData()
@@ -1303,6 +1305,7 @@ namespace Proyectog15WF
 
         private void PlayButton_Click_1(object sender, EventArgs e)
         {
+            
             HideSubPanel();
             CalificacionComboBox.SelectedIndex = 0;
             ReproduccionMainPanel.Visible = true;
@@ -1311,6 +1314,7 @@ namespace Proyectog15WF
             if (pasua)
             {
                 axWindowsMediaPlayer1.Ctlcontrols.play();
+                ActualizarDatosTrack();
 
             }
             else
@@ -1421,6 +1425,7 @@ namespace Proyectog15WF
 
                         namevideo = Reproducevideo(this, new SelectVideoEventArgs() { Selectedvideo = Convert.ToString(SearchMediapanellistBox.SelectedItem) });
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
                 }
                 if (Reproducesong != null)
@@ -1429,6 +1434,7 @@ namespace Proyectog15WF
                     {
                         namesong = Reproducesong(this, new SelectSongEventArgs() { Selectedsong = Convert.ToString(SearchMediapanellistBox.SelectedItem) });
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
 
                 }
@@ -1441,6 +1447,7 @@ namespace Proyectog15WF
                         songbeingreproduced = Recivingsong(this, new ReturnsongEventArgs() { Verifysonginsongofuser = Convert.ToString(SearchMediapanellistBox.SelectedItem) });
                         cancionesdelusuario.Add(variablecancion);
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
 
                 }
@@ -1451,6 +1458,7 @@ namespace Proyectog15WF
                         variablevideo = Recivingvideo(this, new ReturnVideoEventArgs() { Verifyvideoinvideoofuser = Convert.ToString(SearchMediapanellistBox.SelectedItem) });
                         videosdelusuario.Add(variablevideo);
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
                 }
             }
@@ -1460,6 +1468,7 @@ namespace Proyectog15WF
         {
             axWindowsMediaPlayer1.Ctlcontrols.pause();
             pasua = true;
+            ActualizarDatosTrack();
         }
         //Profile---------------------------------------------------------------------------------------------------//
 
@@ -1541,6 +1550,7 @@ namespace Proyectog15WF
                     {
                         namevideo = Reproducevideo(this, new SelectVideoEventArgs() { Selectedvideo = Convert.ToString(VideoAlbumListBox.SelectedItem) });
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
                 }
                 if (Recivingvideo != null)
@@ -1550,6 +1560,7 @@ namespace Proyectog15WF
                         variablevideo = Recivingvideo(this, new ReturnVideoEventArgs() { Verifyvideoinvideoofuser = Convert.ToString(VideoAlbumListBox.SelectedItem) });
                         videosdelusuario.Add(variablevideo);
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
                 }
                 if (Reproducesong != null)
@@ -1558,6 +1569,7 @@ namespace Proyectog15WF
                     {
                         namesong = Reproducesong(this, new SelectSongEventArgs() { Selectedsong = Convert.ToString(VideoAlbumListBox.SelectedItem) });
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
 
                 }
@@ -1569,6 +1581,7 @@ namespace Proyectog15WF
                         songbeingreproduced = Recivingsong(this, new ReturnsongEventArgs() { Verifysonginsongofuser = Convert.ToString(SearchMediapanellistBox.SelectedItem) });
                         cancionesdelusuario.Add(variablecancion);
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
 
                 }
@@ -1586,6 +1599,7 @@ namespace Proyectog15WF
                     {
                         namevideo = Reproducevideo(this, new SelectVideoEventArgs() { Selectedvideo = Convert.ToString(AlbumCanciones.SelectedItem) });
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
                 }
                 if (Recivingvideo != null)
@@ -1595,6 +1609,7 @@ namespace Proyectog15WF
                         variablevideo = Recivingvideo(this, new ReturnVideoEventArgs() { Verifyvideoinvideoofuser = Convert.ToString(AlbumCanciones.SelectedItem) });
                         videosdelusuario.Add(variablevideo);
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
                 }
                 if (Reproducesong != null)
@@ -1603,6 +1618,7 @@ namespace Proyectog15WF
                     {
                         namesong = Reproducesong(this, new SelectSongEventArgs() { Selectedsong = Convert.ToString(AlbumCanciones.SelectedItem) });
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
 
                 }
@@ -1614,6 +1630,7 @@ namespace Proyectog15WF
                         songbeingreproduced = Recivingsong(this, new ReturnsongEventArgs() { Verifysonginsongofuser = Convert.ToString(AlbumCanciones.SelectedItem) });
                         cancionesdelusuario.Add(variablecancion);
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
                 }
             }
@@ -1907,6 +1924,7 @@ namespace Proyectog15WF
                     {
                         namevideo = Reproducevideo(this, new SelectVideoEventArgs() { Selectedvideo = Convert.ToString(VideosMasVistos.SelectedItem) });
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
                 }
                 if (Recivingvideo != null)
@@ -1916,6 +1934,7 @@ namespace Proyectog15WF
                         variablevideo = Recivingvideo(this, new ReturnVideoEventArgs() { Verifyvideoinvideoofuser = Convert.ToString(VideosMasVistos.SelectedItem) });
                         videosdelusuario.Add(variablevideo);
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
                 }
                 if (Reproducesong != null)
@@ -1924,6 +1943,7 @@ namespace Proyectog15WF
                     {
                         namesong = Reproducesong(this, new SelectSongEventArgs() { Selectedsong = Convert.ToString(VideosMasVistos.SelectedItem) });
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
 
                 }
@@ -1935,6 +1955,7 @@ namespace Proyectog15WF
                         songbeingreproduced = Recivingsong(this, new ReturnsongEventArgs() { Verifysonginsongofuser = Convert.ToString(VideosMasVistos.SelectedItem) });
                         cancionesdelusuario.Add(variablecancion);
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
                 }
             }
@@ -2079,6 +2100,7 @@ namespace Proyectog15WF
                             string actualselectedsong = SongInMyPlaylistListBox.SelectedItem.ToString();
                         }
                         pasua = false;
+                        macTrackBar1.Value = 0;
                         namevideo = Reproducevideo(this, new SelectVideoEventArgs() { Selectedvideo = Convert.ToString(SongInMyPlaylistListBox.SelectedItem) });
                         SerializeData();
                     }
@@ -2100,6 +2122,7 @@ namespace Proyectog15WF
                         }
                         namesong = Reproducesong(this, new SelectSongEventArgs() { Selectedsong = Convert.ToString(SongInMyPlaylistListBox.SelectedItem) });
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
                 }
 
@@ -2111,6 +2134,7 @@ namespace Proyectog15WF
                         songbeingreproduced = Recivingsong(this, new ReturnsongEventArgs() { Verifysonginsongofuser = Convert.ToString(SongInMyPlaylistListBox.SelectedItem) });
                         cancionesdelusuario.Add(variablecancion);
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
                 }
                 if (Recivingvideo != null)
@@ -2120,6 +2144,7 @@ namespace Proyectog15WF
                         variablevideo = Recivingvideo(this, new ReturnVideoEventArgs() { Verifyvideoinvideoofuser = Convert.ToString(SongInMyPlaylistListBox.SelectedItem) });
                         videosdelusuario.Add(variablevideo);
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
                 }
             }
@@ -2153,6 +2178,7 @@ namespace Proyectog15WF
                             string actualselectedsong = SongsInFollowPlaylistListBox.SelectedItem.ToString();
                         }
                         pasua = false;
+                        macTrackBar1.Value = 0;
                         namevideo = Reproducevideo(this, new SelectVideoEventArgs() { Selectedvideo = Convert.ToString(SongsInFollowPlaylistListBox.SelectedItem) });
                         SerializeData();
                     }
@@ -2176,6 +2202,7 @@ namespace Proyectog15WF
                             }
                             namesong = Reproducesong(this, new SelectSongEventArgs() { Selectedsong = Convert.ToString(SongsInFollowPlaylistListBox.SelectedItem) });
                             pasua = false;
+                            macTrackBar1.Value = 0;
                         }
 
                     }
@@ -2188,6 +2215,7 @@ namespace Proyectog15WF
                             songbeingreproduced = Recivingsong(this, new ReturnsongEventArgs() { Verifysonginsongofuser = Convert.ToString(SongsInFollowPlaylistListBox.SelectedItem) });
                             cancionesdelusuario.Add(variablecancion);
                             pasua = false;
+                            macTrackBar1.Value = 0;
                             SerializeData();
                         }
                     }
@@ -2198,6 +2226,7 @@ namespace Proyectog15WF
                             variablevideo = Recivingvideo(this, new ReturnVideoEventArgs() { Verifyvideoinvideoofuser = Convert.ToString(SongsInFollowPlaylistListBox.SelectedItem) });
                             videosdelusuario.Add(variablevideo);
                             pasua = false;
+                            macTrackBar1.Value = 0;
                         }
                     }
 
@@ -2451,6 +2480,7 @@ namespace Proyectog15WF
                         }
                         namesong = Reproducesong(this, new SelectSongEventArgs() { Selectedsong = Convert.ToString(VideosInFollowingPlaylistListbox.SelectedItem) });
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
                 }
 
@@ -2462,6 +2492,7 @@ namespace Proyectog15WF
                         songbeingreproduced = Recivingsong(this, new ReturnsongEventArgs() { Verifysonginsongofuser = Convert.ToString(VideosInFollowingPlaylistListbox.SelectedItem) });
                         cancionesdelusuario.Add(variablecancion);
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
                 }
 
@@ -2472,6 +2503,7 @@ namespace Proyectog15WF
                         variablevideo = Recivingvideo(this, new ReturnVideoEventArgs() { Verifyvideoinvideoofuser = Convert.ToString(VideosInFollowingPlaylistListbox.SelectedItem) });
                         videosdelusuario.Add(variablevideo);
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
                 }
             }
@@ -2498,6 +2530,7 @@ namespace Proyectog15WF
                         }
                         namevideo = Reproducevideo(this, new SelectVideoEventArgs() { Selectedvideo = Convert.ToString(MisVideoMyPlaylist.SelectedItem) });
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
                 }
 
@@ -2512,6 +2545,7 @@ namespace Proyectog15WF
                         }
                         namesong = Reproducesong(this, new SelectSongEventArgs() { Selectedsong = Convert.ToString(MisVideoMyPlaylist.SelectedItem) });
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
                 }
 
@@ -2523,6 +2557,7 @@ namespace Proyectog15WF
                         songbeingreproduced = Recivingsong(this, new ReturnsongEventArgs() { Verifysonginsongofuser = Convert.ToString(MisVideoMyPlaylist.SelectedItem) });
                         cancionesdelusuario.Add(variablecancion);
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
                 }
 
@@ -2533,6 +2568,7 @@ namespace Proyectog15WF
                         variablevideo = Recivingvideo(this, new ReturnVideoEventArgs() { Verifyvideoinvideoofuser = Convert.ToString(MisVideoMyPlaylist.SelectedItem) });
                         SerializeData();
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
                 }
             }
@@ -2780,7 +2816,7 @@ namespace Proyectog15WF
 
         private void VolumenTrackBar1_Scroll(object sender, EventArgs e)
         {
-            axWindowsMediaPlayer1.settings.volume = VolumenTrackBar1.Value;
+           
         }
 
 
@@ -2864,6 +2900,7 @@ namespace Proyectog15WF
                 {
                     namevideo = Reproducevideo(this, new SelectVideoEventArgs() { Selectedvideo = Convert.ToString(AlbumSearchArtistListbox.SelectedItem) });
                     pasua = false;
+                    macTrackBar1.Value = 0;
                 }
             }
             if (Reproducesong != null)
@@ -2872,6 +2909,7 @@ namespace Proyectog15WF
                 {
                     namesong = Reproducesong(this, new SelectSongEventArgs() { Selectedsong = Convert.ToString(AlbumSearchArtistListbox.SelectedItem) });
                     pasua = false;
+                    macTrackBar1.Value = 0;
                 }
 
             }
@@ -2884,6 +2922,7 @@ namespace Proyectog15WF
                     songbeingreproduced = Recivingsong(this, new ReturnsongEventArgs() { Verifysonginsongofuser = Convert.ToString(AlbumSearchArtistListbox.SelectedItem) });
                     cancionesdelusuario.Add(variablecancion);
                     pasua = false;
+                    macTrackBar1.Value = 0;
                 }
 
             }
@@ -2894,6 +2933,7 @@ namespace Proyectog15WF
                     variablevideo = Recivingvideo(this, new ReturnVideoEventArgs() { Verifyvideoinvideoofuser = Convert.ToString(AlbumSearchArtistListbox.SelectedItem) });
                     videosdelusuario.Add(variablevideo);
                     pasua = false;
+                    macTrackBar1.Value = 0;
                 }
             }
 
@@ -3539,6 +3579,7 @@ namespace Proyectog15WF
                     {
                         namevideo = Reproducevideo(this, new SelectVideoEventArgs() { Selectedvideo = Convert.ToString(MasEsuchadaListBox.SelectedItem) });
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
                 }
                 if (Recivingvideo != null)
@@ -3548,6 +3589,7 @@ namespace Proyectog15WF
                         variablevideo = Recivingvideo(this, new ReturnVideoEventArgs() { Verifyvideoinvideoofuser = Convert.ToString(MasEsuchadaListBox.SelectedItem) });
                         videosdelusuario.Add(variablevideo);
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
                 }
                 if (Reproducesong != null)
@@ -3556,6 +3598,7 @@ namespace Proyectog15WF
                     {
                         namesong = Reproducesong(this, new SelectSongEventArgs() { Selectedsong = Convert.ToString(MasEsuchadaListBox.SelectedItem) });
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
 
                 }
@@ -3566,6 +3609,7 @@ namespace Proyectog15WF
                         variablecancion = Recivingsong(this, new ReturnsongEventArgs() { Verifysonginsongofuser = Convert.ToString(MasEsuchadaListBox.SelectedItem) });
                         cancionesdelusuario.Add(variablecancion);
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
                 }
             }
@@ -3581,6 +3625,7 @@ namespace Proyectog15WF
                     {
                         namesong = songqueuelist[0].Path;
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
                 }
             }
@@ -3593,6 +3638,7 @@ namespace Proyectog15WF
                     {
                         namevideo = videoqueuelist[0].Path;
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
                 }
             }
@@ -3668,6 +3714,7 @@ namespace Proyectog15WF
                         Reproduccionesname(this, new ReproduccionesEventArgs() { Nametext = namesong });
                     }
                     pasua = true;
+                    macTrackBar1.Value = 0;
                 }
                 else if (namesong == "" && namevideo != "")
                 {
@@ -3679,6 +3726,7 @@ namespace Proyectog15WF
 
                     }
                     pasua = true;
+                    macTrackBar1.Value = 0;
 
                 }
 
@@ -3848,6 +3896,7 @@ namespace Proyectog15WF
                     {
                         namesong = historialsong[0].Path;
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
                 }
             }
@@ -3860,6 +3909,7 @@ namespace Proyectog15WF
                     {
                         namevideo = historialvideo[0].Path;
                         pasua = false;
+                        macTrackBar1.Value = 0;
                     }
                 }
             }
@@ -3882,6 +3932,7 @@ namespace Proyectog15WF
                         Reproduccionesname(this, new ReproduccionesEventArgs() { Nametext = namesong });
                     }
                     pasua = true;
+                    macTrackBar1.Value = 0;
                 }
                 else if (namesong == "" && namevideo != "")
                 {
@@ -3893,6 +3944,7 @@ namespace Proyectog15WF
 
                     }
                     pasua = true;
+                    macTrackBar1.Value = 0;
                 }
             }
 
@@ -3902,6 +3954,7 @@ namespace Proyectog15WF
                 {
                     historialsong.RemoveAt(historialsong.Count()-1);
                     pasua = false;
+                    macTrackBar1.Value = 0;
                 }
             }
 
@@ -3911,8 +3964,43 @@ namespace Proyectog15WF
                 {
                     historialvideo.RemoveAt(historialvideo.Count()-1);
                     pasua = false;
+                    macTrackBar1.Value = 0;
                 }
             }
+        }
+
+        public void ActualizarDatosTrack()
+        {
+            if (axWindowsMediaPlayer1.playState == WMPLib.WMPPlayState.wmppsPlaying)
+            {
+                macTrackBar1.Maximum = (int)axWindowsMediaPlayer1.Ctlcontrols.currentItem.duration;
+            }
+            else if(axWindowsMediaPlayer1.playState == WMPLib.WMPPlayState.wmppsPaused)
+            {
+                //timer1.Stop();
+
+            }else if (axWindowsMediaPlayer1.playState == WMPLib.WMPPlayState.wmppsStopped)
+            {
+                macTrackBar1.Value = 0;
+            }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            ActualizarDatosTrack();
+            macTrackBar1.Value = (int)axWindowsMediaPlayer1.Ctlcontrols.currentPosition;
+            
+        
+        }
+
+        private void axWindowsMediaPlayer1_PlayStateChange(object sender, AxWMPLib._WMPOCXEvents_PlayStateChangeEvent e)
+        {
+           // ActualizarDatosTrack();
+        }
+
+        private void macTrackBar2_ValueChanged(object sender, decimal value)
+        {
+            axWindowsMediaPlayer1.settings.volume = macTrackBar2.Value;
         }
     }
 }

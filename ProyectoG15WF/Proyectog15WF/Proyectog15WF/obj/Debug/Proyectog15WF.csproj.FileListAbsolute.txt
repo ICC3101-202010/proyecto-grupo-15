@@ -155,3 +155,4 @@ C:\Users\Medicos\Desktop\Trabajo 3\proyecto-grupo-15\ProyectoG15WF\Proyectog15WF
 C:\Users\Medicos\Desktop\Trabajo 3\proyecto-grupo-15\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.csproj.CopyComplete
 C:\Users\Medicos\Desktop\Trabajo 3\proyecto-grupo-15\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.exe
 C:\Users\Medicos\Desktop\Trabajo 3\proyecto-grupo-15\ProyectoG15WF\Proyectog15WF\Proyectog15WF\obj\Debug\Proyectog15WF.pdb
+C:\Users\felij\Desktop\proyecto-grupo-15\ProyectoG15WF\Proyectog15WF\Proyectog15WF\bin\Debug\MACTrackBarLib.dll

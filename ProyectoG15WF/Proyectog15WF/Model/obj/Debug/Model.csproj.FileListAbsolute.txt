@@ -34,3 +34,5 @@ C:\Users\jaime\Desktop\POO\Proyecto Debug\ProyectoG15WF\Proyectog15WF\Model\obj\
 C:\Users\jaime\Desktop\POO\Proyecto Debug\ProyectoG15WF\Proyectog15WF\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
 C:\Users\jaime\Desktop\POO\Proyecto Debug\ProyectoG15WF\Proyectog15WF\Model\obj\Debug\Model.dll
 C:\Users\jaime\Desktop\POO\Proyecto Debug\ProyectoG15WF\Proyectog15WF\Model\obj\Debug\Model.pdb
+C:\Users\felij\Desktop\proyecto-grupo-15\ProyectoG15WF\Proyectog15WF\Model\bin\Debug\MACTrackBarLib.dll
+C:\Users\felij\Desktop\proyecto-grupo-15\ProyectoG15WF\Proyectog15WF\Model\obj\Debug\Model.csproj.CopyComplete
