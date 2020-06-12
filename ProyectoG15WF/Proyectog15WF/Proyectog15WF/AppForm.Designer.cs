@@ -271,9 +271,11 @@
             this.PlaylistVideoLogoMain = new FontAwesome.Sharp.IconPictureBox();
             this.PlaylistSongPanel = new System.Windows.Forms.Panel();
             this.MasEsuchadaPanel = new System.Windows.Forms.Panel();
+            this.DownLoadMasEscuachadosongs = new FontAwesome.Sharp.IconButton();
             this.MasEscuchadaLabel = new System.Windows.Forms.Label();
             this.MasEsuchadaListBox = new System.Windows.Forms.ListBox();
             this.FollowPlaylistSongPanel = new System.Windows.Forms.Panel();
+            this.DowloadFowlowingPlaylistSong = new FontAwesome.Sharp.IconButton();
             this.DejarSeguirCancionbutton = new FontAwesome.Sharp.IconButton();
             this.SongSeguidasPlaylistPanel = new System.Windows.Forms.Panel();
             this.BackPlaylistSeguidas = new FontAwesome.Sharp.IconButton();
@@ -301,6 +303,7 @@
             this.VerCancionesEnMisPlaylistButton = new FontAwesome.Sharp.IconButton();
             this.MyListLabel = new System.Windows.Forms.Label();
             this.MySongsListBox = new System.Windows.Forms.ListBox();
+            this.DownloadMyPlaylistSong = new FontAwesome.Sharp.IconButton();
             this.PlaylitsSongLogoMain = new FontAwesome.Sharp.IconPictureBox();
             this.SideSongPlaylistPanel = new System.Windows.Forms.Panel();
             this.MostLisentSonButton = new FontAwesome.Sharp.IconButton();
@@ -436,9 +439,6 @@
             this.SOPTLOGO = new System.Windows.Forms.Label();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.DownloadMyPlaylistSong = new FontAwesome.Sharp.IconButton();
-            this.DowloadFowlowingPlaylistSong = new FontAwesome.Sharp.IconButton();
-            this.DownLoadMasEscuachadosongs = new FontAwesome.Sharp.IconButton();
             this.StartPanel.SuspendLayout();
             this.LoginPanel.SuspendLayout();
             this.AdminMainPanel.SuspendLayout();
@@ -594,10 +594,9 @@
             this.AdminMainPanel.Controls.Add(this.AdminSearchMainPanel);
             this.AdminMainPanel.Controls.Add(this.SubAdminPanel);
             this.AdminMainPanel.Controls.Add(this.ADMINSoptflixlogo);
-            this.AdminMainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AdminMainPanel.Location = new System.Drawing.Point(0, 0);
             this.AdminMainPanel.Name = "AdminMainPanel";
-            this.AdminMainPanel.Size = new System.Drawing.Size(1024, 768);
+            this.AdminMainPanel.Size = new System.Drawing.Size(1024, 32);
             this.AdminMainPanel.TabIndex = 11;
             this.AdminMainPanel.Visible = false;
             // 
@@ -655,7 +654,7 @@
             this.UploadAdminMainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.UploadAdminMainPanel.Location = new System.Drawing.Point(250, 0);
             this.UploadAdminMainPanel.Name = "UploadAdminMainPanel";
-            this.UploadAdminMainPanel.Size = new System.Drawing.Size(774, 768);
+            this.UploadAdminMainPanel.Size = new System.Drawing.Size(774, 32);
             this.UploadAdminMainPanel.TabIndex = 5;
             this.UploadAdminMainPanel.Visible = false;
             // 
@@ -687,7 +686,7 @@
             this.AdminUploadVideoPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AdminUploadVideoPanel.Location = new System.Drawing.Point(0, 0);
             this.AdminUploadVideoPanel.Name = "AdminUploadVideoPanel";
-            this.AdminUploadVideoPanel.Size = new System.Drawing.Size(774, 768);
+            this.AdminUploadVideoPanel.Size = new System.Drawing.Size(774, 32);
             this.AdminUploadVideoPanel.TabIndex = 2;
             this.AdminUploadVideoPanel.Visible = false;
             // 
@@ -942,7 +941,7 @@
             this.AdminUpLoadSongPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AdminUpLoadSongPanel.Location = new System.Drawing.Point(0, 0);
             this.AdminUpLoadSongPanel.Name = "AdminUpLoadSongPanel";
-            this.AdminUpLoadSongPanel.Size = new System.Drawing.Size(774, 768);
+            this.AdminUpLoadSongPanel.Size = new System.Drawing.Size(774, 32);
             this.AdminUpLoadSongPanel.TabIndex = 1;
             this.AdminUpLoadSongPanel.Visible = false;
             // 
@@ -1171,7 +1170,7 @@
             this.AdminSearchMainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AdminSearchMainPanel.Location = new System.Drawing.Point(250, 0);
             this.AdminSearchMainPanel.Name = "AdminSearchMainPanel";
-            this.AdminSearchMainPanel.Size = new System.Drawing.Size(774, 768);
+            this.AdminSearchMainPanel.Size = new System.Drawing.Size(774, 32);
             this.AdminSearchMainPanel.TabIndex = 1;
             this.AdminSearchMainPanel.Visible = false;
             // 
@@ -1187,7 +1186,7 @@
             this.AdminUserMainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AdminUserMainPanel.Location = new System.Drawing.Point(0, 0);
             this.AdminUserMainPanel.Name = "AdminUserMainPanel";
-            this.AdminUserMainPanel.Size = new System.Drawing.Size(774, 768);
+            this.AdminUserMainPanel.Size = new System.Drawing.Size(774, 32);
             this.AdminUserMainPanel.TabIndex = 2;
             this.AdminUserMainPanel.Visible = false;
             // 
@@ -1278,7 +1277,7 @@
             this.AdminArtistSearchPanl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AdminArtistSearchPanl.Location = new System.Drawing.Point(0, 0);
             this.AdminArtistSearchPanl.Name = "AdminArtistSearchPanl";
-            this.AdminArtistSearchPanl.Size = new System.Drawing.Size(774, 768);
+            this.AdminArtistSearchPanl.Size = new System.Drawing.Size(774, 32);
             this.AdminArtistSearchPanl.TabIndex = 0;
             this.AdminArtistSearchPanl.Visible = false;
             this.AdminArtistSearchPanl.Paint += new System.Windows.Forms.PaintEventHandler(this.AdminArtistSearchPanl_Paint);
@@ -1386,8 +1385,8 @@
             this.SubAdminPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.SubAdminPanel.Location = new System.Drawing.Point(0, 0);
             this.SubAdminPanel.Name = "SubAdminPanel";
-            this.SubAdminPanel.Size = new System.Drawing.Size(250, 768);
-            this.SubAdminPanel.TabIndex = 0;
+            this.SubAdminPanel.Size = new System.Drawing.Size(250, 32);
+            this.SubAdminPanel.TabIndex = 6;
             // 
             // ExitAdminButton
             // 
@@ -1396,7 +1395,7 @@
             this.ExitAdminButton.IconChar = FontAwesome.Sharp.IconChar.SignOutAlt;
             this.ExitAdminButton.IconColor = System.Drawing.Color.Black;
             this.ExitAdminButton.IconSize = 36;
-            this.ExitAdminButton.Location = new System.Drawing.Point(0, 718);
+            this.ExitAdminButton.Location = new System.Drawing.Point(0, -18);
             this.ExitAdminButton.Name = "ExitAdminButton";
             this.ExitAdminButton.Rotation = 0D;
             this.ExitAdminButton.Size = new System.Drawing.Size(50, 49);
@@ -3569,6 +3568,21 @@
             this.MasEsuchadaPanel.TabIndex = 4;
             this.MasEsuchadaPanel.Visible = false;
             // 
+            // DownLoadMasEscuachadosongs
+            // 
+            this.DownLoadMasEscuachadosongs.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.DownLoadMasEscuachadosongs.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.DownLoadMasEscuachadosongs.IconChar = FontAwesome.Sharp.IconChar.Download;
+            this.DownLoadMasEscuachadosongs.IconColor = System.Drawing.Color.Black;
+            this.DownLoadMasEscuachadosongs.IconSize = 36;
+            this.DownLoadMasEscuachadosongs.Location = new System.Drawing.Point(431, 109);
+            this.DownLoadMasEscuachadosongs.Name = "DownLoadMasEscuachadosongs";
+            this.DownLoadMasEscuachadosongs.Rotation = 0D;
+            this.DownLoadMasEscuachadosongs.Size = new System.Drawing.Size(50, 50);
+            this.DownLoadMasEscuachadosongs.TabIndex = 2;
+            this.DownLoadMasEscuachadosongs.UseVisualStyleBackColor = true;
+            this.DownLoadMasEscuachadosongs.Click += new System.EventHandler(this.DownLoadMasEscuachadosongs_Click);
+            // 
             // MasEscuchadaLabel
             // 
             this.MasEscuchadaLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -3608,6 +3622,21 @@
             this.FollowPlaylistSongPanel.Size = new System.Drawing.Size(492, 683);
             this.FollowPlaylistSongPanel.TabIndex = 3;
             this.FollowPlaylistSongPanel.Visible = false;
+            // 
+            // DowloadFowlowingPlaylistSong
+            // 
+            this.DowloadFowlowingPlaylistSong.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.DowloadFowlowingPlaylistSong.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.DowloadFowlowingPlaylistSong.IconChar = FontAwesome.Sharp.IconChar.Download;
+            this.DowloadFowlowingPlaylistSong.IconColor = System.Drawing.Color.Black;
+            this.DowloadFowlowingPlaylistSong.IconSize = 36;
+            this.DowloadFowlowingPlaylistSong.Location = new System.Drawing.Point(428, 236);
+            this.DowloadFowlowingPlaylistSong.Name = "DowloadFowlowingPlaylistSong";
+            this.DowloadFowlowingPlaylistSong.Rotation = 0D;
+            this.DowloadFowlowingPlaylistSong.Size = new System.Drawing.Size(55, 54);
+            this.DowloadFowlowingPlaylistSong.TabIndex = 6;
+            this.DowloadFowlowingPlaylistSong.UseVisualStyleBackColor = true;
+            this.DowloadFowlowingPlaylistSong.Click += new System.EventHandler(this.DowloadFowlowingPlaylistSong_Click);
             // 
             // DejarSeguirCancionbutton
             // 
@@ -3958,6 +3987,21 @@
             this.MySongsListBox.Size = new System.Drawing.Size(351, 504);
             this.MySongsListBox.TabIndex = 0;
             this.MySongsListBox.SelectedIndexChanged += new System.EventHandler(this.MySongsListBox_SelectedIndexChanged);
+            // 
+            // DownloadMyPlaylistSong
+            // 
+            this.DownloadMyPlaylistSong.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.DownloadMyPlaylistSong.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.DownloadMyPlaylistSong.IconChar = FontAwesome.Sharp.IconChar.Download;
+            this.DownloadMyPlaylistSong.IconColor = System.Drawing.Color.Black;
+            this.DownloadMyPlaylistSong.IconSize = 36;
+            this.DownloadMyPlaylistSong.Location = new System.Drawing.Point(428, 166);
+            this.DownloadMyPlaylistSong.Name = "DownloadMyPlaylistSong";
+            this.DownloadMyPlaylistSong.Rotation = 0D;
+            this.DownloadMyPlaylistSong.Size = new System.Drawing.Size(56, 54);
+            this.DownloadMyPlaylistSong.TabIndex = 5;
+            this.DownloadMyPlaylistSong.UseVisualStyleBackColor = true;
+            this.DownloadMyPlaylistSong.Click += new System.EventHandler(this.iconButton2_Click);
             // 
             // PlaylitsSongLogoMain
             // 
@@ -5115,13 +5159,13 @@
             this.macTrackBar1.Maximum = 10;
             this.macTrackBar1.Minimum = 0;
             this.macTrackBar1.Name = "macTrackBar1";
-            this.macTrackBar1.Size = new System.Drawing.Size(724, 33);
+            this.macTrackBar1.Size = new System.Drawing.Size(724, 25);
             this.macTrackBar1.TabIndex = 2;
             this.macTrackBar1.TextTickStyle = System.Windows.Forms.TickStyle.None;
             this.macTrackBar1.TickColor = System.Drawing.Color.Transparent;
             this.macTrackBar1.TickHeight = 4;
             this.macTrackBar1.TrackerColor = System.Drawing.Color.Black;
-            this.macTrackBar1.TrackerSize = new System.Drawing.Size(16, 16);
+            this.macTrackBar1.TrackerSize = new System.Drawing.Size(8, 8);
             this.macTrackBar1.TrackLineColor = System.Drawing.Color.Red;
             this.macTrackBar1.TrackLineHeight = 3;
             this.macTrackBar1.TrackLineSelectedColor = System.Drawing.Color.Lime;
@@ -5849,51 +5893,6 @@
             this.timer1.Enabled = true;
             this.timer1.Interval = 1;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // DownloadMyPlaylistSong
-            // 
-            this.DownloadMyPlaylistSong.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.DownloadMyPlaylistSong.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.DownloadMyPlaylistSong.IconChar = FontAwesome.Sharp.IconChar.Download;
-            this.DownloadMyPlaylistSong.IconColor = System.Drawing.Color.Black;
-            this.DownloadMyPlaylistSong.IconSize = 36;
-            this.DownloadMyPlaylistSong.Location = new System.Drawing.Point(428, 166);
-            this.DownloadMyPlaylistSong.Name = "DownloadMyPlaylistSong";
-            this.DownloadMyPlaylistSong.Rotation = 0D;
-            this.DownloadMyPlaylistSong.Size = new System.Drawing.Size(56, 54);
-            this.DownloadMyPlaylistSong.TabIndex = 5;
-            this.DownloadMyPlaylistSong.UseVisualStyleBackColor = true;
-            this.DownloadMyPlaylistSong.Click += new System.EventHandler(this.iconButton2_Click);
-            // 
-            // DowloadFowlowingPlaylistSong
-            // 
-            this.DowloadFowlowingPlaylistSong.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.DowloadFowlowingPlaylistSong.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.DowloadFowlowingPlaylistSong.IconChar = FontAwesome.Sharp.IconChar.Download;
-            this.DowloadFowlowingPlaylistSong.IconColor = System.Drawing.Color.Black;
-            this.DowloadFowlowingPlaylistSong.IconSize = 36;
-            this.DowloadFowlowingPlaylistSong.Location = new System.Drawing.Point(428, 236);
-            this.DowloadFowlowingPlaylistSong.Name = "DowloadFowlowingPlaylistSong";
-            this.DowloadFowlowingPlaylistSong.Rotation = 0D;
-            this.DowloadFowlowingPlaylistSong.Size = new System.Drawing.Size(55, 54);
-            this.DowloadFowlowingPlaylistSong.TabIndex = 6;
-            this.DowloadFowlowingPlaylistSong.UseVisualStyleBackColor = true;
-            this.DowloadFowlowingPlaylistSong.Click += new System.EventHandler(this.DowloadFowlowingPlaylistSong_Click);
-            // 
-            // DownLoadMasEscuachadosongs
-            // 
-            this.DownLoadMasEscuachadosongs.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.DownLoadMasEscuachadosongs.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.DownLoadMasEscuachadosongs.IconChar = FontAwesome.Sharp.IconChar.Download;
-            this.DownLoadMasEscuachadosongs.IconColor = System.Drawing.Color.Black;
-            this.DownLoadMasEscuachadosongs.IconSize = 36;
-            this.DownLoadMasEscuachadosongs.Location = new System.Drawing.Point(431, 109);
-            this.DownLoadMasEscuachadosongs.Name = "DownLoadMasEscuachadosongs";
-            this.DownLoadMasEscuachadosongs.Rotation = 0D;
-            this.DownLoadMasEscuachadosongs.Size = new System.Drawing.Size(50, 50);
-            this.DownLoadMasEscuachadosongs.TabIndex = 2;
-            this.DownLoadMasEscuachadosongs.UseVisualStyleBackColor = true;
-            this.DownLoadMasEscuachadosongs.Click += new System.EventHandler(this.DownLoadMasEscuachadosongs_Click);
             // 
             // AppForm
             // 
