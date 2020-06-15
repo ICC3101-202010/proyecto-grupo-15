@@ -3675,6 +3675,9 @@ namespace Proyectog15WF
 
         private void NextButton_Click(object sender, EventArgs e)
         {
+            namevideo = "";
+            namesong = "";
+
             if (songqueuelist != null)
             {
                 if (songqueuelist.Count() != 0)
@@ -3684,6 +3687,8 @@ namespace Proyectog15WF
                         namesong = songqueuelist[0].Path;
                         pasua = false;
                         macTrackBar1.Value = 0;
+
+                        historialsong.Add(songqueuelist[0]);
                     }
                 }
             }
@@ -3697,26 +3702,13 @@ namespace Proyectog15WF
                         namevideo = videoqueuelist[0].Path;
                         pasua = false;
                         macTrackBar1.Value = 0;
+
+                        historialvideo.Add(videoqueuelist[0]);
                     }
                 }
             }
 
             actuallogeduser = Userrequest(this, new LoginEventArgs() { UsernameText = nameuser });
-
-            if (songqueuelist != null)
-            {
-                if (songqueuelist.Count() != 0)
-                {
-                    historialsong.Add(songqueuelist[0]);
-                }
-            }
-            if (videoqueuelist != null)
-            {
-                if (videoqueuelist.Count() != 0)
-                {
-                    historialvideo.Add(videoqueuelist[0]);
-                }
-            }
 
             List<Song> updatedsongqueue = actuallogeduser.GetNextSongQueue();
             List<Video> updatedvideoqueue = actuallogeduser.GetNextVideoQueue();
@@ -3755,6 +3747,8 @@ namespace Proyectog15WF
                 }
             }
 
+            bool empty = false;
+
             if (pasua)
             {
                 //ReproduccionMainPanel.Visible = false;
@@ -3773,6 +3767,7 @@ namespace Proyectog15WF
                     }
                     pasua = true;
                     macTrackBar1.Value = 0;
+                    empty = false;
                 }
                 else if (namesong == "" && namevideo != "")
                 {
@@ -3785,20 +3780,15 @@ namespace Proyectog15WF
                     }
                     pasua = true;
                     macTrackBar1.Value = 0;
-
+                    empty = false;
                 }
-
             }
-            
-            if (QueueListBox.Items.Count == 0)
+
+            if (QueueListBox.Items.Count == 0 && empty == true)
             {
-                if (emptyqueue)
-                {
-                    axWindowsMediaPlayer1.Ctlcontrols.stop();
-                    namevideo = "";
-                    namesong = "";
-                }
-                emptyqueue = true;
+                axWindowsMediaPlayer1.Ctlcontrols.stop();
+                namevideo = "";
+                namesong = "";
             }
 
         }
