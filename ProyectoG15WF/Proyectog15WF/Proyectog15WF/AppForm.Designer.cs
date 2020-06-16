@@ -560,7 +560,7 @@
             this.StartPanel.Controls.Add(this.SOPTLOGO);
             this.StartPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.StartPanel.Location = new System.Drawing.Point(0, 0);
-            this.StartPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.StartPanel.Margin = new System.Windows.Forms.Padding(2);
             this.StartPanel.Name = "StartPanel";
             this.StartPanel.Size = new System.Drawing.Size(683, 499);
             this.StartPanel.TabIndex = 0;
@@ -580,7 +580,7 @@
             this.LoginPanel.Controls.Add(this.UsernameLabelLogin);
             this.LoginPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LoginPanel.Location = new System.Drawing.Point(0, 0);
-            this.LoginPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.LoginPanel.Margin = new System.Windows.Forms.Padding(2);
             this.LoginPanel.Name = "LoginPanel";
             this.LoginPanel.Size = new System.Drawing.Size(683, 499);
             this.LoginPanel.TabIndex = 14;
@@ -598,7 +598,7 @@
             this.AdminMainPanel.Controls.Add(this.ADMINSoptflixlogo);
             this.AdminMainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AdminMainPanel.Location = new System.Drawing.Point(0, 0);
-            this.AdminMainPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AdminMainPanel.Margin = new System.Windows.Forms.Padding(2);
             this.AdminMainPanel.Name = "AdminMainPanel";
             this.AdminMainPanel.Size = new System.Drawing.Size(683, 499);
             this.AdminMainPanel.TabIndex = 11;
@@ -613,7 +613,7 @@
             this.mzButtonWindows3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.mzButtonWindows3.EstiloButton = BWCMM.MZButtonWindows.EstiloDeButton.Windows;
             this.mzButtonWindows3.Location = new System.Drawing.Point(603, 0);
-            this.mzButtonWindows3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mzButtonWindows3.Margin = new System.Windows.Forms.Padding(2);
             this.mzButtonWindows3.Name = "mzButtonWindows3";
             this.mzButtonWindows3.ParentControl = this;
             this.mzButtonWindows3.Size = new System.Drawing.Size(40, 24);
@@ -629,7 +629,7 @@
             this.mzButtonWindows2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.mzButtonWindows2.EstiloButton = BWCMM.MZButtonWindows.EstiloDeButton.Windows;
             this.mzButtonWindows2.Location = new System.Drawing.Point(563, 0);
-            this.mzButtonWindows2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mzButtonWindows2.Margin = new System.Windows.Forms.Padding(2);
             this.mzButtonWindows2.Name = "mzButtonWindows2";
             this.mzButtonWindows2.ParentControl = this;
             this.mzButtonWindows2.Size = new System.Drawing.Size(40, 24);
@@ -645,7 +645,7 @@
             this.mzButtonWindows1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.mzButtonWindows1.EstiloButton = BWCMM.MZButtonWindows.EstiloDeButton.Windows;
             this.mzButtonWindows1.Location = new System.Drawing.Point(643, 0);
-            this.mzButtonWindows1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mzButtonWindows1.Margin = new System.Windows.Forms.Padding(2);
             this.mzButtonWindows1.Name = "mzButtonWindows1";
             this.mzButtonWindows1.ParentControl = this;
             this.mzButtonWindows1.Size = new System.Drawing.Size(40, 24);
@@ -660,7 +660,7 @@
             this.UploadAdminMainPanel.Controls.Add(this.UploadAdminlogo);
             this.UploadAdminMainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.UploadAdminMainPanel.Location = new System.Drawing.Point(167, 0);
-            this.UploadAdminMainPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.UploadAdminMainPanel.Margin = new System.Windows.Forms.Padding(2);
             this.UploadAdminMainPanel.Name = "UploadAdminMainPanel";
             this.UploadAdminMainPanel.Size = new System.Drawing.Size(516, 499);
             this.UploadAdminMainPanel.TabIndex = 5;
@@ -693,7 +693,7 @@
             this.AdminUploadVideoPanel.Controls.Add(this.AdminVideoGeneroLabel);
             this.AdminUploadVideoPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AdminUploadVideoPanel.Location = new System.Drawing.Point(0, 0);
-            this.AdminUploadVideoPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AdminUploadVideoPanel.Margin = new System.Windows.Forms.Padding(2);
             this.AdminUploadVideoPanel.Name = "AdminUploadVideoPanel";
             this.AdminUploadVideoPanel.Size = new System.Drawing.Size(516, 499);
             this.AdminUploadVideoPanel.TabIndex = 2;
@@ -711,7 +711,7 @@
             "2k",
             "4k"});
             this.AdminVideoResolucionCOmbobox.Location = new System.Drawing.Point(135, 380);
-            this.AdminVideoResolucionCOmbobox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AdminVideoResolucionCOmbobox.Margin = new System.Windows.Forms.Padding(2);
             this.AdminVideoResolucionCOmbobox.Name = "AdminVideoResolucionCOmbobox";
             this.AdminVideoResolucionCOmbobox.Size = new System.Drawing.Size(315, 21);
             this.AdminVideoResolucionCOmbobox.TabIndex = 43;
@@ -737,7 +737,7 @@
             "Hombre",
             "Otro"});
             this.AdminVideoSexoCombobox.Location = new System.Drawing.Point(135, 311);
-            this.AdminVideoSexoCombobox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AdminVideoSexoCombobox.Margin = new System.Windows.Forms.Padding(2);
             this.AdminVideoSexoCombobox.Name = "AdminVideoSexoCombobox";
             this.AdminVideoSexoCombobox.Size = new System.Drawing.Size(315, 21);
             this.AdminVideoSexoCombobox.TabIndex = 41;
@@ -766,7 +766,7 @@
             this.AdminUploadVideoButton.IconColor = System.Drawing.Color.Black;
             this.AdminUploadVideoButton.IconSize = 36;
             this.AdminUploadVideoButton.Location = new System.Drawing.Point(233, 440);
-            this.AdminUploadVideoButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AdminUploadVideoButton.Margin = new System.Windows.Forms.Padding(2);
             this.AdminUploadVideoButton.Name = "AdminUploadVideoButton";
             this.AdminUploadVideoButton.Rotation = 0D;
             this.AdminUploadVideoButton.Size = new System.Drawing.Size(145, 42);
@@ -781,7 +781,7 @@
             this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.Location = new System.Drawing.Point(135, 343);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(315, 20);
             this.textBox1.TabIndex = 38;
@@ -791,7 +791,7 @@
             this.AdminVideoActorTextbox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.AdminVideoActorTextbox.Location = new System.Drawing.Point(135, 116);
-            this.AdminVideoActorTextbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AdminVideoActorTextbox.Margin = new System.Windows.Forms.Padding(2);
             this.AdminVideoActorTextbox.Name = "AdminVideoActorTextbox";
             this.AdminVideoActorTextbox.Size = new System.Drawing.Size(315, 20);
             this.AdminVideoActorTextbox.TabIndex = 37;
@@ -801,7 +801,7 @@
             this.AdminVideoDirectorTextbox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.AdminVideoDirectorTextbox.Location = new System.Drawing.Point(135, 149);
-            this.AdminVideoDirectorTextbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AdminVideoDirectorTextbox.Margin = new System.Windows.Forms.Padding(2);
             this.AdminVideoDirectorTextbox.Name = "AdminVideoDirectorTextbox";
             this.AdminVideoDirectorTextbox.Size = new System.Drawing.Size(315, 20);
             this.AdminVideoDirectorTextbox.TabIndex = 36;
@@ -811,7 +811,7 @@
             this.AdminVideoEstudioTextbox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.AdminVideoEstudioTextbox.Location = new System.Drawing.Point(135, 181);
-            this.AdminVideoEstudioTextbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AdminVideoEstudioTextbox.Margin = new System.Windows.Forms.Padding(2);
             this.AdminVideoEstudioTextbox.Name = "AdminVideoEstudioTextbox";
             this.AdminVideoEstudioTextbox.Size = new System.Drawing.Size(315, 20);
             this.AdminVideoEstudioTextbox.TabIndex = 35;
@@ -821,7 +821,7 @@
             this.AdminVideoDescipcionTextbox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.AdminVideoDescipcionTextbox.Location = new System.Drawing.Point(135, 213);
-            this.AdminVideoDescipcionTextbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AdminVideoDescipcionTextbox.Margin = new System.Windows.Forms.Padding(2);
             this.AdminVideoDescipcionTextbox.Name = "AdminVideoDescipcionTextbox";
             this.AdminVideoDescipcionTextbox.Size = new System.Drawing.Size(315, 20);
             this.AdminVideoDescipcionTextbox.TabIndex = 34;
@@ -831,7 +831,7 @@
             this.AdminVideoCategoriaTextbox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.AdminVideoCategoriaTextbox.Location = new System.Drawing.Point(135, 279);
-            this.AdminVideoCategoriaTextbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AdminVideoCategoriaTextbox.Margin = new System.Windows.Forms.Padding(2);
             this.AdminVideoCategoriaTextbox.Name = "AdminVideoCategoriaTextbox";
             this.AdminVideoCategoriaTextbox.Size = new System.Drawing.Size(315, 20);
             this.AdminVideoCategoriaTextbox.TabIndex = 33;
@@ -841,7 +841,7 @@
             this.AdminVideoDuracionTextbox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.AdminVideoDuracionTextbox.Location = new System.Drawing.Point(135, 244);
-            this.AdminVideoDuracionTextbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AdminVideoDuracionTextbox.Margin = new System.Windows.Forms.Padding(2);
             this.AdminVideoDuracionTextbox.Name = "AdminVideoDuracionTextbox";
             this.AdminVideoDuracionTextbox.Size = new System.Drawing.Size(315, 20);
             this.AdminVideoDuracionTextbox.TabIndex = 32;
@@ -851,7 +851,7 @@
             this.AdminVideoGeneroTextbox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.AdminVideoGeneroTextbox.Location = new System.Drawing.Point(135, 85);
-            this.AdminVideoGeneroTextbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AdminVideoGeneroTextbox.Margin = new System.Windows.Forms.Padding(2);
             this.AdminVideoGeneroTextbox.Name = "AdminVideoGeneroTextbox";
             this.AdminVideoGeneroTextbox.Size = new System.Drawing.Size(315, 20);
             this.AdminVideoGeneroTextbox.TabIndex = 31;
@@ -971,7 +971,7 @@
             this.AdminUpLoadSongPanel.Controls.Add(this.AdminSongGeneroLabel);
             this.AdminUpLoadSongPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AdminUpLoadSongPanel.Location = new System.Drawing.Point(0, 0);
-            this.AdminUpLoadSongPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AdminUpLoadSongPanel.Margin = new System.Windows.Forms.Padding(2);
             this.AdminUpLoadSongPanel.Name = "AdminUpLoadSongPanel";
             this.AdminUpLoadSongPanel.Size = new System.Drawing.Size(516, 499);
             this.AdminUpLoadSongPanel.TabIndex = 1;
@@ -988,7 +988,7 @@
             "Hombre",
             "Otro"});
             this.AdminSongSexoCombobox.Location = new System.Drawing.Point(135, 311);
-            this.AdminSongSexoCombobox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AdminSongSexoCombobox.Margin = new System.Windows.Forms.Padding(2);
             this.AdminSongSexoCombobox.Name = "AdminSongSexoCombobox";
             this.AdminSongSexoCombobox.Size = new System.Drawing.Size(315, 21);
             this.AdminSongSexoCombobox.TabIndex = 21;
@@ -1017,7 +1017,7 @@
             this.AdminUploadSongButton.IconColor = System.Drawing.Color.Black;
             this.AdminUploadSongButton.IconSize = 36;
             this.AdminUploadSongButton.Location = new System.Drawing.Point(231, 408);
-            this.AdminUploadSongButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AdminUploadSongButton.Margin = new System.Windows.Forms.Padding(2);
             this.AdminUploadSongButton.Name = "AdminUploadSongButton";
             this.AdminUploadSongButton.Rotation = 0D;
             this.AdminUploadSongButton.Size = new System.Drawing.Size(145, 42);
@@ -1032,7 +1032,7 @@
             this.AdminSongEdadTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.AdminSongEdadTextBox.Location = new System.Drawing.Point(135, 343);
-            this.AdminSongEdadTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AdminSongEdadTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.AdminSongEdadTextBox.Name = "AdminSongEdadTextBox";
             this.AdminSongEdadTextBox.Size = new System.Drawing.Size(315, 20);
             this.AdminSongEdadTextBox.TabIndex = 18;
@@ -1042,7 +1042,7 @@
             this.AdminSongCompositorTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.AdminSongCompositorTextBox.Location = new System.Drawing.Point(135, 116);
-            this.AdminSongCompositorTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AdminSongCompositorTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.AdminSongCompositorTextBox.Name = "AdminSongCompositorTextBox";
             this.AdminSongCompositorTextBox.Size = new System.Drawing.Size(315, 20);
             this.AdminSongCompositorTextBox.TabIndex = 16;
@@ -1052,7 +1052,7 @@
             this.AdminSongDiscografiaTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.AdminSongDiscografiaTextBox.Location = new System.Drawing.Point(135, 149);
-            this.AdminSongDiscografiaTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AdminSongDiscografiaTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.AdminSongDiscografiaTextBox.Name = "AdminSongDiscografiaTextBox";
             this.AdminSongDiscografiaTextBox.Size = new System.Drawing.Size(315, 20);
             this.AdminSongDiscografiaTextBox.TabIndex = 15;
@@ -1062,7 +1062,7 @@
             this.AdminSongEstudioTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.AdminSongEstudioTextBox.Location = new System.Drawing.Point(135, 181);
-            this.AdminSongEstudioTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AdminSongEstudioTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.AdminSongEstudioTextBox.Name = "AdminSongEstudioTextBox";
             this.AdminSongEstudioTextBox.Size = new System.Drawing.Size(315, 20);
             this.AdminSongEstudioTextBox.TabIndex = 14;
@@ -1072,7 +1072,7 @@
             this.AdminSongLetraTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.AdminSongLetraTextBox.Location = new System.Drawing.Point(135, 213);
-            this.AdminSongLetraTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AdminSongLetraTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.AdminSongLetraTextBox.Name = "AdminSongLetraTextBox";
             this.AdminSongLetraTextBox.Size = new System.Drawing.Size(315, 20);
             this.AdminSongLetraTextBox.TabIndex = 13;
@@ -1082,7 +1082,7 @@
             this.AdminSongCategoriaTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.AdminSongCategoriaTextBox.Location = new System.Drawing.Point(135, 279);
-            this.AdminSongCategoriaTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AdminSongCategoriaTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.AdminSongCategoriaTextBox.Name = "AdminSongCategoriaTextBox";
             this.AdminSongCategoriaTextBox.Size = new System.Drawing.Size(315, 20);
             this.AdminSongCategoriaTextBox.TabIndex = 12;
@@ -1092,7 +1092,7 @@
             this.AdminSongDuracionTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.AdminSongDuracionTextBox.Location = new System.Drawing.Point(135, 244);
-            this.AdminSongDuracionTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AdminSongDuracionTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.AdminSongDuracionTextBox.Name = "AdminSongDuracionTextBox";
             this.AdminSongDuracionTextBox.Size = new System.Drawing.Size(315, 20);
             this.AdminSongDuracionTextBox.TabIndex = 11;
@@ -1102,7 +1102,7 @@
             this.AdminSongGeneroTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.AdminSongGeneroTextBox.Location = new System.Drawing.Point(135, 85);
-            this.AdminSongGeneroTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AdminSongGeneroTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.AdminSongGeneroTextBox.Name = "AdminSongGeneroTextBox";
             this.AdminSongGeneroTextBox.Size = new System.Drawing.Size(315, 20);
             this.AdminSongGeneroTextBox.TabIndex = 10;
@@ -1207,7 +1207,7 @@
             this.UploadAdminlogo.IconColor = System.Drawing.SystemColors.ControlText;
             this.UploadAdminlogo.IconSize = 123;
             this.UploadAdminlogo.Location = new System.Drawing.Point(221, 177);
-            this.UploadAdminlogo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.UploadAdminlogo.Margin = new System.Windows.Forms.Padding(2);
             this.UploadAdminlogo.Name = "UploadAdminlogo";
             this.UploadAdminlogo.Size = new System.Drawing.Size(126, 123);
             this.UploadAdminlogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -1222,7 +1222,7 @@
             this.AdminSearchMainPanel.Controls.Add(this.SearchAdminlogo);
             this.AdminSearchMainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AdminSearchMainPanel.Location = new System.Drawing.Point(167, 0);
-            this.AdminSearchMainPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AdminSearchMainPanel.Margin = new System.Windows.Forms.Padding(2);
             this.AdminSearchMainPanel.Name = "AdminSearchMainPanel";
             this.AdminSearchMainPanel.Size = new System.Drawing.Size(516, 499);
             this.AdminSearchMainPanel.TabIndex = 1;
@@ -1239,7 +1239,7 @@
             this.AdminUserMainPanel.Controls.Add(this.iconPictureBox6);
             this.AdminUserMainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AdminUserMainPanel.Location = new System.Drawing.Point(0, 0);
-            this.AdminUserMainPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AdminUserMainPanel.Margin = new System.Windows.Forms.Padding(2);
             this.AdminUserMainPanel.Name = "AdminUserMainPanel";
             this.AdminUserMainPanel.Size = new System.Drawing.Size(516, 499);
             this.AdminUserMainPanel.TabIndex = 2;
@@ -1251,7 +1251,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.AdminUserInfoListBox.FormattingEnabled = true;
             this.AdminUserInfoListBox.Location = new System.Drawing.Point(97, 378);
-            this.AdminUserInfoListBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AdminUserInfoListBox.Margin = new System.Windows.Forms.Padding(2);
             this.AdminUserInfoListBox.Name = "AdminUserInfoListBox";
             this.AdminUserInfoListBox.Size = new System.Drawing.Size(334, 69);
             this.AdminUserInfoListBox.TabIndex = 11;
@@ -1266,7 +1266,7 @@
             this.InfoUserButton.IconColor = System.Drawing.Color.Black;
             this.InfoUserButton.IconSize = 36;
             this.InfoUserButton.Location = new System.Drawing.Point(457, 161);
-            this.InfoUserButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.InfoUserButton.Margin = new System.Windows.Forms.Padding(2);
             this.InfoUserButton.Name = "InfoUserButton";
             this.InfoUserButton.Rotation = 0D;
             this.InfoUserButton.Size = new System.Drawing.Size(33, 32);
@@ -1280,7 +1280,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.AdminSearchUserlistBox.FormattingEnabled = true;
             this.AdminSearchUserlistBox.Location = new System.Drawing.Point(97, 160);
-            this.AdminSearchUserlistBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AdminSearchUserlistBox.Margin = new System.Windows.Forms.Padding(2);
             this.AdminSearchUserlistBox.Name = "AdminSearchUserlistBox";
             this.AdminSearchUserlistBox.Size = new System.Drawing.Size(334, 186);
             this.AdminSearchUserlistBox.TabIndex = 9;
@@ -1290,7 +1290,7 @@
             this.AdminSearchUserTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.AdminSearchUserTextBox.Location = new System.Drawing.Point(97, 112);
-            this.AdminSearchUserTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AdminSearchUserTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.AdminSearchUserTextBox.Name = "AdminSearchUserTextBox";
             this.AdminSearchUserTextBox.Size = new System.Drawing.Size(334, 20);
             this.AdminSearchUserTextBox.TabIndex = 8;
@@ -1317,7 +1317,7 @@
             this.iconPictureBox6.IconColor = System.Drawing.SystemColors.ControlText;
             this.iconPictureBox6.IconSize = 45;
             this.iconPictureBox6.Location = new System.Drawing.Point(97, 47);
-            this.iconPictureBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.iconPictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.iconPictureBox6.Name = "iconPictureBox6";
             this.iconPictureBox6.Size = new System.Drawing.Size(47, 45);
             this.iconPictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -1335,7 +1335,7 @@
             this.AdminArtistSearchPanl.Controls.Add(this.SearchAdminIcon);
             this.AdminArtistSearchPanl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AdminArtistSearchPanl.Location = new System.Drawing.Point(0, 0);
-            this.AdminArtistSearchPanl.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AdminArtistSearchPanl.Margin = new System.Windows.Forms.Padding(2);
             this.AdminArtistSearchPanl.Name = "AdminArtistSearchPanl";
             this.AdminArtistSearchPanl.Size = new System.Drawing.Size(516, 499);
             this.AdminArtistSearchPanl.TabIndex = 0;
@@ -1348,7 +1348,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.InfoAristisListbox.FormattingEnabled = true;
             this.InfoAristisListbox.Location = new System.Drawing.Point(97, 378);
-            this.InfoAristisListbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.InfoAristisListbox.Margin = new System.Windows.Forms.Padding(2);
             this.InfoAristisListbox.Name = "InfoAristisListbox";
             this.InfoAristisListbox.Size = new System.Drawing.Size(334, 69);
             this.InfoAristisListbox.TabIndex = 5;
@@ -1363,7 +1363,7 @@
             this.ArtistInfoButton.IconColor = System.Drawing.Color.Black;
             this.ArtistInfoButton.IconSize = 36;
             this.ArtistInfoButton.Location = new System.Drawing.Point(457, 161);
-            this.ArtistInfoButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ArtistInfoButton.Margin = new System.Windows.Forms.Padding(2);
             this.ArtistInfoButton.Name = "ArtistInfoButton";
             this.ArtistInfoButton.Rotation = 0D;
             this.ArtistInfoButton.Size = new System.Drawing.Size(33, 32);
@@ -1377,7 +1377,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.AdminSearchAristlistBox1.FormattingEnabled = true;
             this.AdminSearchAristlistBox1.Location = new System.Drawing.Point(97, 160);
-            this.AdminSearchAristlistBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AdminSearchAristlistBox1.Margin = new System.Windows.Forms.Padding(2);
             this.AdminSearchAristlistBox1.Name = "AdminSearchAristlistBox1";
             this.AdminSearchAristlistBox1.Size = new System.Drawing.Size(334, 186);
             this.AdminSearchAristlistBox1.TabIndex = 3;
@@ -1387,7 +1387,7 @@
             this.AdminSearchAristTextbox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.AdminSearchAristTextbox.Location = new System.Drawing.Point(97, 112);
-            this.AdminSearchAristTextbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AdminSearchAristTextbox.Margin = new System.Windows.Forms.Padding(2);
             this.AdminSearchAristTextbox.Name = "AdminSearchAristTextbox";
             this.AdminSearchAristTextbox.Size = new System.Drawing.Size(334, 20);
             this.AdminSearchAristTextbox.TabIndex = 2;
@@ -1414,7 +1414,7 @@
             this.SearchAdminIcon.IconColor = System.Drawing.SystemColors.ControlText;
             this.SearchAdminIcon.IconSize = 45;
             this.SearchAdminIcon.Location = new System.Drawing.Point(97, 47);
-            this.SearchAdminIcon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SearchAdminIcon.Margin = new System.Windows.Forms.Padding(2);
             this.SearchAdminIcon.Name = "SearchAdminIcon";
             this.SearchAdminIcon.Size = new System.Drawing.Size(47, 45);
             this.SearchAdminIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -1431,7 +1431,7 @@
             this.SearchAdminlogo.IconColor = System.Drawing.SystemColors.ControlText;
             this.SearchAdminlogo.IconSize = 155;
             this.SearchAdminlogo.Location = new System.Drawing.Point(187, 103);
-            this.SearchAdminlogo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SearchAdminlogo.Margin = new System.Windows.Forms.Padding(2);
             this.SearchAdminlogo.Name = "SearchAdminlogo";
             this.SearchAdminlogo.Size = new System.Drawing.Size(159, 155);
             this.SearchAdminlogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -1449,7 +1449,7 @@
             this.SubAdminPanel.Controls.Add(this.LogoSubPanel);
             this.SubAdminPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.SubAdminPanel.Location = new System.Drawing.Point(0, 0);
-            this.SubAdminPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SubAdminPanel.Margin = new System.Windows.Forms.Padding(2);
             this.SubAdminPanel.Name = "SubAdminPanel";
             this.SubAdminPanel.Size = new System.Drawing.Size(167, 499);
             this.SubAdminPanel.TabIndex = 6;
@@ -1462,7 +1462,7 @@
             this.ExitAdminButton.IconColor = System.Drawing.Color.Black;
             this.ExitAdminButton.IconSize = 36;
             this.ExitAdminButton.Location = new System.Drawing.Point(0, 467);
-            this.ExitAdminButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ExitAdminButton.Margin = new System.Windows.Forms.Padding(2);
             this.ExitAdminButton.Name = "ExitAdminButton";
             this.ExitAdminButton.Rotation = 0D;
             this.ExitAdminButton.Size = new System.Drawing.Size(33, 32);
@@ -1477,7 +1477,7 @@
             this.SubAdminUploadContent.Controls.Add(this.UploadAdminSongButton);
             this.SubAdminUploadContent.Dock = System.Windows.Forms.DockStyle.Top;
             this.SubAdminUploadContent.Location = new System.Drawing.Point(0, 177);
-            this.SubAdminUploadContent.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SubAdminUploadContent.Margin = new System.Windows.Forms.Padding(2);
             this.SubAdminUploadContent.Name = "SubAdminUploadContent";
             this.SubAdminUploadContent.Size = new System.Drawing.Size(167, 58);
             this.SubAdminUploadContent.TabIndex = 4;
@@ -1490,7 +1490,7 @@
             this.UploadAdminVideoButton.FlatAppearance.BorderSize = 0;
             this.UploadAdminVideoButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.UploadAdminVideoButton.Location = new System.Drawing.Point(0, 29);
-            this.UploadAdminVideoButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.UploadAdminVideoButton.Margin = new System.Windows.Forms.Padding(2);
             this.UploadAdminVideoButton.Name = "UploadAdminVideoButton";
             this.UploadAdminVideoButton.Size = new System.Drawing.Size(167, 29);
             this.UploadAdminVideoButton.TabIndex = 1;
@@ -1505,7 +1505,7 @@
             this.UploadAdminSongButton.FlatAppearance.BorderSize = 0;
             this.UploadAdminSongButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.UploadAdminSongButton.Location = new System.Drawing.Point(0, 0);
-            this.UploadAdminSongButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.UploadAdminSongButton.Margin = new System.Windows.Forms.Padding(2);
             this.UploadAdminSongButton.Name = "UploadAdminSongButton";
             this.UploadAdminSongButton.Size = new System.Drawing.Size(167, 29);
             this.UploadAdminSongButton.TabIndex = 0;
@@ -1521,7 +1521,7 @@
             this.UploadContenButton.IconColor = System.Drawing.Color.Yellow;
             this.UploadContenButton.IconSize = 36;
             this.UploadContenButton.Location = new System.Drawing.Point(0, 141);
-            this.UploadContenButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.UploadContenButton.Margin = new System.Windows.Forms.Padding(2);
             this.UploadContenButton.Name = "UploadContenButton";
             this.UploadContenButton.Rotation = 0D;
             this.UploadContenButton.Size = new System.Drawing.Size(167, 36);
@@ -1538,7 +1538,7 @@
             this.SubAdminSearchPanel.Controls.Add(this.SearchAdminArtistButton);
             this.SubAdminSearchPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.SubAdminSearchPanel.Location = new System.Drawing.Point(0, 83);
-            this.SubAdminSearchPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SubAdminSearchPanel.Margin = new System.Windows.Forms.Padding(2);
             this.SubAdminSearchPanel.Name = "SubAdminSearchPanel";
             this.SubAdminSearchPanel.Size = new System.Drawing.Size(167, 58);
             this.SubAdminSearchPanel.TabIndex = 2;
@@ -1551,7 +1551,7 @@
             this.SearchAdminUserbutton.FlatAppearance.BorderSize = 0;
             this.SearchAdminUserbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SearchAdminUserbutton.Location = new System.Drawing.Point(0, 29);
-            this.SearchAdminUserbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SearchAdminUserbutton.Margin = new System.Windows.Forms.Padding(2);
             this.SearchAdminUserbutton.Name = "SearchAdminUserbutton";
             this.SearchAdminUserbutton.Size = new System.Drawing.Size(167, 29);
             this.SearchAdminUserbutton.TabIndex = 1;
@@ -1566,7 +1566,7 @@
             this.SearchAdminArtistButton.FlatAppearance.BorderSize = 0;
             this.SearchAdminArtistButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SearchAdminArtistButton.Location = new System.Drawing.Point(0, 0);
-            this.SearchAdminArtistButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SearchAdminArtistButton.Margin = new System.Windows.Forms.Padding(2);
             this.SearchAdminArtistButton.Name = "SearchAdminArtistButton";
             this.SearchAdminArtistButton.Size = new System.Drawing.Size(167, 29);
             this.SearchAdminArtistButton.TabIndex = 0;
@@ -1582,7 +1582,7 @@
             this.SearchAdminButton.IconColor = System.Drawing.Color.DarkRed;
             this.SearchAdminButton.IconSize = 36;
             this.SearchAdminButton.Location = new System.Drawing.Point(0, 47);
-            this.SearchAdminButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SearchAdminButton.Margin = new System.Windows.Forms.Padding(2);
             this.SearchAdminButton.Name = "SearchAdminButton";
             this.SearchAdminButton.Rotation = 0D;
             this.SearchAdminButton.Size = new System.Drawing.Size(167, 36);
@@ -1598,7 +1598,7 @@
             this.LogoSubPanel.Controls.Add(this.AdminLabel);
             this.LogoSubPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.LogoSubPanel.Location = new System.Drawing.Point(0, 0);
-            this.LogoSubPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.LogoSubPanel.Margin = new System.Windows.Forms.Padding(2);
             this.LogoSubPanel.Name = "LogoSubPanel";
             this.LogoSubPanel.Size = new System.Drawing.Size(167, 47);
             this.LogoSubPanel.TabIndex = 0;
@@ -1639,7 +1639,7 @@
             this.MainPanel.Controls.Add(this.SideMainPanel);
             this.MainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MainPanel.Location = new System.Drawing.Point(0, 0);
-            this.MainPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MainPanel.Margin = new System.Windows.Forms.Padding(2);
             this.MainPanel.Name = "MainPanel";
             this.MainPanel.Size = new System.Drawing.Size(683, 499);
             this.MainPanel.TabIndex = 10;
@@ -1654,7 +1654,7 @@
             this.CloseButtonMain.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CloseButtonMain.EstiloButton = BWCMM.MZButtonWindows.EstiloDeButton.Windows;
             this.CloseButtonMain.Location = new System.Drawing.Point(643, 0);
-            this.CloseButtonMain.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CloseButtonMain.Margin = new System.Windows.Forms.Padding(2);
             this.CloseButtonMain.Name = "CloseButtonMain";
             this.CloseButtonMain.ParentControl = this;
             this.CloseButtonMain.Size = new System.Drawing.Size(40, 24);
@@ -1670,7 +1670,7 @@
             this.MaximizarButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MaximizarButton.EstiloButton = BWCMM.MZButtonWindows.EstiloDeButton.Windows;
             this.MaximizarButton.Location = new System.Drawing.Point(603, 0);
-            this.MaximizarButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MaximizarButton.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizarButton.Name = "MaximizarButton";
             this.MaximizarButton.ParentControl = this;
             this.MaximizarButton.Size = new System.Drawing.Size(40, 24);
@@ -1686,7 +1686,7 @@
             this.MinimizarButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MinimizarButton.EstiloButton = BWCMM.MZButtonWindows.EstiloDeButton.Windows;
             this.MinimizarButton.Location = new System.Drawing.Point(563, 0);
-            this.MinimizarButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MinimizarButton.Margin = new System.Windows.Forms.Padding(2);
             this.MinimizarButton.Name = "MinimizarButton";
             this.MinimizarButton.ParentControl = this;
             this.MinimizarButton.Size = new System.Drawing.Size(40, 24);
@@ -1704,7 +1704,7 @@
             this.MainScreenPanel.Controls.Add(this.SPOTFLIXlOGO);
             this.MainScreenPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MainScreenPanel.Location = new System.Drawing.Point(201, 0);
-            this.MainScreenPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MainScreenPanel.Margin = new System.Windows.Forms.Padding(2);
             this.MainScreenPanel.Name = "MainScreenPanel";
             this.MainScreenPanel.Size = new System.Drawing.Size(482, 444);
             this.MainScreenPanel.TabIndex = 2;
@@ -1716,7 +1716,7 @@
             this.ReproduccionMainPanel.Controls.Add(this.axWindowsMediaPlayer1);
             this.ReproduccionMainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ReproduccionMainPanel.Location = new System.Drawing.Point(0, 0);
-            this.ReproduccionMainPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ReproduccionMainPanel.Margin = new System.Windows.Forms.Padding(2);
             this.ReproduccionMainPanel.Name = "ReproduccionMainPanel";
             this.ReproduccionMainPanel.Size = new System.Drawing.Size(482, 444);
             this.ReproduccionMainPanel.TabIndex = 13;
@@ -1729,7 +1729,7 @@
             this.QueuePanel.Controls.Add(this.QueueListBox);
             this.QueuePanel.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.QueuePanel.Location = new System.Drawing.Point(0, 332);
-            this.QueuePanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.QueuePanel.Margin = new System.Windows.Forms.Padding(2);
             this.QueuePanel.Name = "QueuePanel";
             this.QueuePanel.Size = new System.Drawing.Size(482, 112);
             this.QueuePanel.TabIndex = 1;
@@ -1744,7 +1744,7 @@
             this.EliminarMediaQueueButton.IconColor = System.Drawing.Color.Black;
             this.EliminarMediaQueueButton.IconSize = 16;
             this.EliminarMediaQueueButton.Location = new System.Drawing.Point(448, 0);
-            this.EliminarMediaQueueButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.EliminarMediaQueueButton.Margin = new System.Windows.Forms.Padding(2);
             this.EliminarMediaQueueButton.Name = "EliminarMediaQueueButton";
             this.EliminarMediaQueueButton.Rotation = 0D;
             this.EliminarMediaQueueButton.Size = new System.Drawing.Size(34, 17);
@@ -1757,7 +1757,7 @@
             this.QueueListBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.QueueListBox.FormattingEnabled = true;
             this.QueueListBox.Location = new System.Drawing.Point(0, 0);
-            this.QueueListBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.QueueListBox.Margin = new System.Windows.Forms.Padding(2);
             this.QueueListBox.Name = "QueueListBox";
             this.QueueListBox.Size = new System.Drawing.Size(482, 112);
             this.QueueListBox.TabIndex = 0;
@@ -1767,7 +1767,7 @@
             this.axWindowsMediaPlayer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.axWindowsMediaPlayer1.Enabled = true;
             this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(0, 0);
-            this.axWindowsMediaPlayer1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.axWindowsMediaPlayer1.Margin = new System.Windows.Forms.Padding(2);
             this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
             this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
             this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(482, 444);
@@ -1781,7 +1781,7 @@
             this.ProfileMainPanel.Controls.Add(this.EditeProfilePanel);
             this.ProfileMainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ProfileMainPanel.Location = new System.Drawing.Point(0, 0);
-            this.ProfileMainPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ProfileMainPanel.Margin = new System.Windows.Forms.Padding(2);
             this.ProfileMainPanel.Name = "ProfileMainPanel";
             this.ProfileMainPanel.Size = new System.Drawing.Size(482, 444);
             this.ProfileMainPanel.TabIndex = 12;
@@ -1795,7 +1795,7 @@
             this.MiInformacionPanel.Controls.Add(this.SideMiInformacionPanel);
             this.MiInformacionPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MiInformacionPanel.Location = new System.Drawing.Point(0, 0);
-            this.MiInformacionPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MiInformacionPanel.Margin = new System.Windows.Forms.Padding(2);
             this.MiInformacionPanel.Name = "MiInformacionPanel";
             this.MiInformacionPanel.Size = new System.Drawing.Size(482, 444);
             this.MiInformacionPanel.TabIndex = 1;
@@ -1807,7 +1807,7 @@
             this.SeguidosPanel.Controls.Add(this.SeguidosListBox);
             this.SeguidosPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.SeguidosPanel.Location = new System.Drawing.Point(171, 0);
-            this.SeguidosPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SeguidosPanel.Margin = new System.Windows.Forms.Padding(2);
             this.SeguidosPanel.Name = "SeguidosPanel";
             this.SeguidosPanel.Size = new System.Drawing.Size(311, 444);
             this.SeguidosPanel.TabIndex = 3;
@@ -1821,7 +1821,7 @@
             this.DejarDeSeguirButton1.IconColor = System.Drawing.Color.Black;
             this.DejarDeSeguirButton1.IconSize = 36;
             this.DejarDeSeguirButton1.Location = new System.Drawing.Point(268, 68);
-            this.DejarDeSeguirButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DejarDeSeguirButton1.Margin = new System.Windows.Forms.Padding(2);
             this.DejarDeSeguirButton1.Name = "DejarDeSeguirButton1";
             this.DejarDeSeguirButton1.Rotation = 0D;
             this.DejarDeSeguirButton1.Size = new System.Drawing.Size(37, 36);
@@ -1846,7 +1846,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.SeguidosListBox.FormattingEnabled = true;
             this.SeguidosListBox.Location = new System.Drawing.Point(53, 68);
-            this.SeguidosListBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SeguidosListBox.Margin = new System.Windows.Forms.Padding(2);
             this.SeguidosListBox.Name = "SeguidosListBox";
             this.SeguidosListBox.Size = new System.Drawing.Size(218, 277);
             this.SeguidosListBox.TabIndex = 0;
@@ -1858,7 +1858,7 @@
             this.SeguidoresPanel.Controls.Add(this.SeguidoreslistBox);
             this.SeguidoresPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.SeguidoresPanel.Location = new System.Drawing.Point(171, 0);
-            this.SeguidoresPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SeguidoresPanel.Margin = new System.Windows.Forms.Padding(2);
             this.SeguidoresPanel.Name = "SeguidoresPanel";
             this.SeguidoresPanel.Size = new System.Drawing.Size(311, 444);
             this.SeguidoresPanel.TabIndex = 2;
@@ -1882,7 +1882,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.SeguidoreslistBox.FormattingEnabled = true;
             this.SeguidoreslistBox.Location = new System.Drawing.Point(47, 68);
-            this.SeguidoreslistBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SeguidoreslistBox.Margin = new System.Windows.Forms.Padding(2);
             this.SeguidoreslistBox.Name = "SeguidoreslistBox";
             this.SeguidoreslistBox.Size = new System.Drawing.Size(218, 277);
             this.SeguidoreslistBox.TabIndex = 0;
@@ -1896,7 +1896,7 @@
             this.UserNameInfoInput.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.UserNameInfoInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UserNameInfoInput.Location = new System.Drawing.Point(200, 211);
-            this.UserNameInfoInput.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.UserNameInfoInput.Margin = new System.Windows.Forms.Padding(2);
             this.UserNameInfoInput.Name = "UserNameInfoInput";
             this.UserNameInfoInput.ReadOnly = true;
             this.UserNameInfoInput.Size = new System.Drawing.Size(232, 34);
@@ -1909,7 +1909,7 @@
             this.SideMiInformacionPanel.Controls.Add(this.MiInformacionLogoPanel);
             this.SideMiInformacionPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.SideMiInformacionPanel.Location = new System.Drawing.Point(0, 0);
-            this.SideMiInformacionPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SideMiInformacionPanel.Margin = new System.Windows.Forms.Padding(2);
             this.SideMiInformacionPanel.Name = "SideMiInformacionPanel";
             this.SideMiInformacionPanel.Size = new System.Drawing.Size(171, 444);
             this.SideMiInformacionPanel.TabIndex = 0;
@@ -1922,7 +1922,7 @@
             this.FollowButton.IconColor = System.Drawing.Color.Black;
             this.FollowButton.IconSize = 36;
             this.FollowButton.Location = new System.Drawing.Point(0, 104);
-            this.FollowButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FollowButton.Margin = new System.Windows.Forms.Padding(2);
             this.FollowButton.Name = "FollowButton";
             this.FollowButton.Rotation = 0D;
             this.FollowButton.Size = new System.Drawing.Size(171, 36);
@@ -1940,7 +1940,7 @@
             this.FollowersButton.IconColor = System.Drawing.Color.Black;
             this.FollowersButton.IconSize = 36;
             this.FollowersButton.Location = new System.Drawing.Point(0, 68);
-            this.FollowersButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FollowersButton.Margin = new System.Windows.Forms.Padding(2);
             this.FollowersButton.Name = "FollowersButton";
             this.FollowersButton.Rotation = 0D;
             this.FollowersButton.Size = new System.Drawing.Size(171, 36);
@@ -1955,7 +1955,7 @@
             this.MiInformacionLogoPanel.Controls.Add(this.iconPictureBox2);
             this.MiInformacionLogoPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.MiInformacionLogoPanel.Location = new System.Drawing.Point(0, 0);
-            this.MiInformacionLogoPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MiInformacionLogoPanel.Margin = new System.Windows.Forms.Padding(2);
             this.MiInformacionLogoPanel.Name = "MiInformacionLogoPanel";
             this.MiInformacionLogoPanel.Size = new System.Drawing.Size(171, 68);
             this.MiInformacionLogoPanel.TabIndex = 0;
@@ -1969,7 +1969,7 @@
             this.iconPictureBox2.IconColor = System.Drawing.SystemColors.ControlText;
             this.iconPictureBox2.IconSize = 68;
             this.iconPictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.iconPictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.iconPictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.iconPictureBox2.Name = "iconPictureBox2";
             this.iconPictureBox2.Size = new System.Drawing.Size(171, 68);
             this.iconPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -1984,7 +1984,7 @@
             this.EditeProfilePanel.Controls.Add(this.SideProfilePanel);
             this.EditeProfilePanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.EditeProfilePanel.Location = new System.Drawing.Point(0, 0);
-            this.EditeProfilePanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.EditeProfilePanel.Margin = new System.Windows.Forms.Padding(2);
             this.EditeProfilePanel.Name = "EditeProfilePanel";
             this.EditeProfilePanel.Size = new System.Drawing.Size(482, 444);
             this.EditeProfilePanel.TabIndex = 0;
@@ -1995,7 +1995,7 @@
             this.ImagePanel.Controls.Add(this.LoadImageButton);
             this.ImagePanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ImagePanel.Location = new System.Drawing.Point(171, 0);
-            this.ImagePanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ImagePanel.Margin = new System.Windows.Forms.Padding(2);
             this.ImagePanel.Name = "ImagePanel";
             this.ImagePanel.Size = new System.Drawing.Size(311, 444);
             this.ImagePanel.TabIndex = 22;
@@ -2003,12 +2003,10 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(69, 68);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(172, 183);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -2017,14 +2015,12 @@
             // 
             // LoadImageButton
             // 
-            this.LoadImageButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.LoadImageButton.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
             this.LoadImageButton.IconChar = FontAwesome.Sharp.IconChar.CloudUploadAlt;
             this.LoadImageButton.IconColor = System.Drawing.Color.Black;
             this.LoadImageButton.IconSize = 36;
             this.LoadImageButton.Location = new System.Drawing.Point(105, 284);
-            this.LoadImageButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.LoadImageButton.Margin = new System.Windows.Forms.Padding(2);
             this.LoadImageButton.Name = "LoadImageButton";
             this.LoadImageButton.Rotation = 0D;
             this.LoadImageButton.Size = new System.Drawing.Size(102, 44);
@@ -2057,7 +2053,7 @@
             this.CuentaPanel.Controls.Add(this.CuentaLabel);
             this.CuentaPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.CuentaPanel.Location = new System.Drawing.Point(171, 0);
-            this.CuentaPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CuentaPanel.Margin = new System.Windows.Forms.Padding(2);
             this.CuentaPanel.Name = "CuentaPanel";
             this.CuentaPanel.Size = new System.Drawing.Size(311, 444);
             this.CuentaPanel.TabIndex = 3;
@@ -2083,7 +2079,7 @@
             "Publico",
             "Privado"});
             this.PrivacidadInputCuenta.Location = new System.Drawing.Point(115, 289);
-            this.PrivacidadInputCuenta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PrivacidadInputCuenta.Margin = new System.Windows.Forms.Padding(2);
             this.PrivacidadInputCuenta.Name = "PrivacidadInputCuenta";
             this.PrivacidadInputCuenta.Size = new System.Drawing.Size(171, 21);
             this.PrivacidadInputCuenta.TabIndex = 19;
@@ -2100,7 +2096,7 @@
             "Otro",
             "None"});
             this.GeneroComboBox.Location = new System.Drawing.Point(116, 227);
-            this.GeneroComboBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GeneroComboBox.Margin = new System.Windows.Forms.Padding(2);
             this.GeneroComboBox.Name = "GeneroComboBox";
             this.GeneroComboBox.Size = new System.Drawing.Size(170, 21);
             this.GeneroComboBox.TabIndex = 9;
@@ -2130,7 +2126,7 @@
             this.AceptarCambioCuenta.IconColor = System.Drawing.Color.Black;
             this.AceptarCambioCuenta.IconSize = 36;
             this.AceptarCambioCuenta.Location = new System.Drawing.Point(139, 360);
-            this.AceptarCambioCuenta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AceptarCambioCuenta.Margin = new System.Windows.Forms.Padding(2);
             this.AceptarCambioCuenta.Name = "AceptarCambioCuenta";
             this.AceptarCambioCuenta.Rotation = 0D;
             this.AceptarCambioCuenta.Size = new System.Drawing.Size(132, 40);
@@ -2145,7 +2141,7 @@
             this.MailCuentaInput.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.MailCuentaInput.Location = new System.Drawing.Point(115, 169);
-            this.MailCuentaInput.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MailCuentaInput.Margin = new System.Windows.Forms.Padding(2);
             this.MailCuentaInput.Name = "MailCuentaInput";
             this.MailCuentaInput.ReadOnly = true;
             this.MailCuentaInput.Size = new System.Drawing.Size(170, 20);
@@ -2156,7 +2152,7 @@
             this.NombreCuentaImput.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.NombreCuentaImput.Location = new System.Drawing.Point(116, 77);
-            this.NombreCuentaImput.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.NombreCuentaImput.Margin = new System.Windows.Forms.Padding(2);
             this.NombreCuentaImput.Name = "NombreCuentaImput";
             this.NombreCuentaImput.ReadOnly = true;
             this.NombreCuentaImput.Size = new System.Drawing.Size(170, 20);
@@ -2167,7 +2163,7 @@
             this.ApellidoCuentaInput.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.ApellidoCuentaInput.Location = new System.Drawing.Point(115, 106);
-            this.ApellidoCuentaInput.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ApellidoCuentaInput.Margin = new System.Windows.Forms.Padding(2);
             this.ApellidoCuentaInput.Name = "ApellidoCuentaInput";
             this.ApellidoCuentaInput.ReadOnly = true;
             this.ApellidoCuentaInput.Size = new System.Drawing.Size(170, 20);
@@ -2178,7 +2174,7 @@
             this.UsuarioCuentaInput.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.UsuarioCuentaInput.Location = new System.Drawing.Point(115, 137);
-            this.UsuarioCuentaInput.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.UsuarioCuentaInput.Margin = new System.Windows.Forms.Padding(2);
             this.UsuarioCuentaInput.Name = "UsuarioCuentaInput";
             this.UsuarioCuentaInput.ReadOnly = true;
             this.UsuarioCuentaInput.Size = new System.Drawing.Size(171, 20);
@@ -2189,7 +2185,7 @@
             this.EdadCuentaInput.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.EdadCuentaInput.Location = new System.Drawing.Point(116, 198);
-            this.EdadCuentaInput.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.EdadCuentaInput.Margin = new System.Windows.Forms.Padding(2);
             this.EdadCuentaInput.Name = "EdadCuentaInput";
             this.EdadCuentaInput.Size = new System.Drawing.Size(170, 20);
             this.EdadCuentaInput.TabIndex = 11;
@@ -2203,7 +2199,7 @@
             "Free",
             "Premium"});
             this.TipoDeCuentaCombobox.Location = new System.Drawing.Point(115, 257);
-            this.TipoDeCuentaCombobox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TipoDeCuentaCombobox.Margin = new System.Windows.Forms.Padding(2);
             this.TipoDeCuentaCombobox.Name = "TipoDeCuentaCombobox";
             this.TipoDeCuentaCombobox.Size = new System.Drawing.Size(171, 21);
             this.TipoDeCuentaCombobox.TabIndex = 8;
@@ -2303,7 +2299,7 @@
             this.CambiarContraseñaPanel.Controls.Add(this.ContraseñaActualLabel);
             this.CambiarContraseñaPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.CambiarContraseñaPanel.Location = new System.Drawing.Point(171, 0);
-            this.CambiarContraseñaPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CambiarContraseñaPanel.Margin = new System.Windows.Forms.Padding(2);
             this.CambiarContraseñaPanel.Name = "CambiarContraseñaPanel";
             this.CambiarContraseñaPanel.Size = new System.Drawing.Size(311, 444);
             this.CambiarContraseñaPanel.TabIndex = 1;
@@ -2339,7 +2335,7 @@
             this.NuevaContraseñainput.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.NuevaContraseñainput.Location = new System.Drawing.Point(137, 108);
-            this.NuevaContraseñainput.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.NuevaContraseñainput.Margin = new System.Windows.Forms.Padding(2);
             this.NuevaContraseñainput.Name = "NuevaContraseñainput";
             this.NuevaContraseñainput.PasswordChar = '*';
             this.NuevaContraseñainput.Size = new System.Drawing.Size(139, 20);
@@ -2350,7 +2346,7 @@
             this.ContraseñaActualInput.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.ContraseñaActualInput.Location = new System.Drawing.Point(137, 75);
-            this.ContraseñaActualInput.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ContraseñaActualInput.Margin = new System.Windows.Forms.Padding(2);
             this.ContraseñaActualInput.Name = "ContraseñaActualInput";
             this.ContraseñaActualInput.PasswordChar = '*';
             this.ContraseñaActualInput.Size = new System.Drawing.Size(139, 20);
@@ -2361,7 +2357,7 @@
             this.CambiarContraseñaButton.BackColor = System.Drawing.Color.MediumSlateBlue;
             this.CambiarContraseñaButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CambiarContraseñaButton.Location = new System.Drawing.Point(166, 153);
-            this.CambiarContraseñaButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CambiarContraseñaButton.Margin = new System.Windows.Forms.Padding(2);
             this.CambiarContraseñaButton.Name = "CambiarContraseñaButton";
             this.CambiarContraseñaButton.Size = new System.Drawing.Size(92, 42);
             this.CambiarContraseñaButton.TabIndex = 3;
@@ -2408,7 +2404,7 @@
             this.SideProfilePanel.Controls.Add(this.LogoProfilePanel);
             this.SideProfilePanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.SideProfilePanel.Location = new System.Drawing.Point(0, 0);
-            this.SideProfilePanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SideProfilePanel.Margin = new System.Windows.Forms.Padding(2);
             this.SideProfilePanel.Name = "SideProfilePanel";
             this.SideProfilePanel.Size = new System.Drawing.Size(171, 444);
             this.SideProfilePanel.TabIndex = 0;
@@ -2421,7 +2417,7 @@
             this.CambiarFotoButton.IconColor = System.Drawing.Color.Black;
             this.CambiarFotoButton.IconSize = 36;
             this.CambiarFotoButton.Location = new System.Drawing.Point(0, 140);
-            this.CambiarFotoButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CambiarFotoButton.Margin = new System.Windows.Forms.Padding(2);
             this.CambiarFotoButton.Name = "CambiarFotoButton";
             this.CambiarFotoButton.Rotation = 0D;
             this.CambiarFotoButton.Size = new System.Drawing.Size(171, 36);
@@ -2439,7 +2435,7 @@
             this.CuentaButton.IconColor = System.Drawing.Color.Black;
             this.CuentaButton.IconSize = 36;
             this.CuentaButton.Location = new System.Drawing.Point(0, 104);
-            this.CuentaButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CuentaButton.Margin = new System.Windows.Forms.Padding(2);
             this.CuentaButton.Name = "CuentaButton";
             this.CuentaButton.Rotation = 0D;
             this.CuentaButton.Size = new System.Drawing.Size(171, 36);
@@ -2457,7 +2453,7 @@
             this.ChangePasswordButton.IconColor = System.Drawing.Color.Black;
             this.ChangePasswordButton.IconSize = 36;
             this.ChangePasswordButton.Location = new System.Drawing.Point(0, 68);
-            this.ChangePasswordButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ChangePasswordButton.Margin = new System.Windows.Forms.Padding(2);
             this.ChangePasswordButton.Name = "ChangePasswordButton";
             this.ChangePasswordButton.Rotation = 0D;
             this.ChangePasswordButton.Size = new System.Drawing.Size(171, 36);
@@ -2472,7 +2468,7 @@
             this.LogoProfilePanel.Controls.Add(this.EditeUserIcon);
             this.LogoProfilePanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.LogoProfilePanel.Location = new System.Drawing.Point(0, 0);
-            this.LogoProfilePanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.LogoProfilePanel.Margin = new System.Windows.Forms.Padding(2);
             this.LogoProfilePanel.Name = "LogoProfilePanel";
             this.LogoProfilePanel.Size = new System.Drawing.Size(171, 68);
             this.LogoProfilePanel.TabIndex = 0;
@@ -2486,7 +2482,7 @@
             this.EditeUserIcon.IconColor = System.Drawing.SystemColors.ControlText;
             this.EditeUserIcon.IconSize = 68;
             this.EditeUserIcon.Location = new System.Drawing.Point(0, 0);
-            this.EditeUserIcon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.EditeUserIcon.Margin = new System.Windows.Forms.Padding(2);
             this.EditeUserIcon.Name = "EditeUserIcon";
             this.EditeUserIcon.Size = new System.Drawing.Size(171, 68);
             this.EditeUserIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -2502,7 +2498,7 @@
             this.ArtistModeMainPanel.Controls.Add(this.SongUploadPanel);
             this.ArtistModeMainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ArtistModeMainPanel.Location = new System.Drawing.Point(0, 0);
-            this.ArtistModeMainPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ArtistModeMainPanel.Margin = new System.Windows.Forms.Padding(2);
             this.ArtistModeMainPanel.Name = "ArtistModeMainPanel";
             this.ArtistModeMainPanel.Size = new System.Drawing.Size(482, 444);
             this.ArtistModeMainPanel.TabIndex = 11;
@@ -2517,7 +2513,7 @@
             this.VeryfyArtistPanel.Controls.Add(this.NotPrimiumLabelArtist);
             this.VeryfyArtistPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.VeryfyArtistPanel.Location = new System.Drawing.Point(0, 0);
-            this.VeryfyArtistPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.VeryfyArtistPanel.Margin = new System.Windows.Forms.Padding(2);
             this.VeryfyArtistPanel.Name = "VeryfyArtistPanel";
             this.VeryfyArtistPanel.Size = new System.Drawing.Size(482, 444);
             this.VeryfyArtistPanel.TabIndex = 10;
@@ -2533,7 +2529,7 @@
             this.TipoArtistaButton.IconColor = System.Drawing.Color.Black;
             this.TipoArtistaButton.IconSize = 36;
             this.TipoArtistaButton.Location = new System.Drawing.Point(191, 233);
-            this.TipoArtistaButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TipoArtistaButton.Margin = new System.Windows.Forms.Padding(2);
             this.TipoArtistaButton.Name = "TipoArtistaButton";
             this.TipoArtistaButton.Rotation = 0D;
             this.TipoArtistaButton.Size = new System.Drawing.Size(141, 40);
@@ -2557,7 +2553,7 @@
             "Actor",
             "Otro"});
             this.TipoArtistacomboBox1.Location = new System.Drawing.Point(151, 197);
-            this.TipoArtistacomboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TipoArtistacomboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.TipoArtistacomboBox1.Name = "TipoArtistacomboBox1";
             this.TipoArtistacomboBox1.Size = new System.Drawing.Size(218, 21);
             this.TipoArtistacomboBox1.TabIndex = 2;
@@ -2598,7 +2594,7 @@
             this.AlbumArtistPanel.Controls.Add(this.AlbumLabel);
             this.AlbumArtistPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AlbumArtistPanel.Location = new System.Drawing.Point(0, 0);
-            this.AlbumArtistPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AlbumArtistPanel.Margin = new System.Windows.Forms.Padding(2);
             this.AlbumArtistPanel.Name = "AlbumArtistPanel";
             this.AlbumArtistPanel.Size = new System.Drawing.Size(482, 444);
             this.AlbumArtistPanel.TabIndex = 9;
@@ -2609,7 +2605,7 @@
             this.VideoAlbumPanel.Controls.Add(this.VideoAlbumListBox);
             this.VideoAlbumPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.VideoAlbumPanel.Location = new System.Drawing.Point(130, 0);
-            this.VideoAlbumPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.VideoAlbumPanel.Margin = new System.Windows.Forms.Padding(2);
             this.VideoAlbumPanel.Name = "VideoAlbumPanel";
             this.VideoAlbumPanel.Size = new System.Drawing.Size(352, 444);
             this.VideoAlbumPanel.TabIndex = 2;
@@ -2633,7 +2629,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.VideoAlbumListBox.FormattingEnabled = true;
             this.VideoAlbumListBox.Location = new System.Drawing.Point(50, 70);
-            this.VideoAlbumListBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.VideoAlbumListBox.Margin = new System.Windows.Forms.Padding(2);
             this.VideoAlbumListBox.Name = "VideoAlbumListBox";
             this.VideoAlbumListBox.Size = new System.Drawing.Size(260, 329);
             this.VideoAlbumListBox.TabIndex = 0;
@@ -2645,7 +2641,7 @@
             this.SongsAlbumPanel.Controls.Add(this.AlbumCanciones);
             this.SongsAlbumPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.SongsAlbumPanel.Location = new System.Drawing.Point(130, 0);
-            this.SongsAlbumPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SongsAlbumPanel.Margin = new System.Windows.Forms.Padding(2);
             this.SongsAlbumPanel.Name = "SongsAlbumPanel";
             this.SongsAlbumPanel.Size = new System.Drawing.Size(352, 444);
             this.SongsAlbumPanel.TabIndex = 1;
@@ -2669,7 +2665,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.AlbumCanciones.FormattingEnabled = true;
             this.AlbumCanciones.Location = new System.Drawing.Point(49, 70);
-            this.AlbumCanciones.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AlbumCanciones.Margin = new System.Windows.Forms.Padding(2);
             this.AlbumCanciones.Name = "AlbumCanciones";
             this.AlbumCanciones.Size = new System.Drawing.Size(260, 329);
             this.AlbumCanciones.TabIndex = 0;
@@ -2682,7 +2678,7 @@
             this.SideAlbumPanel.Controls.Add(this.panel4);
             this.SideAlbumPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.SideAlbumPanel.Location = new System.Drawing.Point(0, 0);
-            this.SideAlbumPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SideAlbumPanel.Margin = new System.Windows.Forms.Padding(2);
             this.SideAlbumPanel.Name = "SideAlbumPanel";
             this.SideAlbumPanel.Size = new System.Drawing.Size(130, 444);
             this.SideAlbumPanel.TabIndex = 0;
@@ -2695,7 +2691,7 @@
             this.VideosAlbumButton.IconColor = System.Drawing.Color.Black;
             this.VideosAlbumButton.IconSize = 36;
             this.VideosAlbumButton.Location = new System.Drawing.Point(0, 102);
-            this.VideosAlbumButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.VideosAlbumButton.Margin = new System.Windows.Forms.Padding(2);
             this.VideosAlbumButton.Name = "VideosAlbumButton";
             this.VideosAlbumButton.Rotation = 0D;
             this.VideosAlbumButton.Size = new System.Drawing.Size(130, 36);
@@ -2713,7 +2709,7 @@
             this.SongAlbumButton.IconColor = System.Drawing.Color.Black;
             this.SongAlbumButton.IconSize = 36;
             this.SongAlbumButton.Location = new System.Drawing.Point(0, 66);
-            this.SongAlbumButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SongAlbumButton.Margin = new System.Windows.Forms.Padding(2);
             this.SongAlbumButton.Name = "SongAlbumButton";
             this.SongAlbumButton.Rotation = 0D;
             this.SongAlbumButton.Size = new System.Drawing.Size(130, 36);
@@ -2728,7 +2724,7 @@
             this.panel4.Controls.Add(this.iconPictureBox1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(130, 66);
             this.panel4.TabIndex = 0;
@@ -2742,7 +2738,7 @@
             this.iconPictureBox1.IconColor = System.Drawing.SystemColors.ControlText;
             this.iconPictureBox1.IconSize = 66;
             this.iconPictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.iconPictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.iconPictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.iconPictureBox1.Name = "iconPictureBox1";
             this.iconPictureBox1.Size = new System.Drawing.Size(130, 66);
             this.iconPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -2781,7 +2777,7 @@
             this.UploadVideoPanel.Controls.Add(this.UpLoadVideoLabel);
             this.UploadVideoPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.UploadVideoPanel.Location = new System.Drawing.Point(0, 0);
-            this.UploadVideoPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.UploadVideoPanel.Margin = new System.Windows.Forms.Padding(2);
             this.UploadVideoPanel.Name = "UploadVideoPanel";
             this.UploadVideoPanel.Size = new System.Drawing.Size(482, 444);
             this.UploadVideoPanel.TabIndex = 8;
@@ -2792,7 +2788,7 @@
             this.VideoDuracionTextbox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.VideoDuracionTextbox.Location = new System.Drawing.Point(109, 288);
-            this.VideoDuracionTextbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.VideoDuracionTextbox.Margin = new System.Windows.Forms.Padding(2);
             this.VideoDuracionTextbox.Name = "VideoDuracionTextbox";
             this.VideoDuracionTextbox.Size = new System.Drawing.Size(298, 20);
             this.VideoDuracionTextbox.TabIndex = 55;
@@ -2811,7 +2807,7 @@
             "2k",
             "4k"});
             this.VideoResolucionCombobox.Location = new System.Drawing.Point(109, 328);
-            this.VideoResolucionCombobox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.VideoResolucionCombobox.Margin = new System.Windows.Forms.Padding(2);
             this.VideoResolucionCombobox.Name = "VideoResolucionCombobox";
             this.VideoResolucionCombobox.Size = new System.Drawing.Size(298, 21);
             this.VideoResolucionCombobox.TabIndex = 54;
@@ -2847,7 +2843,7 @@
             this.SubirVideoButton.IconColor = System.Drawing.Color.Black;
             this.SubirVideoButton.IconSize = 36;
             this.SubirVideoButton.Location = new System.Drawing.Point(200, 372);
-            this.SubirVideoButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SubirVideoButton.Margin = new System.Windows.Forms.Padding(2);
             this.SubirVideoButton.Name = "SubirVideoButton";
             this.SubirVideoButton.Rotation = 0D;
             this.SubirVideoButton.Size = new System.Drawing.Size(166, 43);
@@ -2864,7 +2860,7 @@
             this.VideoLogoIconLabbel.IconChar = FontAwesome.Sharp.IconChar.Film;
             this.VideoLogoIconLabbel.IconColor = System.Drawing.SystemColors.ControlText;
             this.VideoLogoIconLabbel.Location = new System.Drawing.Point(107, 65);
-            this.VideoLogoIconLabbel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.VideoLogoIconLabbel.Margin = new System.Windows.Forms.Padding(2);
             this.VideoLogoIconLabbel.Name = "VideoLogoIconLabbel";
             this.VideoLogoIconLabbel.Size = new System.Drawing.Size(33, 32);
             this.VideoLogoIconLabbel.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -2876,7 +2872,7 @@
             this.VideoCategoriaTextbox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.VideoCategoriaTextbox.Location = new System.Drawing.Point(109, 255);
-            this.VideoCategoriaTextbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.VideoCategoriaTextbox.Margin = new System.Windows.Forms.Padding(2);
             this.VideoCategoriaTextbox.Name = "VideoCategoriaTextbox";
             this.VideoCategoriaTextbox.Size = new System.Drawing.Size(298, 20);
             this.VideoCategoriaTextbox.TabIndex = 47;
@@ -2886,7 +2882,7 @@
             this.VideoDescripcionTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.VideoDescripcionTextBox.Location = new System.Drawing.Point(109, 190);
-            this.VideoDescripcionTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.VideoDescripcionTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.VideoDescripcionTextBox.Name = "VideoDescripcionTextBox";
             this.VideoDescripcionTextBox.Size = new System.Drawing.Size(298, 20);
             this.VideoDescripcionTextBox.TabIndex = 46;
@@ -2896,7 +2892,7 @@
             this.VideoEstudiTextbox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.VideoEstudiTextbox.Location = new System.Drawing.Point(109, 220);
-            this.VideoEstudiTextbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.VideoEstudiTextbox.Margin = new System.Windows.Forms.Padding(2);
             this.VideoEstudiTextbox.Name = "VideoEstudiTextbox";
             this.VideoEstudiTextbox.Size = new System.Drawing.Size(298, 20);
             this.VideoEstudiTextbox.TabIndex = 45;
@@ -2906,7 +2902,7 @@
             this.VideoGeneroTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.VideoGeneroTextBox.Location = new System.Drawing.Point(109, 158);
-            this.VideoGeneroTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.VideoGeneroTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.VideoGeneroTextBox.Name = "VideoGeneroTextBox";
             this.VideoGeneroTextBox.Size = new System.Drawing.Size(298, 20);
             this.VideoGeneroTextBox.TabIndex = 43;
@@ -2984,7 +2980,7 @@
             this.SongUploadPanel.Controls.Add(this.UploadSongLogo);
             this.SongUploadPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.SongUploadPanel.Location = new System.Drawing.Point(0, 0);
-            this.SongUploadPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SongUploadPanel.Margin = new System.Windows.Forms.Padding(2);
             this.SongUploadPanel.Name = "SongUploadPanel";
             this.SongUploadPanel.Size = new System.Drawing.Size(482, 444);
             this.SongUploadPanel.TabIndex = 7;
@@ -2995,7 +2991,7 @@
             this.SongDuracionTextbox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.SongDuracionTextbox.Location = new System.Drawing.Point(110, 321);
-            this.SongDuracionTextbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SongDuracionTextbox.Margin = new System.Windows.Forms.Padding(2);
             this.SongDuracionTextbox.Name = "SongDuracionTextbox";
             this.SongDuracionTextbox.Size = new System.Drawing.Size(298, 20);
             this.SongDuracionTextbox.TabIndex = 57;
@@ -3021,7 +3017,7 @@
             this.SubirCancionButton.IconColor = System.Drawing.Color.Black;
             this.SubirCancionButton.IconSize = 36;
             this.SubirCancionButton.Location = new System.Drawing.Point(201, 361);
-            this.SubirCancionButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SubirCancionButton.Margin = new System.Windows.Forms.Padding(2);
             this.SubirCancionButton.Name = "SubirCancionButton";
             this.SubirCancionButton.Rotation = 0D;
             this.SubirCancionButton.Size = new System.Drawing.Size(198, 43);
@@ -3038,7 +3034,7 @@
             this.UploadSongIcon.IconChar = FontAwesome.Sharp.IconChar.Music;
             this.UploadSongIcon.IconColor = System.Drawing.SystemColors.ControlText;
             this.UploadSongIcon.Location = new System.Drawing.Point(107, 65);
-            this.UploadSongIcon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.UploadSongIcon.Margin = new System.Windows.Forms.Padding(2);
             this.UploadSongIcon.Name = "UploadSongIcon";
             this.UploadSongIcon.Size = new System.Drawing.Size(33, 32);
             this.UploadSongIcon.TabIndex = 32;
@@ -3049,7 +3045,7 @@
             this.SongCategoriaInput.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.SongCategoriaInput.Location = new System.Drawing.Point(109, 284);
-            this.SongCategoriaInput.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SongCategoriaInput.Margin = new System.Windows.Forms.Padding(2);
             this.SongCategoriaInput.Name = "SongCategoriaInput";
             this.SongCategoriaInput.Size = new System.Drawing.Size(298, 20);
             this.SongCategoriaInput.TabIndex = 30;
@@ -3059,7 +3055,7 @@
             this.SongLetraInput.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.SongLetraInput.Location = new System.Drawing.Point(109, 253);
-            this.SongLetraInput.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SongLetraInput.Margin = new System.Windows.Forms.Padding(2);
             this.SongLetraInput.Name = "SongLetraInput";
             this.SongLetraInput.Size = new System.Drawing.Size(298, 20);
             this.SongLetraInput.TabIndex = 29;
@@ -3069,7 +3065,7 @@
             this.SongStudioInput.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.SongStudioInput.Location = new System.Drawing.Point(109, 220);
-            this.SongStudioInput.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SongStudioInput.Margin = new System.Windows.Forms.Padding(2);
             this.SongStudioInput.Name = "SongStudioInput";
             this.SongStudioInput.Size = new System.Drawing.Size(298, 20);
             this.SongStudioInput.TabIndex = 28;
@@ -3079,7 +3075,7 @@
             this.SongDiscografiaInput.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.SongDiscografiaInput.Location = new System.Drawing.Point(109, 190);
-            this.SongDiscografiaInput.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SongDiscografiaInput.Margin = new System.Windows.Forms.Padding(2);
             this.SongDiscografiaInput.Name = "SongDiscografiaInput";
             this.SongDiscografiaInput.Size = new System.Drawing.Size(298, 20);
             this.SongDiscografiaInput.TabIndex = 27;
@@ -3089,7 +3085,7 @@
             this.SongGenderInput.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.SongGenderInput.Location = new System.Drawing.Point(109, 160);
-            this.SongGenderInput.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SongGenderInput.Margin = new System.Windows.Forms.Padding(2);
             this.SongGenderInput.Name = "SongGenderInput";
             this.SongGenderInput.Size = new System.Drawing.Size(298, 20);
             this.SongGenderInput.TabIndex = 26;
@@ -3164,7 +3160,7 @@
             this.PlaylistMainPanel.Controls.Add(this.PlaylistSongPanel);
             this.PlaylistMainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PlaylistMainPanel.Location = new System.Drawing.Point(0, 0);
-            this.PlaylistMainPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PlaylistMainPanel.Margin = new System.Windows.Forms.Padding(2);
             this.PlaylistMainPanel.Name = "PlaylistMainPanel";
             this.PlaylistMainPanel.Size = new System.Drawing.Size(482, 444);
             this.PlaylistMainPanel.TabIndex = 9;
@@ -3179,7 +3175,7 @@
             this.PlaylistVideoPanel.Controls.Add(this.PlaylistVideoLogoMain);
             this.PlaylistVideoPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PlaylistVideoPanel.Location = new System.Drawing.Point(0, 0);
-            this.PlaylistVideoPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PlaylistVideoPanel.Margin = new System.Windows.Forms.Padding(2);
             this.PlaylistVideoPanel.Name = "PlaylistVideoPanel";
             this.PlaylistVideoPanel.Size = new System.Drawing.Size(482, 444);
             this.PlaylistVideoPanel.TabIndex = 1;
@@ -3190,7 +3186,7 @@
             this.MasVistosPanel.Controls.Add(this.VideosMasVistos);
             this.MasVistosPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MasVistosPanel.Location = new System.Drawing.Point(155, 0);
-            this.MasVistosPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MasVistosPanel.Margin = new System.Windows.Forms.Padding(2);
             this.MasVistosPanel.Name = "MasVistosPanel";
             this.MasVistosPanel.Size = new System.Drawing.Size(327, 444);
             this.MasVistosPanel.TabIndex = 3;
@@ -3215,7 +3211,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.VideosMasVistos.FormattingEnabled = true;
             this.VideosMasVistos.Location = new System.Drawing.Point(47, 70);
-            this.VideosMasVistos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.VideosMasVistos.Margin = new System.Windows.Forms.Padding(2);
             this.VideosMasVistos.Name = "VideosMasVistos";
             this.VideosMasVistos.Size = new System.Drawing.Size(234, 329);
             this.VideosMasVistos.TabIndex = 0;
@@ -3230,7 +3226,7 @@
             this.VideoFollowPanel.Controls.Add(this.DejarSeguirVideoPlaylist);
             this.VideoFollowPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.VideoFollowPanel.Location = new System.Drawing.Point(155, 0);
-            this.VideoFollowPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.VideoFollowPanel.Margin = new System.Windows.Forms.Padding(2);
             this.VideoFollowPanel.Name = "VideoFollowPanel";
             this.VideoFollowPanel.Size = new System.Drawing.Size(327, 444);
             this.VideoFollowPanel.TabIndex = 2;
@@ -3243,7 +3239,7 @@
             this.VideosInFollowingPlaylistPanel.Controls.Add(this.VideosInFollowingPlaylistListbox);
             this.VideosInFollowingPlaylistPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.VideosInFollowingPlaylistPanel.Location = new System.Drawing.Point(0, 0);
-            this.VideosInFollowingPlaylistPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.VideosInFollowingPlaylistPanel.Margin = new System.Windows.Forms.Padding(2);
             this.VideosInFollowingPlaylistPanel.Name = "VideosInFollowingPlaylistPanel";
             this.VideosInFollowingPlaylistPanel.Size = new System.Drawing.Size(327, 444);
             this.VideosInFollowingPlaylistPanel.TabIndex = 3;
@@ -3268,7 +3264,7 @@
             this.BackFollowingPlaylist.IconColor = System.Drawing.Color.Black;
             this.BackFollowingPlaylist.IconSize = 36;
             this.BackFollowingPlaylist.Location = new System.Drawing.Point(286, 70);
-            this.BackFollowingPlaylist.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BackFollowingPlaylist.Margin = new System.Windows.Forms.Padding(2);
             this.BackFollowingPlaylist.Name = "BackFollowingPlaylist";
             this.BackFollowingPlaylist.Rotation = 0D;
             this.BackFollowingPlaylist.Size = new System.Drawing.Size(37, 36);
@@ -3282,7 +3278,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.VideosInFollowingPlaylistListbox.FormattingEnabled = true;
             this.VideosInFollowingPlaylistListbox.Location = new System.Drawing.Point(47, 70);
-            this.VideosInFollowingPlaylistListbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.VideosInFollowingPlaylistListbox.Margin = new System.Windows.Forms.Padding(2);
             this.VideosInFollowingPlaylistListbox.Name = "VideosInFollowingPlaylistListbox";
             this.VideosInFollowingPlaylistListbox.Size = new System.Drawing.Size(234, 329);
             this.VideosInFollowingPlaylistListbox.TabIndex = 0;
@@ -3296,7 +3292,7 @@
             this.VideosInFollowingPlaylistButton.IconColor = System.Drawing.Color.Black;
             this.VideosInFollowingPlaylistButton.IconSize = 36;
             this.VideosInFollowingPlaylistButton.Location = new System.Drawing.Point(286, 70);
-            this.VideosInFollowingPlaylistButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.VideosInFollowingPlaylistButton.Margin = new System.Windows.Forms.Padding(2);
             this.VideosInFollowingPlaylistButton.Name = "VideosInFollowingPlaylistButton";
             this.VideosInFollowingPlaylistButton.Rotation = 0D;
             this.VideosInFollowingPlaylistButton.Size = new System.Drawing.Size(37, 36);
@@ -3323,7 +3319,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.FollowVideoListBox.FormattingEnabled = true;
             this.FollowVideoListBox.Location = new System.Drawing.Point(47, 70);
-            this.FollowVideoListBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FollowVideoListBox.Margin = new System.Windows.Forms.Padding(2);
             this.FollowVideoListBox.Name = "FollowVideoListBox";
             this.FollowVideoListBox.Size = new System.Drawing.Size(234, 329);
             this.FollowVideoListBox.TabIndex = 0;
@@ -3338,7 +3334,7 @@
             this.DejarSeguirVideoPlaylist.IconColor = System.Drawing.Color.Black;
             this.DejarSeguirVideoPlaylist.IconSize = 16;
             this.DejarSeguirVideoPlaylist.Location = new System.Drawing.Point(287, 110);
-            this.DejarSeguirVideoPlaylist.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DejarSeguirVideoPlaylist.Margin = new System.Windows.Forms.Padding(2);
             this.DejarSeguirVideoPlaylist.Name = "DejarSeguirVideoPlaylist";
             this.DejarSeguirVideoPlaylist.Rotation = 0D;
             this.DejarSeguirVideoPlaylist.Size = new System.Drawing.Size(35, 36);
@@ -3355,7 +3351,7 @@
             this.VideoMyPlaylistPanel.Controls.Add(this.VideoInMyplaylistButton);
             this.VideoMyPlaylistPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.VideoMyPlaylistPanel.Location = new System.Drawing.Point(155, 0);
-            this.VideoMyPlaylistPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.VideoMyPlaylistPanel.Margin = new System.Windows.Forms.Padding(2);
             this.VideoMyPlaylistPanel.Name = "VideoMyPlaylistPanel";
             this.VideoMyPlaylistPanel.Size = new System.Drawing.Size(327, 444);
             this.VideoMyPlaylistPanel.TabIndex = 1;
@@ -3374,7 +3370,7 @@
             this.CrearVideoPlaylistpanel.Controls.Add(this.NombreVideoPlaylistLabel);
             this.CrearVideoPlaylistpanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.CrearVideoPlaylistpanel.Location = new System.Drawing.Point(0, 0);
-            this.CrearVideoPlaylistpanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CrearVideoPlaylistpanel.Margin = new System.Windows.Forms.Padding(2);
             this.CrearVideoPlaylistpanel.Name = "CrearVideoPlaylistpanel";
             this.CrearVideoPlaylistpanel.Size = new System.Drawing.Size(327, 444);
             this.CrearVideoPlaylistpanel.TabIndex = 4;
@@ -3429,7 +3425,7 @@
             this.CrearVideoPlaylist.IconColor = System.Drawing.Color.Black;
             this.CrearVideoPlaylist.IconSize = 30;
             this.CrearVideoPlaylist.Location = new System.Drawing.Point(133, 166);
-            this.CrearVideoPlaylist.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CrearVideoPlaylist.Margin = new System.Windows.Forms.Padding(2);
             this.CrearVideoPlaylist.Name = "CrearVideoPlaylist";
             this.CrearVideoPlaylist.Rotation = 0D;
             this.CrearVideoPlaylist.Size = new System.Drawing.Size(114, 37);
@@ -3449,7 +3445,7 @@
             "Privada",
             ""});
             this.PrivacidadVideoPlaylist.Location = new System.Drawing.Point(83, 116);
-            this.PrivacidadVideoPlaylist.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PrivacidadVideoPlaylist.Margin = new System.Windows.Forms.Padding(2);
             this.PrivacidadVideoPlaylist.Name = "PrivacidadVideoPlaylist";
             this.PrivacidadVideoPlaylist.Size = new System.Drawing.Size(208, 21);
             this.PrivacidadVideoPlaylist.TabIndex = 4;
@@ -3459,7 +3455,7 @@
             this.NombreVideoPlalistInput.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.NombreVideoPlalistInput.Location = new System.Drawing.Point(83, 78);
-            this.NombreVideoPlalistInput.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.NombreVideoPlalistInput.Margin = new System.Windows.Forms.Padding(2);
             this.NombreVideoPlalistInput.Name = "NombreVideoPlalistInput";
             this.NombreVideoPlalistInput.Size = new System.Drawing.Size(208, 20);
             this.NombreVideoPlalistInput.TabIndex = 3;
@@ -3503,7 +3499,7 @@
             this.MyVideoPlaylistPanel.Controls.Add(this.MisVideoMyPlaylist);
             this.MyVideoPlaylistPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MyVideoPlaylistPanel.Location = new System.Drawing.Point(0, 0);
-            this.MyVideoPlaylistPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MyVideoPlaylistPanel.Margin = new System.Windows.Forms.Padding(2);
             this.MyVideoPlaylistPanel.Name = "MyVideoPlaylistPanel";
             this.MyVideoPlaylistPanel.Size = new System.Drawing.Size(327, 444);
             this.MyVideoPlaylistPanel.TabIndex = 2;
@@ -3516,7 +3512,7 @@
             this.DeleteVideoButton.IconColor = System.Drawing.Color.Black;
             this.DeleteVideoButton.IconSize = 36;
             this.DeleteVideoButton.Location = new System.Drawing.Point(286, 112);
-            this.DeleteVideoButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DeleteVideoButton.Margin = new System.Windows.Forms.Padding(2);
             this.DeleteVideoButton.Name = "DeleteVideoButton";
             this.DeleteVideoButton.Rotation = 0D;
             this.DeleteVideoButton.Size = new System.Drawing.Size(37, 36);
@@ -3532,7 +3528,7 @@
             this.BackMyVideoPlaylistButton.IconColor = System.Drawing.Color.Black;
             this.BackMyVideoPlaylistButton.IconSize = 36;
             this.BackMyVideoPlaylistButton.Location = new System.Drawing.Point(286, 70);
-            this.BackMyVideoPlaylistButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BackMyVideoPlaylistButton.Margin = new System.Windows.Forms.Padding(2);
             this.BackMyVideoPlaylistButton.Name = "BackMyVideoPlaylistButton";
             this.BackMyVideoPlaylistButton.Rotation = 0D;
             this.BackMyVideoPlaylistButton.Size = new System.Drawing.Size(37, 36);
@@ -3557,7 +3553,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.MisVideoMyPlaylist.FormattingEnabled = true;
             this.MisVideoMyPlaylist.Location = new System.Drawing.Point(47, 70);
-            this.MisVideoMyPlaylist.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MisVideoMyPlaylist.Margin = new System.Windows.Forms.Padding(2);
             this.MisVideoMyPlaylist.Name = "MisVideoMyPlaylist";
             this.MisVideoMyPlaylist.Size = new System.Drawing.Size(234, 329);
             this.MisVideoMyPlaylist.TabIndex = 0;
@@ -3582,7 +3578,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.MyVideoListBox.FormattingEnabled = true;
             this.MyVideoListBox.Location = new System.Drawing.Point(47, 70);
-            this.MyVideoListBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MyVideoListBox.Margin = new System.Windows.Forms.Padding(2);
             this.MyVideoListBox.Name = "MyVideoListBox";
             this.MyVideoListBox.Size = new System.Drawing.Size(234, 329);
             this.MyVideoListBox.TabIndex = 0;
@@ -3596,7 +3592,7 @@
             this.VideoInMyplaylistButton.IconColor = System.Drawing.Color.Black;
             this.VideoInMyplaylistButton.IconSize = 36;
             this.VideoInMyplaylistButton.Location = new System.Drawing.Point(286, 70);
-            this.VideoInMyplaylistButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.VideoInMyplaylistButton.Margin = new System.Windows.Forms.Padding(2);
             this.VideoInMyplaylistButton.Name = "VideoInMyplaylistButton";
             this.VideoInMyplaylistButton.Rotation = 0D;
             this.VideoInMyplaylistButton.Size = new System.Drawing.Size(37, 36);
@@ -3613,7 +3609,7 @@
             this.panel5.Controls.Add(this.panel6);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel5.Location = new System.Drawing.Point(0, 0);
-            this.panel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel5.Margin = new System.Windows.Forms.Padding(2);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(155, 444);
             this.panel5.TabIndex = 0;
@@ -3626,7 +3622,7 @@
             this.MasVistoButton.IconColor = System.Drawing.Color.Black;
             this.MasVistoButton.IconSize = 36;
             this.MasVistoButton.Location = new System.Drawing.Point(0, 196);
-            this.MasVistoButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MasVistoButton.Margin = new System.Windows.Forms.Padding(2);
             this.MasVistoButton.Name = "MasVistoButton";
             this.MasVistoButton.Rotation = 0D;
             this.MasVistoButton.Size = new System.Drawing.Size(155, 36);
@@ -3644,7 +3640,7 @@
             this.FolloweVideoButton.IconColor = System.Drawing.Color.Black;
             this.FolloweVideoButton.IconSize = 36;
             this.FolloweVideoButton.Location = new System.Drawing.Point(0, 160);
-            this.FolloweVideoButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FolloweVideoButton.Margin = new System.Windows.Forms.Padding(2);
             this.FolloweVideoButton.Name = "FolloweVideoButton";
             this.FolloweVideoButton.Rotation = 0D;
             this.FolloweVideoButton.Size = new System.Drawing.Size(155, 36);
@@ -3660,7 +3656,7 @@
             this.SubVideoPlaylistPanel.Controls.Add(this.AddPlaylistVideoButton);
             this.SubVideoPlaylistPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.SubVideoPlaylistPanel.Location = new System.Drawing.Point(0, 102);
-            this.SubVideoPlaylistPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SubVideoPlaylistPanel.Margin = new System.Windows.Forms.Padding(2);
             this.SubVideoPlaylistPanel.Name = "SubVideoPlaylistPanel";
             this.SubVideoPlaylistPanel.Size = new System.Drawing.Size(155, 58);
             this.SubVideoPlaylistPanel.TabIndex = 2;
@@ -3676,7 +3672,7 @@
             this.DeleteVideoPlaylistButton.IconColor = System.Drawing.Color.Black;
             this.DeleteVideoPlaylistButton.IconSize = 20;
             this.DeleteVideoPlaylistButton.Location = new System.Drawing.Point(0, 29);
-            this.DeleteVideoPlaylistButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DeleteVideoPlaylistButton.Margin = new System.Windows.Forms.Padding(2);
             this.DeleteVideoPlaylistButton.Name = "DeleteVideoPlaylistButton";
             this.DeleteVideoPlaylistButton.Rotation = 0D;
             this.DeleteVideoPlaylistButton.Size = new System.Drawing.Size(155, 29);
@@ -3696,7 +3692,7 @@
             this.AddPlaylistVideoButton.IconColor = System.Drawing.Color.Black;
             this.AddPlaylistVideoButton.IconSize = 20;
             this.AddPlaylistVideoButton.Location = new System.Drawing.Point(0, 0);
-            this.AddPlaylistVideoButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AddPlaylistVideoButton.Margin = new System.Windows.Forms.Padding(2);
             this.AddPlaylistVideoButton.Name = "AddPlaylistVideoButton";
             this.AddPlaylistVideoButton.Rotation = 0D;
             this.AddPlaylistVideoButton.Size = new System.Drawing.Size(155, 29);
@@ -3714,7 +3710,7 @@
             this.MyVideoPlaylistButton.IconColor = System.Drawing.Color.Black;
             this.MyVideoPlaylistButton.IconSize = 36;
             this.MyVideoPlaylistButton.Location = new System.Drawing.Point(0, 66);
-            this.MyVideoPlaylistButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MyVideoPlaylistButton.Margin = new System.Windows.Forms.Padding(2);
             this.MyVideoPlaylistButton.Name = "MyVideoPlaylistButton";
             this.MyVideoPlaylistButton.Rotation = 0D;
             this.MyVideoPlaylistButton.Size = new System.Drawing.Size(155, 36);
@@ -3729,7 +3725,7 @@
             this.panel6.Controls.Add(this.iconPictureBox4);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel6.Location = new System.Drawing.Point(0, 0);
-            this.panel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel6.Margin = new System.Windows.Forms.Padding(2);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(155, 66);
             this.panel6.TabIndex = 0;
@@ -3743,7 +3739,7 @@
             this.iconPictureBox4.IconColor = System.Drawing.SystemColors.ControlText;
             this.iconPictureBox4.IconSize = 66;
             this.iconPictureBox4.Location = new System.Drawing.Point(0, 0);
-            this.iconPictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.iconPictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.iconPictureBox4.Name = "iconPictureBox4";
             this.iconPictureBox4.Size = new System.Drawing.Size(155, 66);
             this.iconPictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -3758,7 +3754,7 @@
             this.PlaylistVideoLogoMain.IconColor = System.Drawing.SystemColors.ControlText;
             this.PlaylistVideoLogoMain.IconSize = 133;
             this.PlaylistVideoLogoMain.Location = new System.Drawing.Point(249, 160);
-            this.PlaylistVideoLogoMain.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PlaylistVideoLogoMain.Margin = new System.Windows.Forms.Padding(2);
             this.PlaylistVideoLogoMain.Name = "PlaylistVideoLogoMain";
             this.PlaylistVideoLogoMain.Size = new System.Drawing.Size(137, 133);
             this.PlaylistVideoLogoMain.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -3775,7 +3771,7 @@
             this.PlaylistSongPanel.Controls.Add(this.SideSongPlaylistPanel);
             this.PlaylistSongPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PlaylistSongPanel.Location = new System.Drawing.Point(0, 0);
-            this.PlaylistSongPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PlaylistSongPanel.Margin = new System.Windows.Forms.Padding(2);
             this.PlaylistSongPanel.Name = "PlaylistSongPanel";
             this.PlaylistSongPanel.Size = new System.Drawing.Size(482, 444);
             this.PlaylistSongPanel.TabIndex = 0;
@@ -3788,7 +3784,7 @@
             this.MasEsuchadaPanel.Controls.Add(this.MasEsuchadaListBox);
             this.MasEsuchadaPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MasEsuchadaPanel.Location = new System.Drawing.Point(155, 0);
-            this.MasEsuchadaPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MasEsuchadaPanel.Margin = new System.Windows.Forms.Padding(2);
             this.MasEsuchadaPanel.Name = "MasEsuchadaPanel";
             this.MasEsuchadaPanel.Size = new System.Drawing.Size(327, 444);
             this.MasEsuchadaPanel.TabIndex = 4;
@@ -3802,7 +3798,7 @@
             this.DownLoadMasEscuachadosongs.IconColor = System.Drawing.Color.Black;
             this.DownLoadMasEscuachadosongs.IconSize = 36;
             this.DownLoadMasEscuachadosongs.Location = new System.Drawing.Point(286, 71);
-            this.DownLoadMasEscuachadosongs.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DownLoadMasEscuachadosongs.Margin = new System.Windows.Forms.Padding(2);
             this.DownLoadMasEscuachadosongs.Name = "DownLoadMasEscuachadosongs";
             this.DownLoadMasEscuachadosongs.Rotation = 0D;
             this.DownLoadMasEscuachadosongs.Size = new System.Drawing.Size(33, 32);
@@ -3829,7 +3825,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.MasEsuchadaListBox.FormattingEnabled = true;
             this.MasEsuchadaListBox.Location = new System.Drawing.Point(47, 70);
-            this.MasEsuchadaListBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MasEsuchadaListBox.Margin = new System.Windows.Forms.Padding(2);
             this.MasEsuchadaListBox.Name = "MasEsuchadaListBox";
             this.MasEsuchadaListBox.Size = new System.Drawing.Size(234, 329);
             this.MasEsuchadaListBox.TabIndex = 0;
@@ -3846,7 +3842,7 @@
             this.FollowPlaylistSongPanel.Controls.Add(this.VerCancionesPlaylistSeguidas);
             this.FollowPlaylistSongPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.FollowPlaylistSongPanel.Location = new System.Drawing.Point(155, 0);
-            this.FollowPlaylistSongPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FollowPlaylistSongPanel.Margin = new System.Windows.Forms.Padding(2);
             this.FollowPlaylistSongPanel.Name = "FollowPlaylistSongPanel";
             this.FollowPlaylistSongPanel.Size = new System.Drawing.Size(327, 444);
             this.FollowPlaylistSongPanel.TabIndex = 3;
@@ -3860,7 +3856,7 @@
             this.DowloadFowlowingPlaylistSong.IconColor = System.Drawing.Color.Black;
             this.DowloadFowlowingPlaylistSong.IconSize = 36;
             this.DowloadFowlowingPlaylistSong.Location = new System.Drawing.Point(284, 153);
-            this.DowloadFowlowingPlaylistSong.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DowloadFowlowingPlaylistSong.Margin = new System.Windows.Forms.Padding(2);
             this.DowloadFowlowingPlaylistSong.Name = "DowloadFowlowingPlaylistSong";
             this.DowloadFowlowingPlaylistSong.Rotation = 0D;
             this.DowloadFowlowingPlaylistSong.Size = new System.Drawing.Size(37, 35);
@@ -3877,7 +3873,7 @@
             this.DejarSeguirCancionbutton.IconColor = System.Drawing.Color.Black;
             this.DejarSeguirCancionbutton.IconSize = 16;
             this.DejarSeguirCancionbutton.Location = new System.Drawing.Point(284, 112);
-            this.DejarSeguirCancionbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DejarSeguirCancionbutton.Margin = new System.Windows.Forms.Padding(2);
             this.DejarSeguirCancionbutton.Name = "DejarSeguirCancionbutton";
             this.DejarSeguirCancionbutton.Rotation = 0D;
             this.DejarSeguirCancionbutton.Size = new System.Drawing.Size(37, 37);
@@ -3893,7 +3889,7 @@
             this.SongSeguidasPlaylistPanel.Controls.Add(this.SongsInFollowPlaylistListBox);
             this.SongSeguidasPlaylistPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.SongSeguidasPlaylistPanel.Location = new System.Drawing.Point(0, 0);
-            this.SongSeguidasPlaylistPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SongSeguidasPlaylistPanel.Margin = new System.Windows.Forms.Padding(2);
             this.SongSeguidasPlaylistPanel.Name = "SongSeguidasPlaylistPanel";
             this.SongSeguidasPlaylistPanel.Size = new System.Drawing.Size(327, 444);
             this.SongSeguidasPlaylistPanel.TabIndex = 2;
@@ -3907,7 +3903,7 @@
             this.BackPlaylistSeguidas.IconColor = System.Drawing.Color.Black;
             this.BackPlaylistSeguidas.IconSize = 36;
             this.BackPlaylistSeguidas.Location = new System.Drawing.Point(284, 70);
-            this.BackPlaylistSeguidas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BackPlaylistSeguidas.Margin = new System.Windows.Forms.Padding(2);
             this.BackPlaylistSeguidas.Name = "BackPlaylistSeguidas";
             this.BackPlaylistSeguidas.Rotation = 0D;
             this.BackPlaylistSeguidas.Size = new System.Drawing.Size(37, 36);
@@ -3932,7 +3928,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.SongsInFollowPlaylistListBox.FormattingEnabled = true;
             this.SongsInFollowPlaylistListBox.Location = new System.Drawing.Point(47, 70);
-            this.SongsInFollowPlaylistListBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SongsInFollowPlaylistListBox.Margin = new System.Windows.Forms.Padding(2);
             this.SongsInFollowPlaylistListBox.Name = "SongsInFollowPlaylistListBox";
             this.SongsInFollowPlaylistListBox.Size = new System.Drawing.Size(234, 329);
             this.SongsInFollowPlaylistListBox.TabIndex = 0;
@@ -3955,7 +3951,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.FollowPlaylistSongListBox.FormattingEnabled = true;
             this.FollowPlaylistSongListBox.Location = new System.Drawing.Point(47, 70);
-            this.FollowPlaylistSongListBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FollowPlaylistSongListBox.Margin = new System.Windows.Forms.Padding(2);
             this.FollowPlaylistSongListBox.Name = "FollowPlaylistSongListBox";
             this.FollowPlaylistSongListBox.Size = new System.Drawing.Size(234, 329);
             this.FollowPlaylistSongListBox.TabIndex = 0;
@@ -3969,7 +3965,7 @@
             this.VerCancionesPlaylistSeguidas.IconColor = System.Drawing.Color.Black;
             this.VerCancionesPlaylistSeguidas.IconSize = 36;
             this.VerCancionesPlaylistSeguidas.Location = new System.Drawing.Point(284, 70);
-            this.VerCancionesPlaylistSeguidas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.VerCancionesPlaylistSeguidas.Margin = new System.Windows.Forms.Padding(2);
             this.VerCancionesPlaylistSeguidas.Name = "VerCancionesPlaylistSeguidas";
             this.VerCancionesPlaylistSeguidas.Rotation = 0D;
             this.VerCancionesPlaylistSeguidas.Size = new System.Drawing.Size(37, 36);
@@ -3987,7 +3983,7 @@
             this.PlaylistMySongPanel.Controls.Add(this.DownloadMyPlaylistSong);
             this.PlaylistMySongPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PlaylistMySongPanel.Location = new System.Drawing.Point(155, 0);
-            this.PlaylistMySongPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PlaylistMySongPanel.Margin = new System.Windows.Forms.Padding(2);
             this.PlaylistMySongPanel.Name = "PlaylistMySongPanel";
             this.PlaylistMySongPanel.Size = new System.Drawing.Size(327, 444);
             this.PlaylistMySongPanel.TabIndex = 2;
@@ -4007,7 +4003,7 @@
             this.CrearSongPlaylistPanel.Controls.Add(this.NewPlaylistNameLabel);
             this.CrearSongPlaylistPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.CrearSongPlaylistPanel.Location = new System.Drawing.Point(0, 0);
-            this.CrearSongPlaylistPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CrearSongPlaylistPanel.Margin = new System.Windows.Forms.Padding(2);
             this.CrearSongPlaylistPanel.Name = "CrearSongPlaylistPanel";
             this.CrearSongPlaylistPanel.Size = new System.Drawing.Size(327, 444);
             this.CrearSongPlaylistPanel.TabIndex = 4;
@@ -4063,7 +4059,7 @@
             this.CrearSongPlaylistButton.IconColor = System.Drawing.Color.Black;
             this.CrearSongPlaylistButton.IconSize = 36;
             this.CrearSongPlaylistButton.Location = new System.Drawing.Point(146, 197);
-            this.CrearSongPlaylistButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CrearSongPlaylistButton.Margin = new System.Windows.Forms.Padding(2);
             this.CrearSongPlaylistButton.Name = "CrearSongPlaylistButton";
             this.CrearSongPlaylistButton.Rotation = 0D;
             this.CrearSongPlaylistButton.Size = new System.Drawing.Size(86, 38);
@@ -4095,7 +4091,7 @@
             "",
             ""});
             this.NewSongPrivacidadComboBox.Location = new System.Drawing.Point(101, 142);
-            this.NewSongPrivacidadComboBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.NewSongPrivacidadComboBox.Margin = new System.Windows.Forms.Padding(2);
             this.NewSongPrivacidadComboBox.Name = "NewSongPrivacidadComboBox";
             this.NewSongPrivacidadComboBox.Size = new System.Drawing.Size(166, 21);
             this.NewSongPrivacidadComboBox.TabIndex = 3;
@@ -4105,7 +4101,7 @@
             this.PlaylistSongNameInput.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.PlaylistSongNameInput.Location = new System.Drawing.Point(101, 97);
-            this.PlaylistSongNameInput.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PlaylistSongNameInput.Margin = new System.Windows.Forms.Padding(2);
             this.PlaylistSongNameInput.Name = "PlaylistSongNameInput";
             this.PlaylistSongNameInput.Size = new System.Drawing.Size(166, 20);
             this.PlaylistSongNameInput.TabIndex = 2;
@@ -4139,7 +4135,7 @@
             this.SongsInMyPlaylistPanel.Controls.Add(this.SongInMyPlaylistListBox);
             this.SongsInMyPlaylistPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.SongsInMyPlaylistPanel.Location = new System.Drawing.Point(0, 0);
-            this.SongsInMyPlaylistPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SongsInMyPlaylistPanel.Margin = new System.Windows.Forms.Padding(2);
             this.SongsInMyPlaylistPanel.Name = "SongsInMyPlaylistPanel";
             this.SongsInMyPlaylistPanel.Size = new System.Drawing.Size(327, 444);
             this.SongsInMyPlaylistPanel.TabIndex = 3;
@@ -4153,7 +4149,7 @@
             this.BorrarCancionMyplaylist.IconColor = System.Drawing.Color.Black;
             this.BorrarCancionMyplaylist.IconSize = 36;
             this.BorrarCancionMyplaylist.Location = new System.Drawing.Point(284, 108);
-            this.BorrarCancionMyplaylist.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BorrarCancionMyplaylist.Margin = new System.Windows.Forms.Padding(2);
             this.BorrarCancionMyplaylist.Name = "BorrarCancionMyplaylist";
             this.BorrarCancionMyplaylist.Rotation = 0D;
             this.BorrarCancionMyplaylist.Size = new System.Drawing.Size(37, 37);
@@ -4169,7 +4165,7 @@
             this.BackMyPlaylistSong.IconColor = System.Drawing.Color.Black;
             this.BackMyPlaylistSong.IconSize = 36;
             this.BackMyPlaylistSong.Location = new System.Drawing.Point(284, 70);
-            this.BackMyPlaylistSong.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BackMyPlaylistSong.Margin = new System.Windows.Forms.Padding(2);
             this.BackMyPlaylistSong.Name = "BackMyPlaylistSong";
             this.BackMyPlaylistSong.Rotation = 0D;
             this.BackMyPlaylistSong.Size = new System.Drawing.Size(37, 36);
@@ -4194,7 +4190,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.SongInMyPlaylistListBox.FormattingEnabled = true;
             this.SongInMyPlaylistListBox.Location = new System.Drawing.Point(47, 70);
-            this.SongInMyPlaylistListBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SongInMyPlaylistListBox.Margin = new System.Windows.Forms.Padding(2);
             this.SongInMyPlaylistListBox.Name = "SongInMyPlaylistListBox";
             this.SongInMyPlaylistListBox.Size = new System.Drawing.Size(234, 329);
             this.SongInMyPlaylistListBox.TabIndex = 0;
@@ -4208,7 +4204,7 @@
             this.VerCancionesEnMisPlaylistButton.IconColor = System.Drawing.Color.Black;
             this.VerCancionesEnMisPlaylistButton.IconSize = 36;
             this.VerCancionesEnMisPlaylistButton.Location = new System.Drawing.Point(284, 70);
-            this.VerCancionesEnMisPlaylistButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.VerCancionesEnMisPlaylistButton.Margin = new System.Windows.Forms.Padding(2);
             this.VerCancionesEnMisPlaylistButton.Name = "VerCancionesEnMisPlaylistButton";
             this.VerCancionesEnMisPlaylistButton.Rotation = 0D;
             this.VerCancionesEnMisPlaylistButton.Size = new System.Drawing.Size(37, 33);
@@ -4235,7 +4231,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.MySongsListBox.FormattingEnabled = true;
             this.MySongsListBox.Location = new System.Drawing.Point(47, 70);
-            this.MySongsListBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MySongsListBox.Margin = new System.Windows.Forms.Padding(2);
             this.MySongsListBox.Name = "MySongsListBox";
             this.MySongsListBox.Size = new System.Drawing.Size(234, 329);
             this.MySongsListBox.TabIndex = 0;
@@ -4249,7 +4245,7 @@
             this.DownloadMyPlaylistSong.IconColor = System.Drawing.Color.Black;
             this.DownloadMyPlaylistSong.IconSize = 36;
             this.DownloadMyPlaylistSong.Location = new System.Drawing.Point(284, 108);
-            this.DownloadMyPlaylistSong.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DownloadMyPlaylistSong.Margin = new System.Windows.Forms.Padding(2);
             this.DownloadMyPlaylistSong.Name = "DownloadMyPlaylistSong";
             this.DownloadMyPlaylistSong.Rotation = 0D;
             this.DownloadMyPlaylistSong.Size = new System.Drawing.Size(37, 35);
@@ -4267,7 +4263,7 @@
             this.PlaylitsSongLogoMain.IconColor = System.Drawing.SystemColors.ControlText;
             this.PlaylitsSongLogoMain.IconSize = 133;
             this.PlaylitsSongLogoMain.Location = new System.Drawing.Point(249, 160);
-            this.PlaylitsSongLogoMain.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PlaylitsSongLogoMain.Margin = new System.Windows.Forms.Padding(2);
             this.PlaylitsSongLogoMain.Name = "PlaylitsSongLogoMain";
             this.PlaylitsSongLogoMain.Size = new System.Drawing.Size(136, 133);
             this.PlaylitsSongLogoMain.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -4283,7 +4279,7 @@
             this.SideSongPlaylistPanel.Controls.Add(this.panel3);
             this.SideSongPlaylistPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.SideSongPlaylistPanel.Location = new System.Drawing.Point(0, 0);
-            this.SideSongPlaylistPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SideSongPlaylistPanel.Margin = new System.Windows.Forms.Padding(2);
             this.SideSongPlaylistPanel.Name = "SideSongPlaylistPanel";
             this.SideSongPlaylistPanel.Size = new System.Drawing.Size(155, 444);
             this.SideSongPlaylistPanel.TabIndex = 0;
@@ -4296,7 +4292,7 @@
             this.MostLisentSonButton.IconColor = System.Drawing.Color.Black;
             this.MostLisentSonButton.IconSize = 36;
             this.MostLisentSonButton.Location = new System.Drawing.Point(0, 196);
-            this.MostLisentSonButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MostLisentSonButton.Margin = new System.Windows.Forms.Padding(2);
             this.MostLisentSonButton.Name = "MostLisentSonButton";
             this.MostLisentSonButton.Rotation = 0D;
             this.MostLisentSonButton.Size = new System.Drawing.Size(155, 33);
@@ -4314,7 +4310,7 @@
             this.FollowingPlaylist.IconColor = System.Drawing.Color.Black;
             this.FollowingPlaylist.IconSize = 36;
             this.FollowingPlaylist.Location = new System.Drawing.Point(0, 160);
-            this.FollowingPlaylist.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FollowingPlaylist.Margin = new System.Windows.Forms.Padding(2);
             this.FollowingPlaylist.Name = "FollowingPlaylist";
             this.FollowingPlaylist.Rotation = 0D;
             this.FollowingPlaylist.Size = new System.Drawing.Size(155, 36);
@@ -4330,7 +4326,7 @@
             this.SubMyPlaylistPanel.Controls.Add(this.AddPlaylistButton);
             this.SubMyPlaylistPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.SubMyPlaylistPanel.Location = new System.Drawing.Point(0, 102);
-            this.SubMyPlaylistPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SubMyPlaylistPanel.Margin = new System.Windows.Forms.Padding(2);
             this.SubMyPlaylistPanel.Name = "SubMyPlaylistPanel";
             this.SubMyPlaylistPanel.Size = new System.Drawing.Size(155, 58);
             this.SubMyPlaylistPanel.TabIndex = 4;
@@ -4346,7 +4342,7 @@
             this.DeletePlaylistButton.IconColor = System.Drawing.Color.Black;
             this.DeletePlaylistButton.IconSize = 20;
             this.DeletePlaylistButton.Location = new System.Drawing.Point(0, 29);
-            this.DeletePlaylistButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DeletePlaylistButton.Margin = new System.Windows.Forms.Padding(2);
             this.DeletePlaylistButton.Name = "DeletePlaylistButton";
             this.DeletePlaylistButton.Rotation = 0D;
             this.DeletePlaylistButton.Size = new System.Drawing.Size(155, 29);
@@ -4366,7 +4362,7 @@
             this.AddPlaylistButton.IconColor = System.Drawing.Color.Black;
             this.AddPlaylistButton.IconSize = 20;
             this.AddPlaylistButton.Location = new System.Drawing.Point(0, 0);
-            this.AddPlaylistButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AddPlaylistButton.Margin = new System.Windows.Forms.Padding(2);
             this.AddPlaylistButton.Name = "AddPlaylistButton";
             this.AddPlaylistButton.Rotation = 0D;
             this.AddPlaylistButton.Size = new System.Drawing.Size(155, 29);
@@ -4384,7 +4380,7 @@
             this.MySongplaylistButton.IconColor = System.Drawing.Color.Black;
             this.MySongplaylistButton.IconSize = 36;
             this.MySongplaylistButton.Location = new System.Drawing.Point(0, 66);
-            this.MySongplaylistButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MySongplaylistButton.Margin = new System.Windows.Forms.Padding(2);
             this.MySongplaylistButton.Name = "MySongplaylistButton";
             this.MySongplaylistButton.Rotation = 0D;
             this.MySongplaylistButton.Size = new System.Drawing.Size(155, 36);
@@ -4399,7 +4395,7 @@
             this.panel3.Controls.Add(this.PlaylistLogoIcon);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(155, 66);
             this.panel3.TabIndex = 0;
@@ -4413,7 +4409,7 @@
             this.PlaylistLogoIcon.IconColor = System.Drawing.SystemColors.ControlText;
             this.PlaylistLogoIcon.IconSize = 66;
             this.PlaylistLogoIcon.Location = new System.Drawing.Point(0, 0);
-            this.PlaylistLogoIcon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PlaylistLogoIcon.Margin = new System.Windows.Forms.Padding(2);
             this.PlaylistLogoIcon.Name = "PlaylistLogoIcon";
             this.PlaylistLogoIcon.Size = new System.Drawing.Size(155, 66);
             this.PlaylistLogoIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -4428,7 +4424,7 @@
             this.SearchMainPanel.Controls.Add(this.SearchMediapanel);
             this.SearchMainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.SearchMainPanel.Location = new System.Drawing.Point(0, 0);
-            this.SearchMainPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SearchMainPanel.Margin = new System.Windows.Forms.Padding(2);
             this.SearchMainPanel.Name = "SearchMainPanel";
             this.SearchMainPanel.Size = new System.Drawing.Size(482, 444);
             this.SearchMainPanel.TabIndex = 7;
@@ -4444,7 +4440,7 @@
             this.SearchUserPanel.Controls.Add(this.SearchUserPaneltextbox);
             this.SearchUserPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.SearchUserPanel.Location = new System.Drawing.Point(0, 0);
-            this.SearchUserPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SearchUserPanel.Margin = new System.Windows.Forms.Padding(2);
             this.SearchUserPanel.Name = "SearchUserPanel";
             this.SearchUserPanel.Size = new System.Drawing.Size(482, 444);
             this.SearchUserPanel.TabIndex = 6;
@@ -4458,7 +4454,7 @@
             this.DownPanelUSerSearch.Controls.Add(this.LodoUserPanel);
             this.DownPanelUSerSearch.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.DownPanelUSerSearch.Location = new System.Drawing.Point(0, 381);
-            this.DownPanelUSerSearch.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DownPanelUSerSearch.Margin = new System.Windows.Forms.Padding(2);
             this.DownPanelUSerSearch.Name = "DownPanelUSerSearch";
             this.DownPanelUSerSearch.Size = new System.Drawing.Size(482, 63);
             this.DownPanelUSerSearch.TabIndex = 10;
@@ -4469,7 +4465,7 @@
             this.SeguirPlaylistPanel.Controls.Add(this.SearchUserPlaylistListbox);
             this.SeguirPlaylistPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.SeguirPlaylistPanel.Location = new System.Drawing.Point(275, 0);
-            this.SeguirPlaylistPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SeguirPlaylistPanel.Margin = new System.Windows.Forms.Padding(2);
             this.SeguirPlaylistPanel.Name = "SeguirPlaylistPanel";
             this.SeguirPlaylistPanel.Size = new System.Drawing.Size(207, 63);
             this.SeguirPlaylistPanel.TabIndex = 4;
@@ -4485,7 +4481,7 @@
             this.FollowPlyalistButton.IconColor = System.Drawing.Color.Black;
             this.FollowPlyalistButton.IconSize = 20;
             this.FollowPlyalistButton.Location = new System.Drawing.Point(180, 38);
-            this.FollowPlyalistButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FollowPlyalistButton.Margin = new System.Windows.Forms.Padding(2);
             this.FollowPlyalistButton.Name = "FollowPlyalistButton";
             this.FollowPlyalistButton.Rotation = 0D;
             this.FollowPlyalistButton.Size = new System.Drawing.Size(27, 25);
@@ -4498,7 +4494,7 @@
             this.SearchUserPlaylistListbox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.SearchUserPlaylistListbox.FormattingEnabled = true;
             this.SearchUserPlaylistListbox.Location = new System.Drawing.Point(0, 0);
-            this.SearchUserPlaylistListbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SearchUserPlaylistListbox.Margin = new System.Windows.Forms.Padding(2);
             this.SearchUserPlaylistListbox.Name = "SearchUserPlaylistListbox";
             this.SearchUserPlaylistListbox.Size = new System.Drawing.Size(207, 63);
             this.SearchUserPlaylistListbox.TabIndex = 0;
@@ -4514,7 +4510,7 @@
             this.PlaylistsUserSearchButton.IconColor = System.Drawing.Color.Black;
             this.PlaylistsUserSearchButton.IconSize = 36;
             this.PlaylistsUserSearchButton.Location = new System.Drawing.Point(178, 0);
-            this.PlaylistsUserSearchButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PlaylistsUserSearchButton.Margin = new System.Windows.Forms.Padding(2);
             this.PlaylistsUserSearchButton.Name = "PlaylistsUserSearchButton";
             this.PlaylistsUserSearchButton.Rotation = 0D;
             this.PlaylistsUserSearchButton.Size = new System.Drawing.Size(97, 63);
@@ -4534,7 +4530,7 @@
             this.FollowUserButton.IconColor = System.Drawing.Color.Black;
             this.FollowUserButton.IconSize = 36;
             this.FollowUserButton.Location = new System.Drawing.Point(81, 0);
-            this.FollowUserButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FollowUserButton.Margin = new System.Windows.Forms.Padding(2);
             this.FollowUserButton.Name = "FollowUserButton";
             this.FollowUserButton.Rotation = 0D;
             this.FollowUserButton.Size = new System.Drawing.Size(97, 63);
@@ -4549,7 +4545,7 @@
             this.LodoUserPanel.Controls.Add(this.UserSeachIcon);
             this.LodoUserPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.LodoUserPanel.Location = new System.Drawing.Point(0, 0);
-            this.LodoUserPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.LodoUserPanel.Margin = new System.Windows.Forms.Padding(2);
             this.LodoUserPanel.Name = "LodoUserPanel";
             this.LodoUserPanel.Size = new System.Drawing.Size(81, 63);
             this.LodoUserPanel.TabIndex = 0;
@@ -4563,7 +4559,7 @@
             this.UserSeachIcon.IconColor = System.Drawing.SystemColors.ControlText;
             this.UserSeachIcon.IconSize = 63;
             this.UserSeachIcon.Location = new System.Drawing.Point(0, 0);
-            this.UserSeachIcon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.UserSeachIcon.Margin = new System.Windows.Forms.Padding(2);
             this.UserSeachIcon.Name = "UserSeachIcon";
             this.UserSeachIcon.Size = new System.Drawing.Size(81, 63);
             this.UserSeachIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -4578,7 +4574,7 @@
             this.SearchLogoIcon.IconColor = System.Drawing.SystemColors.ControlText;
             this.SearchLogoIcon.IconSize = 54;
             this.SearchLogoIcon.Location = new System.Drawing.Point(95, 55);
-            this.SearchLogoIcon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SearchLogoIcon.Margin = new System.Windows.Forms.Padding(2);
             this.SearchLogoIcon.Name = "SearchLogoIcon";
             this.SearchLogoIcon.Size = new System.Drawing.Size(60, 54);
             this.SearchLogoIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -4630,7 +4626,7 @@
             this.SearchArtistPanel.Controls.Add(this.SearchArtistLogo);
             this.SearchArtistPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.SearchArtistPanel.Location = new System.Drawing.Point(0, 0);
-            this.SearchArtistPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SearchArtistPanel.Margin = new System.Windows.Forms.Padding(2);
             this.SearchArtistPanel.Name = "SearchArtistPanel";
             this.SearchArtistPanel.Size = new System.Drawing.Size(482, 444);
             this.SearchArtistPanel.TabIndex = 8;
@@ -4644,7 +4640,7 @@
             this.SideSearchArtsitsPanel.Controls.Add(this.LogoArtistSearch);
             this.SideSearchArtsitsPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.SideSearchArtsitsPanel.Location = new System.Drawing.Point(0, 381);
-            this.SideSearchArtsitsPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SideSearchArtsitsPanel.Margin = new System.Windows.Forms.Padding(2);
             this.SideSearchArtsitsPanel.Name = "SideSearchArtsitsPanel";
             this.SideSearchArtsitsPanel.Size = new System.Drawing.Size(482, 63);
             this.SideSearchArtsitsPanel.TabIndex = 4;
@@ -4654,7 +4650,7 @@
             this.AlbumSearchPanel.Controls.Add(this.AlbumSearchArtistListbox);
             this.AlbumSearchPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AlbumSearchPanel.Location = new System.Drawing.Point(275, 0);
-            this.AlbumSearchPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AlbumSearchPanel.Margin = new System.Windows.Forms.Padding(2);
             this.AlbumSearchPanel.Name = "AlbumSearchPanel";
             this.AlbumSearchPanel.Size = new System.Drawing.Size(207, 63);
             this.AlbumSearchPanel.TabIndex = 3;
@@ -4664,7 +4660,7 @@
             this.AlbumSearchArtistListbox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AlbumSearchArtistListbox.FormattingEnabled = true;
             this.AlbumSearchArtistListbox.Location = new System.Drawing.Point(0, 0);
-            this.AlbumSearchArtistListbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AlbumSearchArtistListbox.Margin = new System.Windows.Forms.Padding(2);
             this.AlbumSearchArtistListbox.Name = "AlbumSearchArtistListbox";
             this.AlbumSearchArtistListbox.Size = new System.Drawing.Size(207, 63);
             this.AlbumSearchArtistListbox.TabIndex = 0;
@@ -4682,7 +4678,7 @@
             this.Album.IconColor = System.Drawing.Color.Black;
             this.Album.IconSize = 36;
             this.Album.Location = new System.Drawing.Point(178, 0);
-            this.Album.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Album.Margin = new System.Windows.Forms.Padding(2);
             this.Album.Name = "Album";
             this.Album.Rotation = 0D;
             this.Album.Size = new System.Drawing.Size(97, 63);
@@ -4703,7 +4699,7 @@
             this.FollowArtist.IconColor = System.Drawing.Color.Black;
             this.FollowArtist.IconSize = 36;
             this.FollowArtist.Location = new System.Drawing.Point(81, 0);
-            this.FollowArtist.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FollowArtist.Margin = new System.Windows.Forms.Padding(2);
             this.FollowArtist.Name = "FollowArtist";
             this.FollowArtist.Rotation = 0D;
             this.FollowArtist.Size = new System.Drawing.Size(97, 63);
@@ -4718,7 +4714,7 @@
             this.LogoArtistSearch.Controls.Add(this.IconSearchUserLogo);
             this.LogoArtistSearch.Dock = System.Windows.Forms.DockStyle.Left;
             this.LogoArtistSearch.Location = new System.Drawing.Point(0, 0);
-            this.LogoArtistSearch.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.LogoArtistSearch.Margin = new System.Windows.Forms.Padding(2);
             this.LogoArtistSearch.Name = "LogoArtistSearch";
             this.LogoArtistSearch.Size = new System.Drawing.Size(81, 63);
             this.LogoArtistSearch.TabIndex = 0;
@@ -4732,7 +4728,7 @@
             this.IconSearchUserLogo.IconColor = System.Drawing.SystemColors.ControlText;
             this.IconSearchUserLogo.IconSize = 63;
             this.IconSearchUserLogo.Location = new System.Drawing.Point(0, 0);
-            this.IconSearchUserLogo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.IconSearchUserLogo.Margin = new System.Windows.Forms.Padding(2);
             this.IconSearchUserLogo.Name = "IconSearchUserLogo";
             this.IconSearchUserLogo.Size = new System.Drawing.Size(81, 63);
             this.IconSearchUserLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -4746,7 +4742,7 @@
             this.SearchArtistListBox.FormattingEnabled = true;
             this.SearchArtistListBox.HorizontalScrollbar = true;
             this.SearchArtistListBox.Location = new System.Drawing.Point(107, 171);
-            this.SearchArtistListBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SearchArtistListBox.Margin = new System.Windows.Forms.Padding(2);
             this.SearchArtistListBox.Name = "SearchArtistListBox";
             this.SearchArtistListBox.Size = new System.Drawing.Size(300, 134);
             this.SearchArtistListBox.TabIndex = 3;
@@ -4757,7 +4753,7 @@
             this.SearchTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.SearchTextBox.Location = new System.Drawing.Point(107, 132);
-            this.SearchTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SearchTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.SearchTextBox.Name = "SearchTextBox";
             this.SearchTextBox.Size = new System.Drawing.Size(300, 20);
             this.SearchTextBox.TabIndex = 2;
@@ -4771,7 +4767,7 @@
             this.IconSearchLogo.IconColor = System.Drawing.SystemColors.ControlText;
             this.IconSearchLogo.IconSize = 45;
             this.IconSearchLogo.Location = new System.Drawing.Point(107, 65);
-            this.IconSearchLogo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.IconSearchLogo.Margin = new System.Windows.Forms.Padding(2);
             this.IconSearchLogo.Name = "IconSearchLogo";
             this.IconSearchLogo.Size = new System.Drawing.Size(47, 45);
             this.IconSearchLogo.TabIndex = 1;
@@ -4815,7 +4811,7 @@
             this.FiltroPanel.Controls.Add(this.SearchMediatextBox);
             this.FiltroPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.FiltroPanel.Location = new System.Drawing.Point(102, 0);
-            this.FiltroPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FiltroPanel.Margin = new System.Windows.Forms.Padding(2);
             this.FiltroPanel.Name = "FiltroPanel";
             this.FiltroPanel.Size = new System.Drawing.Size(380, 348);
             this.FiltroPanel.TabIndex = 8;
@@ -4829,7 +4825,7 @@
             this.InfoFButton.IconColor = System.Drawing.Color.Black;
             this.InfoFButton.IconSize = 26;
             this.InfoFButton.Location = new System.Drawing.Point(346, 155);
-            this.InfoFButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.InfoFButton.Margin = new System.Windows.Forms.Padding(2);
             this.InfoFButton.Name = "InfoFButton";
             this.InfoFButton.Rotation = 0D;
             this.InfoFButton.Size = new System.Drawing.Size(28, 27);
@@ -4845,7 +4841,7 @@
             this.iconPictureBox5.IconColor = System.Drawing.SystemColors.ControlText;
             this.iconPictureBox5.IconSize = 45;
             this.iconPictureBox5.Location = new System.Drawing.Point(37, 64);
-            this.iconPictureBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.iconPictureBox5.Margin = new System.Windows.Forms.Padding(2);
             this.iconPictureBox5.Name = "iconPictureBox5";
             this.iconPictureBox5.Size = new System.Drawing.Size(47, 45);
             this.iconPictureBox5.TabIndex = 13;
@@ -4899,7 +4895,7 @@
             this.MultifiltroPanel.Controls.Add(this.SearchLogo);
             this.MultifiltroPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MultifiltroPanel.Location = new System.Drawing.Point(102, 0);
-            this.MultifiltroPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MultifiltroPanel.Margin = new System.Windows.Forms.Padding(2);
             this.MultifiltroPanel.Name = "MultifiltroPanel";
             this.MultifiltroPanel.Size = new System.Drawing.Size(380, 348);
             this.MultifiltroPanel.TabIndex = 6;
@@ -4913,7 +4909,7 @@
             this.InfoMFbutton.IconColor = System.Drawing.Color.Black;
             this.InfoMFbutton.IconSize = 26;
             this.InfoMFbutton.Location = new System.Drawing.Point(346, 155);
-            this.InfoMFbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.InfoMFbutton.Margin = new System.Windows.Forms.Padding(2);
             this.InfoMFbutton.Name = "InfoMFbutton";
             this.InfoMFbutton.Rotation = 0D;
             this.InfoMFbutton.Size = new System.Drawing.Size(28, 27);
@@ -4929,7 +4925,7 @@
             this.BuscarMultiplesFiltroButton.IconColor = System.Drawing.Color.Black;
             this.BuscarMultiplesFiltroButton.IconSize = 20;
             this.BuscarMultiplesFiltroButton.Location = new System.Drawing.Point(346, 120);
-            this.BuscarMultiplesFiltroButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BuscarMultiplesFiltroButton.Margin = new System.Windows.Forms.Padding(2);
             this.BuscarMultiplesFiltroButton.Name = "BuscarMultiplesFiltroButton";
             this.BuscarMultiplesFiltroButton.Rotation = 0D;
             this.BuscarMultiplesFiltroButton.Size = new System.Drawing.Size(30, 17);
@@ -4942,7 +4938,7 @@
             this.MultiFiltrotextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.MultiFiltrotextBox1.Location = new System.Drawing.Point(45, 120);
-            this.MultiFiltrotextBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MultiFiltrotextBox1.Margin = new System.Windows.Forms.Padding(2);
             this.MultiFiltrotextBox1.Name = "MultiFiltrotextBox1";
             this.MultiFiltrotextBox1.Size = new System.Drawing.Size(300, 20);
             this.MultiFiltrotextBox1.TabIndex = 13;
@@ -4955,7 +4951,7 @@
             this.MultifiltrolistBox1.FormattingEnabled = true;
             this.MultifiltrolistBox1.HorizontalScrollbar = true;
             this.MultifiltrolistBox1.Location = new System.Drawing.Point(45, 155);
-            this.MultifiltrolistBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MultifiltrolistBox1.Margin = new System.Windows.Forms.Padding(2);
             this.MultifiltrolistBox1.Name = "MultifiltrolistBox1";
             this.MultifiltrolistBox1.Size = new System.Drawing.Size(300, 160);
             this.MultifiltrolistBox1.TabIndex = 12;
@@ -4969,7 +4965,7 @@
             this.SearchMediaIcon.IconColor = System.Drawing.SystemColors.ControlText;
             this.SearchMediaIcon.IconSize = 45;
             this.SearchMediaIcon.Location = new System.Drawing.Point(37, 64);
-            this.SearchMediaIcon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SearchMediaIcon.Margin = new System.Windows.Forms.Padding(2);
             this.SearchMediaIcon.Name = "SearchMediaIcon";
             this.SearchMediaIcon.Size = new System.Drawing.Size(47, 45);
             this.SearchMediaIcon.TabIndex = 11;
@@ -4994,7 +4990,7 @@
             this.SubMediaSearchPanel.Controls.Add(this.PlaylistListBoxAdd);
             this.SubMediaSearchPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.SubMediaSearchPanel.Location = new System.Drawing.Point(102, 348);
-            this.SubMediaSearchPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SubMediaSearchPanel.Margin = new System.Windows.Forms.Padding(2);
             this.SubMediaSearchPanel.Name = "SubMediaSearchPanel";
             this.SubMediaSearchPanel.Size = new System.Drawing.Size(380, 96);
             this.SubMediaSearchPanel.TabIndex = 5;
@@ -5008,7 +5004,7 @@
             this.AgregarMediaPlaylistButton.IconColor = System.Drawing.Color.Black;
             this.AgregarMediaPlaylistButton.IconSize = 36;
             this.AgregarMediaPlaylistButton.Location = new System.Drawing.Point(274, 69);
-            this.AgregarMediaPlaylistButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AgregarMediaPlaylistButton.Margin = new System.Windows.Forms.Padding(2);
             this.AgregarMediaPlaylistButton.Name = "AgregarMediaPlaylistButton";
             this.AgregarMediaPlaylistButton.Rotation = 0D;
             this.AgregarMediaPlaylistButton.Size = new System.Drawing.Size(106, 27);
@@ -5023,7 +5019,7 @@
             this.PlaylistListBoxAdd.Dock = System.Windows.Forms.DockStyle.Top;
             this.PlaylistListBoxAdd.FormattingEnabled = true;
             this.PlaylistListBoxAdd.Location = new System.Drawing.Point(0, 0);
-            this.PlaylistListBoxAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PlaylistListBoxAdd.Margin = new System.Windows.Forms.Padding(2);
             this.PlaylistListBoxAdd.Name = "PlaylistListBoxAdd";
             this.PlaylistListBoxAdd.Size = new System.Drawing.Size(380, 69);
             this.PlaylistListBoxAdd.TabIndex = 0;
@@ -5037,7 +5033,7 @@
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(102, 444);
             this.panel1.TabIndex = 4;
@@ -5050,7 +5046,7 @@
             this.AddToPlaylistButton.IconColor = System.Drawing.Color.Black;
             this.AddToPlaylistButton.IconSize = 36;
             this.AddToPlaylistButton.Location = new System.Drawing.Point(0, 414);
-            this.AddToPlaylistButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AddToPlaylistButton.Margin = new System.Windows.Forms.Padding(2);
             this.AddToPlaylistButton.Name = "AddToPlaylistButton";
             this.AddToPlaylistButton.Rotation = 0D;
             this.AddToPlaylistButton.Size = new System.Drawing.Size(102, 30);
@@ -5070,7 +5066,7 @@
             this.SubFiltersPanel.Controls.Add(this.PalabraClaveButton);
             this.SubFiltersPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.SubFiltersPanel.Location = new System.Drawing.Point(0, 137);
-            this.SubFiltersPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SubFiltersPanel.Margin = new System.Windows.Forms.Padding(2);
             this.SubFiltersPanel.Name = "SubFiltersPanel";
             this.SubFiltersPanel.Size = new System.Drawing.Size(102, 204);
             this.SubFiltersPanel.TabIndex = 3;
@@ -5083,7 +5079,7 @@
             this.ResolucionButton.FlatAppearance.BorderSize = 0;
             this.ResolucionButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ResolucionButton.Location = new System.Drawing.Point(0, 132);
-            this.ResolucionButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ResolucionButton.Margin = new System.Windows.Forms.Padding(2);
             this.ResolucionButton.Name = "ResolucionButton";
             this.ResolucionButton.Size = new System.Drawing.Size(102, 26);
             this.ResolucionButton.TabIndex = 5;
@@ -5098,7 +5094,7 @@
             this.CategoriaButton.FlatAppearance.BorderSize = 0;
             this.CategoriaButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CategoriaButton.Location = new System.Drawing.Point(0, 104);
-            this.CategoriaButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CategoriaButton.Margin = new System.Windows.Forms.Padding(2);
             this.CategoriaButton.Name = "CategoriaButton";
             this.CategoriaButton.Size = new System.Drawing.Size(102, 28);
             this.CategoriaButton.TabIndex = 4;
@@ -5113,7 +5109,7 @@
             this.EvaluacionButton.FlatAppearance.BorderSize = 0;
             this.EvaluacionButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.EvaluacionButton.Location = new System.Drawing.Point(0, 78);
-            this.EvaluacionButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.EvaluacionButton.Margin = new System.Windows.Forms.Padding(2);
             this.EvaluacionButton.Name = "EvaluacionButton";
             this.EvaluacionButton.Size = new System.Drawing.Size(102, 26);
             this.EvaluacionButton.TabIndex = 3;
@@ -5128,7 +5124,7 @@
             this.CaracteristicaButton.FlatAppearance.BorderSize = 0;
             this.CaracteristicaButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CaracteristicaButton.Location = new System.Drawing.Point(0, 52);
-            this.CaracteristicaButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CaracteristicaButton.Margin = new System.Windows.Forms.Padding(2);
             this.CaracteristicaButton.Name = "CaracteristicaButton";
             this.CaracteristicaButton.Size = new System.Drawing.Size(102, 26);
             this.CaracteristicaButton.TabIndex = 2;
@@ -5143,7 +5139,7 @@
             this.PersonsButton.FlatAppearance.BorderSize = 0;
             this.PersonsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.PersonsButton.Location = new System.Drawing.Point(0, 26);
-            this.PersonsButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PersonsButton.Margin = new System.Windows.Forms.Padding(2);
             this.PersonsButton.Name = "PersonsButton";
             this.PersonsButton.Size = new System.Drawing.Size(102, 26);
             this.PersonsButton.TabIndex = 1;
@@ -5158,7 +5154,7 @@
             this.PalabraClaveButton.FlatAppearance.BorderSize = 0;
             this.PalabraClaveButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.PalabraClaveButton.Location = new System.Drawing.Point(0, 0);
-            this.PalabraClaveButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PalabraClaveButton.Margin = new System.Windows.Forms.Padding(2);
             this.PalabraClaveButton.Name = "PalabraClaveButton";
             this.PalabraClaveButton.Size = new System.Drawing.Size(102, 26);
             this.PalabraClaveButton.TabIndex = 0;
@@ -5174,7 +5170,7 @@
             this.FiltersButton.IconColor = System.Drawing.Color.Black;
             this.FiltersButton.IconSize = 36;
             this.FiltersButton.Location = new System.Drawing.Point(0, 101);
-            this.FiltersButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FiltersButton.Margin = new System.Windows.Forms.Padding(2);
             this.FiltersButton.Name = "FiltersButton";
             this.FiltersButton.Rotation = 0D;
             this.FiltersButton.Size = new System.Drawing.Size(102, 36);
@@ -5190,7 +5186,7 @@
             this.panel2.Controls.Add(this.panel7);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(102, 101);
             this.panel2.TabIndex = 1;
@@ -5203,7 +5199,7 @@
             this.iconButton1.IconColor = System.Drawing.Color.Black;
             this.iconButton1.IconSize = 36;
             this.iconButton1.Location = new System.Drawing.Point(0, 66);
-            this.iconButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.iconButton1.Margin = new System.Windows.Forms.Padding(2);
             this.iconButton1.Name = "iconButton1";
             this.iconButton1.Rotation = 0D;
             this.iconButton1.Size = new System.Drawing.Size(102, 36);
@@ -5219,7 +5215,7 @@
             this.panel7.Controls.Add(this.FilterONlable);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel7.Location = new System.Drawing.Point(0, 0);
-            this.panel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel7.Margin = new System.Windows.Forms.Padding(2);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(102, 66);
             this.panel7.TabIndex = 1;
@@ -5246,7 +5242,7 @@
             this.iconPictureBox3.IconColor = System.Drawing.SystemColors.ControlText;
             this.iconPictureBox3.IconSize = 153;
             this.iconPictureBox3.Location = new System.Drawing.Point(200, 101);
-            this.iconPictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.iconPictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.iconPictureBox3.Name = "iconPictureBox3";
             this.iconPictureBox3.Size = new System.Drawing.Size(185, 153);
             this.iconPictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -5281,7 +5277,7 @@
             this.ReproduccionPanel.Controls.Add(this.macTrackBar1);
             this.ReproduccionPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.ReproduccionPanel.Location = new System.Drawing.Point(201, 444);
-            this.ReproduccionPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ReproduccionPanel.Margin = new System.Windows.Forms.Padding(2);
             this.ReproduccionPanel.Name = "ReproduccionPanel";
             this.ReproduccionPanel.Size = new System.Drawing.Size(482, 55);
             this.ReproduccionPanel.TabIndex = 1;
@@ -5295,7 +5291,7 @@
             this.macTrackBar2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(123)))));
             this.macTrackBar2.IndentHeight = 6;
             this.macTrackBar2.Location = new System.Drawing.Point(310, 16);
-            this.macTrackBar2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.macTrackBar2.Margin = new System.Windows.Forms.Padding(2);
             this.macTrackBar2.Maximum = 100;
             this.macTrackBar2.Minimum = 0;
             this.macTrackBar2.Name = "macTrackBar2";
@@ -5320,7 +5316,7 @@
             this.CalsificacionButton.IconColor = System.Drawing.Color.Brown;
             this.CalsificacionButton.IconSize = 25;
             this.CalsificacionButton.Location = new System.Drawing.Point(75, 32);
-            this.CalsificacionButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CalsificacionButton.Margin = new System.Windows.Forms.Padding(2);
             this.CalsificacionButton.Name = "CalsificacionButton";
             this.CalsificacionButton.Rotation = 0D;
             this.CalsificacionButton.Size = new System.Drawing.Size(55, 21);
@@ -5344,7 +5340,7 @@
             "9",
             "10"});
             this.CalificacionComboBox.Location = new System.Drawing.Point(65, 10);
-            this.CalificacionComboBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CalificacionComboBox.Margin = new System.Windows.Forms.Padding(2);
             this.CalificacionComboBox.Name = "CalificacionComboBox";
             this.CalificacionComboBox.Size = new System.Drawing.Size(77, 21);
             this.CalificacionComboBox.TabIndex = 8;
@@ -5358,7 +5354,7 @@
             this.StopButton.IconColor = System.Drawing.Color.Black;
             this.StopButton.IconSize = 36;
             this.StopButton.Location = new System.Drawing.Point(192, 10);
-            this.StopButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.StopButton.Margin = new System.Windows.Forms.Padding(2);
             this.StopButton.MaximumSize = new System.Drawing.Size(33, 32);
             this.StopButton.MinimumSize = new System.Drawing.Size(33, 32);
             this.StopButton.Name = "StopButton";
@@ -5378,7 +5374,7 @@
             this.NextButton.IconColor = System.Drawing.Color.Black;
             this.NextButton.IconSize = 36;
             this.NextButton.Location = new System.Drawing.Point(268, 10);
-            this.NextButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.NextButton.Margin = new System.Windows.Forms.Padding(2);
             this.NextButton.MaximumSize = new System.Drawing.Size(33, 32);
             this.NextButton.MinimumSize = new System.Drawing.Size(33, 32);
             this.NextButton.Name = "NextButton";
@@ -5397,7 +5393,7 @@
             this.BackButton.IconColor = System.Drawing.Color.Black;
             this.BackButton.IconSize = 36;
             this.BackButton.Location = new System.Drawing.Point(155, 10);
-            this.BackButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BackButton.Margin = new System.Windows.Forms.Padding(2);
             this.BackButton.MaximumSize = new System.Drawing.Size(33, 32);
             this.BackButton.MinimumSize = new System.Drawing.Size(33, 32);
             this.BackButton.Name = "BackButton";
@@ -5415,7 +5411,7 @@
             this.QueueButton.IconColor = System.Drawing.Color.Black;
             this.QueueButton.IconSize = 36;
             this.QueueButton.Location = new System.Drawing.Point(9, 16);
-            this.QueueButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.QueueButton.Margin = new System.Windows.Forms.Padding(2);
             this.QueueButton.Name = "QueueButton";
             this.QueueButton.Rotation = 0D;
             this.QueueButton.Size = new System.Drawing.Size(33, 32);
@@ -5433,7 +5429,7 @@
             this.PlayButton.IconColor = System.Drawing.Color.Black;
             this.PlayButton.IconSize = 36;
             this.PlayButton.Location = new System.Drawing.Point(231, 10);
-            this.PlayButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PlayButton.Margin = new System.Windows.Forms.Padding(2);
             this.PlayButton.MaximumSize = new System.Drawing.Size(33, 32);
             this.PlayButton.MinimumSize = new System.Drawing.Size(33, 32);
             this.PlayButton.Name = "PlayButton";
@@ -5453,7 +5449,7 @@
             this.LikeButton.IconColor = System.Drawing.Color.Black;
             this.LikeButton.IconSize = 36;
             this.LikeButton.Location = new System.Drawing.Point(442, 16);
-            this.LikeButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.LikeButton.Margin = new System.Windows.Forms.Padding(2);
             this.LikeButton.Name = "LikeButton";
             this.LikeButton.Rotation = 0D;
             this.LikeButton.Size = new System.Drawing.Size(33, 32);
@@ -5472,7 +5468,7 @@
             this.macTrackBar1.ForeColor = System.Drawing.Color.Transparent;
             this.macTrackBar1.IndentHeight = 6;
             this.macTrackBar1.Location = new System.Drawing.Point(0, -4);
-            this.macTrackBar1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.macTrackBar1.Margin = new System.Windows.Forms.Padding(2);
             this.macTrackBar1.Maximum = 10;
             this.macTrackBar1.Minimum = 0;
             this.macTrackBar1.Name = "macTrackBar1";
@@ -5506,7 +5502,7 @@
             this.SideMainPanel.Controls.Add(this.LogoPanel);
             this.SideMainPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.SideMainPanel.Location = new System.Drawing.Point(0, 0);
-            this.SideMainPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SideMainPanel.Margin = new System.Windows.Forms.Padding(2);
             this.SideMainPanel.Name = "SideMainPanel";
             this.SideMainPanel.Size = new System.Drawing.Size(201, 499);
             this.SideMainPanel.TabIndex = 0;
@@ -5519,7 +5515,7 @@
             this.ExitMainPanel.IconColor = System.Drawing.Color.Black;
             this.ExitMainPanel.IconSize = 36;
             this.ExitMainPanel.Location = new System.Drawing.Point(-1, 466);
-            this.ExitMainPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ExitMainPanel.Margin = new System.Windows.Forms.Padding(2);
             this.ExitMainPanel.Name = "ExitMainPanel";
             this.ExitMainPanel.Rotation = 0D;
             this.ExitMainPanel.Size = new System.Drawing.Size(33, 32);
@@ -5533,7 +5529,7 @@
             this.SubProfilePanel.Controls.Add(this.EditeProfilebutton);
             this.SubProfilePanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.SubProfilePanel.Location = new System.Drawing.Point(0, 422);
-            this.SubProfilePanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SubProfilePanel.Margin = new System.Windows.Forms.Padding(2);
             this.SubProfilePanel.Name = "SubProfilePanel";
             this.SubProfilePanel.Size = new System.Drawing.Size(199, 52);
             this.SubProfilePanel.TabIndex = 7;
@@ -5546,7 +5542,7 @@
             this.InfoProfileButton.FlatAppearance.BorderSize = 0;
             this.InfoProfileButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.InfoProfileButton.Location = new System.Drawing.Point(0, 26);
-            this.InfoProfileButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.InfoProfileButton.Margin = new System.Windows.Forms.Padding(2);
             this.InfoProfileButton.Name = "InfoProfileButton";
             this.InfoProfileButton.Size = new System.Drawing.Size(199, 26);
             this.InfoProfileButton.TabIndex = 1;
@@ -5561,7 +5557,7 @@
             this.EditeProfilebutton.FlatAppearance.BorderSize = 0;
             this.EditeProfilebutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.EditeProfilebutton.Location = new System.Drawing.Point(0, 0);
-            this.EditeProfilebutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.EditeProfilebutton.Margin = new System.Windows.Forms.Padding(2);
             this.EditeProfilebutton.Name = "EditeProfilebutton";
             this.EditeProfilebutton.Size = new System.Drawing.Size(199, 26);
             this.EditeProfilebutton.TabIndex = 0;
@@ -5578,7 +5574,7 @@
             this.ProfileButton.IconColor = System.Drawing.Color.Lime;
             this.ProfileButton.IconSize = 30;
             this.ProfileButton.Location = new System.Drawing.Point(0, 386);
-            this.ProfileButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ProfileButton.Margin = new System.Windows.Forms.Padding(2);
             this.ProfileButton.Name = "ProfileButton";
             this.ProfileButton.Rotation = 0D;
             this.ProfileButton.Size = new System.Drawing.Size(199, 36);
@@ -5596,7 +5592,7 @@
             this.SubArtistPanel.Controls.Add(this.UploadSongButton);
             this.SubArtistPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.SubArtistPanel.Location = new System.Drawing.Point(0, 308);
-            this.SubArtistPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SubArtistPanel.Margin = new System.Windows.Forms.Padding(2);
             this.SubArtistPanel.Name = "SubArtistPanel";
             this.SubArtistPanel.Size = new System.Drawing.Size(199, 78);
             this.SubArtistPanel.TabIndex = 5;
@@ -5609,7 +5605,7 @@
             this.AlbumButton.FlatAppearance.BorderSize = 0;
             this.AlbumButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AlbumButton.Location = new System.Drawing.Point(0, 52);
-            this.AlbumButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AlbumButton.Margin = new System.Windows.Forms.Padding(2);
             this.AlbumButton.Name = "AlbumButton";
             this.AlbumButton.Size = new System.Drawing.Size(199, 26);
             this.AlbumButton.TabIndex = 2;
@@ -5624,7 +5620,7 @@
             this.UploadVideoButton.FlatAppearance.BorderSize = 0;
             this.UploadVideoButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.UploadVideoButton.Location = new System.Drawing.Point(0, 26);
-            this.UploadVideoButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.UploadVideoButton.Margin = new System.Windows.Forms.Padding(2);
             this.UploadVideoButton.Name = "UploadVideoButton";
             this.UploadVideoButton.Size = new System.Drawing.Size(199, 26);
             this.UploadVideoButton.TabIndex = 1;
@@ -5639,7 +5635,7 @@
             this.UploadSongButton.FlatAppearance.BorderSize = 0;
             this.UploadSongButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.UploadSongButton.Location = new System.Drawing.Point(0, 0);
-            this.UploadSongButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.UploadSongButton.Margin = new System.Windows.Forms.Padding(2);
             this.UploadSongButton.Name = "UploadSongButton";
             this.UploadSongButton.Size = new System.Drawing.Size(199, 26);
             this.UploadSongButton.TabIndex = 0;
@@ -5656,7 +5652,7 @@
             this.ArtisteModeButton.IconColor = System.Drawing.Color.Yellow;
             this.ArtisteModeButton.IconSize = 35;
             this.ArtisteModeButton.Location = new System.Drawing.Point(0, 267);
-            this.ArtisteModeButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ArtisteModeButton.Margin = new System.Windows.Forms.Padding(2);
             this.ArtisteModeButton.Name = "ArtisteModeButton";
             this.ArtisteModeButton.Rotation = 0D;
             this.ArtisteModeButton.Size = new System.Drawing.Size(199, 41);
@@ -5673,7 +5669,7 @@
             this.SubPlaylistPanel.Controls.Add(this.SongButton);
             this.SubPlaylistPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.SubPlaylistPanel.Location = new System.Drawing.Point(0, 215);
-            this.SubPlaylistPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SubPlaylistPanel.Margin = new System.Windows.Forms.Padding(2);
             this.SubPlaylistPanel.Name = "SubPlaylistPanel";
             this.SubPlaylistPanel.Size = new System.Drawing.Size(199, 52);
             this.SubPlaylistPanel.TabIndex = 4;
@@ -5686,7 +5682,7 @@
             this.VideoButton.FlatAppearance.BorderSize = 0;
             this.VideoButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.VideoButton.Location = new System.Drawing.Point(0, 26);
-            this.VideoButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.VideoButton.Margin = new System.Windows.Forms.Padding(2);
             this.VideoButton.Name = "VideoButton";
             this.VideoButton.Size = new System.Drawing.Size(199, 26);
             this.VideoButton.TabIndex = 1;
@@ -5701,7 +5697,7 @@
             this.SongButton.FlatAppearance.BorderSize = 0;
             this.SongButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SongButton.Location = new System.Drawing.Point(0, 0);
-            this.SongButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SongButton.Margin = new System.Windows.Forms.Padding(2);
             this.SongButton.Name = "SongButton";
             this.SongButton.Size = new System.Drawing.Size(199, 26);
             this.SongButton.TabIndex = 0;
@@ -5718,7 +5714,7 @@
             this.PlayListButton.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.PlayListButton.IconSize = 30;
             this.PlayListButton.Location = new System.Drawing.Point(0, 179);
-            this.PlayListButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PlayListButton.Margin = new System.Windows.Forms.Padding(2);
             this.PlayListButton.Name = "PlayListButton";
             this.PlayListButton.Rotation = 0D;
             this.PlayListButton.Size = new System.Drawing.Size(199, 36);
@@ -5736,7 +5732,7 @@
             this.SubSerchPanel.Controls.Add(this.UserSeachButton);
             this.SubSerchPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.SubSerchPanel.Location = new System.Drawing.Point(0, 101);
-            this.SubSerchPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SubSerchPanel.Margin = new System.Windows.Forms.Padding(2);
             this.SubSerchPanel.Name = "SubSerchPanel";
             this.SubSerchPanel.Size = new System.Drawing.Size(199, 78);
             this.SubSerchPanel.TabIndex = 2;
@@ -5749,7 +5745,7 @@
             this.MediaSeachButton.FlatAppearance.BorderSize = 0;
             this.MediaSeachButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MediaSeachButton.Location = new System.Drawing.Point(0, 52);
-            this.MediaSeachButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MediaSeachButton.Margin = new System.Windows.Forms.Padding(2);
             this.MediaSeachButton.Name = "MediaSeachButton";
             this.MediaSeachButton.Size = new System.Drawing.Size(199, 26);
             this.MediaSeachButton.TabIndex = 2;
@@ -5764,7 +5760,7 @@
             this.ArtistSeachButton.FlatAppearance.BorderSize = 0;
             this.ArtistSeachButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ArtistSeachButton.Location = new System.Drawing.Point(0, 26);
-            this.ArtistSeachButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ArtistSeachButton.Margin = new System.Windows.Forms.Padding(2);
             this.ArtistSeachButton.Name = "ArtistSeachButton";
             this.ArtistSeachButton.Size = new System.Drawing.Size(199, 26);
             this.ArtistSeachButton.TabIndex = 1;
@@ -5779,7 +5775,7 @@
             this.UserSeachButton.FlatAppearance.BorderSize = 0;
             this.UserSeachButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.UserSeachButton.Location = new System.Drawing.Point(0, 0);
-            this.UserSeachButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.UserSeachButton.Margin = new System.Windows.Forms.Padding(2);
             this.UserSeachButton.Name = "UserSeachButton";
             this.UserSeachButton.Size = new System.Drawing.Size(199, 26);
             this.UserSeachButton.TabIndex = 0;
@@ -5796,7 +5792,7 @@
             this.SearchButton.IconColor = System.Drawing.Color.DarkRed;
             this.SearchButton.IconSize = 30;
             this.SearchButton.Location = new System.Drawing.Point(0, 65);
-            this.SearchButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SearchButton.Margin = new System.Windows.Forms.Padding(2);
             this.SearchButton.Name = "SearchButton";
             this.SearchButton.Rotation = 0D;
             this.SearchButton.Size = new System.Drawing.Size(199, 36);
@@ -5815,7 +5811,7 @@
             this.LogOutButton.IconColor = System.Drawing.Color.Black;
             this.LogOutButton.IconSize = 36;
             this.LogOutButton.Location = new System.Drawing.Point(0, 1822);
-            this.LogOutButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.LogOutButton.Margin = new System.Windows.Forms.Padding(2);
             this.LogOutButton.Name = "LogOutButton";
             this.LogOutButton.Rotation = 0D;
             this.LogOutButton.Size = new System.Drawing.Size(33, 32);
@@ -5829,7 +5825,7 @@
             this.LogoPanel.Controls.Add(this.pictureBox2);
             this.LogoPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.LogoPanel.Location = new System.Drawing.Point(0, 0);
-            this.LogoPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.LogoPanel.Margin = new System.Windows.Forms.Padding(2);
             this.LogoPanel.Name = "LogoPanel";
             this.LogoPanel.Size = new System.Drawing.Size(199, 65);
             this.LogoPanel.TabIndex = 0;
@@ -5852,7 +5848,7 @@
             this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox2.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.InitialImage")));
             this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(70, 65);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -5867,7 +5863,7 @@
             this.CloseAppLogIn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CloseAppLogIn.EstiloButton = BWCMM.MZButtonWindows.EstiloDeButton.Windows;
             this.CloseAppLogIn.Location = new System.Drawing.Point(656, 0);
-            this.CloseAppLogIn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CloseAppLogIn.Margin = new System.Windows.Forms.Padding(2);
             this.CloseAppLogIn.Name = "CloseAppLogIn";
             this.CloseAppLogIn.ParentControl = this;
             this.CloseAppLogIn.Size = new System.Drawing.Size(40, 24);
@@ -5893,7 +5889,7 @@
             this.BackButtonLogin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BackButtonLogin.ForeColor = System.Drawing.Color.Red;
             this.BackButtonLogin.Location = new System.Drawing.Point(8, 8);
-            this.BackButtonLogin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BackButtonLogin.Margin = new System.Windows.Forms.Padding(2);
             this.BackButtonLogin.Name = "BackButtonLogin";
             this.BackButtonLogin.Size = new System.Drawing.Size(33, 32);
             this.BackButtonLogin.TabIndex = 6;
@@ -5908,7 +5904,7 @@
             this.InicioLoginButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.InicioLoginButton.ForeColor = System.Drawing.Color.DarkRed;
             this.InicioLoginButton.Location = new System.Drawing.Point(300, 357);
-            this.InicioLoginButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.InicioLoginButton.Margin = new System.Windows.Forms.Padding(2);
             this.InicioLoginButton.Name = "InicioLoginButton";
             this.InicioLoginButton.Size = new System.Drawing.Size(149, 32);
             this.InicioLoginButton.TabIndex = 5;
@@ -5924,7 +5920,7 @@
             this.PasswordInPutLogin.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.PasswordInPutLogin.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.PasswordInPutLogin.Location = new System.Drawing.Point(277, 267);
-            this.PasswordInPutLogin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PasswordInPutLogin.Margin = new System.Windows.Forms.Padding(2);
             this.PasswordInPutLogin.Name = "PasswordInPutLogin";
             this.PasswordInPutLogin.PasswordChar = '*';
             this.PasswordInPutLogin.Size = new System.Drawing.Size(187, 13);
@@ -5937,7 +5933,7 @@
             this.UsernameInPutLogin.BackColor = System.Drawing.SystemColors.Menu;
             this.UsernameInPutLogin.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.UsernameInPutLogin.Location = new System.Drawing.Point(277, 212);
-            this.UsernameInPutLogin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.UsernameInPutLogin.Margin = new System.Windows.Forms.Padding(2);
             this.UsernameInPutLogin.Name = "UsernameInPutLogin";
             this.UsernameInPutLogin.Size = new System.Drawing.Size(187, 13);
             this.UsernameInPutLogin.TabIndex = 3;
@@ -6000,7 +5996,7 @@
             this.RegisterPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.RegisterPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RegisterPanel.Location = new System.Drawing.Point(0, 0);
-            this.RegisterPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.RegisterPanel.Margin = new System.Windows.Forms.Padding(2);
             this.RegisterPanel.Name = "RegisterPanel";
             this.RegisterPanel.Size = new System.Drawing.Size(683, 499);
             this.RegisterPanel.TabIndex = 1;
@@ -6014,7 +6010,7 @@
             this.CloseAppRegister.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CloseAppRegister.EstiloButton = BWCMM.MZButtonWindows.EstiloDeButton.Windows;
             this.CloseAppRegister.Location = new System.Drawing.Point(656, 0);
-            this.CloseAppRegister.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CloseAppRegister.Margin = new System.Windows.Forms.Padding(2);
             this.CloseAppRegister.Name = "CloseAppRegister";
             this.CloseAppRegister.ParentControl = this;
             this.CloseAppRegister.Size = new System.Drawing.Size(40, 24);
@@ -6028,7 +6024,7 @@
             this.Registerbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Registerbutton.ForeColor = System.Drawing.Color.Yellow;
             this.Registerbutton.Location = new System.Drawing.Point(334, 357);
-            this.Registerbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Registerbutton.Margin = new System.Windows.Forms.Padding(2);
             this.Registerbutton.Name = "Registerbutton";
             this.Registerbutton.Size = new System.Drawing.Size(107, 31);
             this.Registerbutton.TabIndex = 12;
@@ -6043,7 +6039,7 @@
             this.PasswordInputRegister.BackColor = System.Drawing.SystemColors.Menu;
             this.PasswordInputRegister.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.PasswordInputRegister.Location = new System.Drawing.Point(364, 318);
-            this.PasswordInputRegister.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PasswordInputRegister.Margin = new System.Windows.Forms.Padding(2);
             this.PasswordInputRegister.Name = "PasswordInputRegister";
             this.PasswordInputRegister.PasswordChar = '*';
             this.PasswordInputRegister.Size = new System.Drawing.Size(137, 16);
@@ -6056,7 +6052,7 @@
             this.MailInputRegister.BackColor = System.Drawing.SystemColors.Menu;
             this.MailInputRegister.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.MailInputRegister.Location = new System.Drawing.Point(364, 284);
-            this.MailInputRegister.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MailInputRegister.Margin = new System.Windows.Forms.Padding(2);
             this.MailInputRegister.Name = "MailInputRegister";
             this.MailInputRegister.Size = new System.Drawing.Size(137, 16);
             this.MailInputRegister.TabIndex = 10;
@@ -6068,7 +6064,7 @@
             this.UsernameInputRegister.BackColor = System.Drawing.SystemColors.Menu;
             this.UsernameInputRegister.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.UsernameInputRegister.Location = new System.Drawing.Point(364, 248);
-            this.UsernameInputRegister.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.UsernameInputRegister.Margin = new System.Windows.Forms.Padding(2);
             this.UsernameInputRegister.Name = "UsernameInputRegister";
             this.UsernameInputRegister.Size = new System.Drawing.Size(137, 16);
             this.UsernameInputRegister.TabIndex = 9;
@@ -6080,7 +6076,7 @@
             this.LastNameInputRegister.BackColor = System.Drawing.SystemColors.MenuBar;
             this.LastNameInputRegister.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.LastNameInputRegister.Location = new System.Drawing.Point(364, 213);
-            this.LastNameInputRegister.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.LastNameInputRegister.Margin = new System.Windows.Forms.Padding(2);
             this.LastNameInputRegister.Name = "LastNameInputRegister";
             this.LastNameInputRegister.Size = new System.Drawing.Size(137, 16);
             this.LastNameInputRegister.TabIndex = 8;
@@ -6092,7 +6088,7 @@
             this.nameInputRegister.BackColor = System.Drawing.SystemColors.Menu;
             this.nameInputRegister.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.nameInputRegister.Location = new System.Drawing.Point(364, 178);
-            this.nameInputRegister.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.nameInputRegister.Margin = new System.Windows.Forms.Padding(2);
             this.nameInputRegister.Name = "nameInputRegister";
             this.nameInputRegister.Size = new System.Drawing.Size(137, 16);
             this.nameInputRegister.TabIndex = 7;
@@ -6169,7 +6165,7 @@
             this.BackRegisterButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BackRegisterButton.ForeColor = System.Drawing.Color.ForestGreen;
             this.BackRegisterButton.Location = new System.Drawing.Point(8, 8);
-            this.BackRegisterButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BackRegisterButton.Margin = new System.Windows.Forms.Padding(2);
             this.BackRegisterButton.Name = "BackRegisterButton";
             this.BackRegisterButton.Size = new System.Drawing.Size(33, 32);
             this.BackRegisterButton.TabIndex = 13;
@@ -6198,7 +6194,7 @@
             this.IniciarSeccionStartAppButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.IniciarSeccionStartAppButton.ForeColor = System.Drawing.Color.Red;
             this.IniciarSeccionStartAppButton.Location = new System.Drawing.Point(300, 243);
-            this.IniciarSeccionStartAppButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.IniciarSeccionStartAppButton.Margin = new System.Windows.Forms.Padding(2);
             this.IniciarSeccionStartAppButton.Name = "IniciarSeccionStartAppButton";
             this.IniciarSeccionStartAppButton.Size = new System.Drawing.Size(108, 50);
             this.IniciarSeccionStartAppButton.TabIndex = 15;
@@ -6214,7 +6210,7 @@
             this.RegistrateButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.RegistrateButton.ForeColor = System.Drawing.Color.LimeGreen;
             this.RegistrateButton.Location = new System.Drawing.Point(300, 297);
-            this.RegistrateButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.RegistrateButton.Margin = new System.Windows.Forms.Padding(2);
             this.RegistrateButton.Name = "RegistrateButton";
             this.RegistrateButton.Size = new System.Drawing.Size(108, 50);
             this.RegistrateButton.TabIndex = 1;
@@ -6230,7 +6226,7 @@
             this.CloseAppStart.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CloseAppStart.EstiloButton = BWCMM.MZButtonWindows.EstiloDeButton.Windows;
             this.CloseAppStart.Location = new System.Drawing.Point(643, 0);
-            this.CloseAppStart.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CloseAppStart.Margin = new System.Windows.Forms.Padding(2);
             this.CloseAppStart.Name = "CloseAppStart";
             this.CloseAppStart.ParentControl = this;
             this.CloseAppStart.Size = new System.Drawing.Size(40, 24);
@@ -6269,7 +6265,7 @@
             this.ClientSize = new System.Drawing.Size(683, 499);
             this.Controls.Add(this.StartPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MinimumSize = new System.Drawing.Size(683, 472);
             this.Name = "AppForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -332,15 +332,29 @@ namespace Proyectog15WF.Contollers
                                     }
                                     break;
                                 case "Calificacion":
-                                    if (song.Qualification == Convert.ToInt32(seleccion[1]))
+                                    try
                                     {
-                                        count++;
+                                        if (song.Qualification == Convert.ToInt32(seleccion[1]))
+                                        {
+                                            count++;
+                                        }
+                                    }
+                                    catch 
+                                    {
+
                                     }
                                     break;
                                 case "Reproducciones":
-                                    if (song.Reproduction == Convert.ToInt32(seleccion[1]))
+                                    try
                                     {
-                                        count++;
+                                        if (song.Reproduction == Convert.ToInt32(seleccion[1]))
+                                        {
+                                            count++;
+                                        }
+                                    }
+                                    catch
+                                    {
+
                                     }
                                     break;
                                 case "Sexo":

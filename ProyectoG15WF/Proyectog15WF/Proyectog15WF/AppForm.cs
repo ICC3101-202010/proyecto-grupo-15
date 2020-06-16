@@ -738,7 +738,6 @@ namespace Proyectog15WF
             }
             videoOnClose = namevideo;
             songOnClose = namesong;
-            MessageBox.Show(Convert.ToString(mediaOnclose));
 
             SetClose(this, new OnCloseRep() { songName = songOnClose, videoName = videoOnClose, MediaOnClose = mediaOnclose,Username=nameuser });
    
@@ -810,6 +809,7 @@ namespace Proyectog15WF
 
         private void MediaSeachButton_Click(object sender, EventArgs e)
         {
+            SearchMediapanellistBox.Items.Clear();
             SerializeData();
             SubFiltersPanel.Visible = false;
             SearchUserPanel.Visible = false;
@@ -2255,7 +2255,6 @@ namespace Proyectog15WF
                             pasua = false;
                             macTrackBar1.Value = 0;
                         }
-
                     }
 
                     if (Recivingsong != null)
@@ -2634,6 +2633,7 @@ namespace Proyectog15WF
 
         private void AddToPlaylistButton_Click(object sender, EventArgs e)
         {
+            PlaylistListBoxAdd.Items.Clear();
             if (SubMediaSearchPanel.Visible)
             {
                 SubMediaSearchPanel.Visible = false;
