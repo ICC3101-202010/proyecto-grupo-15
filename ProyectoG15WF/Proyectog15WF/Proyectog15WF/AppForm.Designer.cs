@@ -1660,6 +1660,7 @@
             this.CloseButtonMain.Size = new System.Drawing.Size(40, 24);
             this.CloseButtonMain.TabIndex = 3;
             this.CloseButtonMain.TipoButton = BWCMM.MZButtonWindows.ModeButton.Close;
+            this.CloseButtonMain.Click += new System.EventHandler(this.CloseButtonMain_Click);
             // 
             // MaximizarButton
             // 
@@ -5483,6 +5484,7 @@
             this.macTrackBar1.TrackLineHeight = 3;
             this.macTrackBar1.TrackLineSelectedColor = System.Drawing.Color.Lime;
             this.macTrackBar1.Value = 0;
+            this.macTrackBar1.Scroll += new System.EventHandler(this.MacTrackBar1_Scroll);
             // 
             // SideMainPanel
             // 

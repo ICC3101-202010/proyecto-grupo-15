@@ -1366,10 +1366,10 @@ namespace Proyectog15WF
             {
                 axWindowsMediaPlayer1.Ctlcontrols.play();
                 ActualizarDatosTrack();
-
             }
             else
             {
+                axWindowsMediaPlayer1.Ctlcontrols.currentPosition = 0;
                 if (namesong != "" && namevideo == "")
                 {
                     axWindowsMediaPlayer1.URL = namesong;
@@ -4182,6 +4182,32 @@ namespace Proyectog15WF
             }
         }
 
-      
+        private void CloseButtonMain_Click(object sender, EventArgs e)
+        {
+            mediaOnclose = macTrackBar1.Value;
+            if (namesong == null)
+            {
+                namesong = "";
+            }
+            if (namevideo == null)
+            {
+                namevideo = "";
+
+            }
+            videoOnClose = namevideo;
+            songOnClose = namesong;
+            SetClose(this, new OnCloseRep() { songName = songOnClose, videoName = videoOnClose, MediaOnClose = mediaOnclose, Username = nameuser });
+            namevideo = "";
+            namesong = "";
+            SerializeData();
+        }
+
+        private void MacTrackBar1_Scroll(object sender, EventArgs e)
+        {
+            if (axWindowsMediaPlayer1.playState == WMPLib.WMPPlayState.wmppsPlaying)
+            {
+                axWindowsMediaPlayer1.Ctlcontrols.currentPosition = macTrackBar1.Value;
+            }
+        }
     }
 }
